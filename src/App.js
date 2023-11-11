@@ -12,13 +12,7 @@ import SendInvite from "./Components/AdministratorView/SendInvite";
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/login-signup" element={<LoginSignup />} />
-                <Route path="/about" element={<About />} />
-            </Routes>
-        </Router>
+        <WhosAttending></WhosAttending>
 
     );
 }
