@@ -1,0 +1,18 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0.95em; /* Set font size to 0.95 times the parent's font size */
+}
+
+.about-container h2 {
+    color: blueviolet;
+    font-size: 1.45em; /* Adjust heading size relative to the parent's font size */
+}
+
+.about-container p {
+    text-indent: 20px;
+    font-size: 0.95em; /* Set font size to 0.95 times the parent's font size */
+}

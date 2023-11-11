@@ -1,12 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './HomePage.css';
 
 const Homepage = () => {
     return (
         <div className="homepage">
-            <h1>Virginia Tech</h1>
+            <h1>Virginia Tech Event Cataloging System</h1>
             <div className="buttons">
-                <button className="login-signup">Login/Sign Up</button>
-                <button className="about">About</button>
+                {/* Use Link to navigate to /login-signup */}
+                <Link to="/login-signup" className="login-signup">
+                    Login/Sign Up
+                </Link>
+                {/* Use Link to navigate to /about */}
+                <Link to="/about" className="about">
+                    About
+                </Link>
             </div>
         </div>
     );

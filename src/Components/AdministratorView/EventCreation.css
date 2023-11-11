@@ -1,0 +1,61 @@
+/* EventCreation.css */
+
+.event-creation-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #888888; /* Gray background color */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding-top: 20px;
+}
+
+.sidebar2 {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding-top: 20px;
+    padding-left: 60px; /* Add padding to the left for better spacing */
+}
+
+.button {
+    margin-bottom: 80px; /* Adjust the margin bottom as needed */
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px
+}
+
+.button-create {
+    margin-bottom: 80px; /* Adjust the margin bottom as needed */
+    width: 200px;
+    height: 40px;
+    background-color: mediumslateblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px
+}
+
+.event-name {
+    color: blueviolet;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Snell Roundhand";
+}
+
+.text3 {
+    color: blueviolet;
+    font-size: 20px; /* Adjusted font size to 0.87 times */
+    font-weight: 700;
+    font-family: "Snell Roundhand";
+}

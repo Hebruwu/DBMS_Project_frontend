@@ -1,0 +1,50 @@
+.student-account-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #888888; /* Gray background color */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding-top: 20px;
+    padding-left: 20px; /* Add padding to the left for better spacing */
+}
+
+.button {
+    margin-bottom: 80px; /* Adjust the margin bottom as needed */
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px
+}
+
+.button2 {
+    margin-bottom: 80px; /* Adjust the margin bottom as needed */
+    width: 200px;
+    height: 40px;
+    background-color: mediumslateblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px
+}
+
+.text{
+    color: gray;
+    padding-right: -300px;
+    margin-right: -300px;
+    font-size: 24px
+}
+
+.header {
+    color: blueviolet;
+    font-size: 24px; /* Adjusted font size to 0.87 times */
+    font-weight: 700;
+    font-family: "Snell Roundhand";
+}

@@ -1,0 +1,123 @@
+.input label input[type="radio"] {
+    height: 13.008px; /* Adjusted height to 0.87 times */
+    width: 13.008px; /* Adjusted width to 0.87 times */
+    margin-right: 4.113px; /* Adjusted margin-right for spacing */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 87px; /* Adjusted margin-top for overall spacing */
+    width: 69.84%; /* Adjusted width to 0.87 times */
+    max-width: 522.72px; /* Adjusted max-width to 0.87 times */
+    padding-bottom: 21.7896px; /* Adjusted padding-bottom for spacing */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.9656px; /* Adjusted gap for spacing */
+    width: 100%;
+    margin-top: 21.7896px; /* Adjusted margin-top */
+}
+
+.text2 {
+    color: blueviolet;
+    font-size: 35.883px; /* Adjusted font size to 0.87 times */
+    font-weight: 700;
+    font-family: "Snell Roundhand";
+}
+
+.underline {
+    width: 43.0656px; /* Adjusted width to 0.87 times */
+    height: 3.9156px; /* Adjusted height to 0.87 times */
+    background: blueviolet;
+    border-radius: 5.4708px; /* Adjusted border-radius to 0.87 times */
+}
+
+.inputs {
+    margin-top: 29.9136px; /* Adjusted margin-top for spacing */
+    display: flex;
+    flex-direction: column;
+    gap: 7.9656px; /* Adjusted gap between input elements */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: 3.5244px auto; /* Adjusted margin for spacing between input bars */
+    width: 100%;
+    max-width: 447.5328px; /* Adjusted max-width to 0.87 times */
+    height: 51.543px; /* Adjusted height to 0.87 times */
+    background: #eaeaea;
+    border-radius: 6.3456px; /* Adjusted border-radius to 0.87 times */
+    padding: 0 9.7728px; /* Adjusted padding for spacing */
+}
+
+.input img {
+    margin: 0px 8.2776px; /* Adjusted margin for spacing between the icon and the input field */
+}
+
+.input input,
+.input select,
+.input label {
+    flex: 1;
+    height: 37.6356px; /* Adjusted height to 0.87 times */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 15.9969px; /* Adjusted font size to 0.87 times */
+}
+
+.forgot-password {
+    padding-left: 4.113px; /* Adjusted padding-left */
+    margin-top: 11.9932px; /* Adjusted margin-top for spacing */
+    color: #797979;
+    font-size: 13.9899px; /* Adjusted font size to 0.87 times */
+}
+
+.forgot-password span {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 14.9919px; /* Adjusted gap between submit buttons */
+    margin: 18.4936px auto; /* Adjusted margin for spacing above the submit buttons */
+}
+
+.submit {
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165.3576px; /* Adjusted width to 0.87 times */
+    height: 43.0323px; /* Adjusted height to 0.87 times */
+    color: #fff;
+    background: blueviolet;
+    border-radius: 18.1215px; /* Adjusted border-radius to 0.87 times */
+    font-size: 15.9969px; /* Adjusted font size to 0.87 times */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+}
+
+.right-align {
+    margin-right: 1px;
+}
+
+.right-align2 {
+    margin-right: 1px;
+}
+
+.right-align3 {
+    margin-right: 1px;
+}
