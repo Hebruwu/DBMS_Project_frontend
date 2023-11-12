@@ -9,10 +9,13 @@ import StudentAccount from "./Components/StudentView/StudentAccount";
 import AcceptedEvents from "./Components/StudentView/AcceptedEvents";
 import PostedEvents from "./Components/AdministratorView/PostedEvents";
 import SendInvite from "./Components/AdministratorView/SendInvite";
+import WhosAttending from "./Components/AdministratorView/WhosAttending";
+import EventDetails from "./Components/StudentView/EventDetails";
 
 function App() {
     return (
-        <WhosAttending></WhosAttending>
+
+        <EventDetails></EventDetails>
 
     );
 }
