@@ -130,7 +130,7 @@ def get_events(engine) -> EVENT:
 
 # SELECT * FROM STUDENT where MAJOR LIKE
 # Returns a list of STUDENT objects
-def get_students(engine, q_major: List[str] = ["%"], q_citizenship: List[str] = ["%"], q_race: List[str] = ["%"], q_gender: List[str] = "%") -> STUDENT:
+def get_students(engine, q_major: List[str] = ["%"], q_citizenship: List[str] = ["%"], q_race: List[str] = ["%"], q_gender: List[str] = ["%"]) -> STUDENT:
 
     query = database.select(STUDENT).filter(STUDENT.MAJOR.like(any_(q_major)) & STUDENT.CITIZENSHIP.like(any_(q_citizenship)) &
                                             STUDENT.RACE.like(any_(q_race)) & STUDENT.GENDER.like(any_(q_gender)))
