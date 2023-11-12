@@ -28,6 +28,8 @@ class STUDENT(Base):
     RACE = Column(String(250))
     DEPARTMENT = Column(String(250))
     MAJOR = Column(String(250))
+    CITIZENSHIP = Column(String(250), nullable=False)
+    YEAR = Column(String(250))
 
     INVITED_TO = relationship('INVITEDTO', back_populates='STUDENT_')
     PROVIDES_FEEDBACK = relationship('PROVIDESFEEDBACK', back_populates='STUDENT_')

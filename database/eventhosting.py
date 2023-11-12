@@ -3,7 +3,8 @@ import hashlib
 import sqlalchemy as database
 from sqlalchemy.orm import Session
 from db import ADMIN, EVENT, INVITEDTO, PROVIDESFEEDBACK, STUDENT
-from typing import Optional
+from typing import Optional, List
+from sqlalchemy import any_
 
 class DBException(Exception):
     pass
@@ -66,7 +67,9 @@ def insert_student(engine,
                  q_email: str,
                  q_race: str,
                  q_dept: str,
-                 q_major: str) -> None:
+                 q_major: str,
+                 q_citizenship: str,
+                 q_year) -> None:
     hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
     q_password = hash_obj.hexdigest()
@@ -76,7 +79,9 @@ def insert_student(engine,
                   EMAIL = q_email,
                   RACE = q_race,
                   DEPARTMENT = q_dept,
-                  MAJOR = q_major)
+                  MAJOR = q_major,
+                  CITIZENSHIP = q_citizenship,
+                  YEAR = q_year)
     with Session(engine) as session:
         try:
             session.add(student)
@@ -125,9 +130,10 @@ def get_events(engine) -> EVENT:
 
 # SELECT * FROM STUDENT where MAJOR LIKE
 # Returns a list of STUDENT objects
-def get_students(engine, q_major: str = "%") -> STUDENT:
+def get_students(engine, q_major: List[str] = ["%"], q_citizenship: List[str] = ["%"], q_race: List[str] = ["%"], q_gender: List[str] = "%") -> STUDENT:
 
-    query = database.select(STUDENT).filter(STUDENT.MAJOR.like(q_major))
+    query = database.select(STUDENT).filter(STUDENT.MAJOR.like(any_(q_major)) & STUDENT.CITIZENSHIP.like(any_(q_citizenship)) &
+                                            STUDENT.RACE.like(any_(q_race)) & STUDENT.GENDER.like(any_(q_gender)))
     with Session(engine) as session:
         try:
             students = session.scalars(query).all()
@@ -225,7 +231,7 @@ def delete_event(engine,
         except Exception as e:
             raise DBException("Occured at delete_event\n", e)
         
-def update_invite(engine,
+def delete_invite(engine,
                   q_username: str,
                   q_eid: int,
                   attending: str, q_sid = -1) -> None:
