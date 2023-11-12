@@ -184,8 +184,8 @@ def insert_feedback(engine,
         try:
             student_id = session.scalars(student_id_query).all()
             student_id = student_id[0].SID
-            feedback = PROVIDESFEEDBACK(I_SID = student_id,
-                      I_EID = q_eid,
+            feedback = PROVIDESFEEDBACK(P_SID = student_id,
+                      P_EID = q_eid,
                       FEEDBACK = feedback)
             session.add(feedback)
             session.commit()
@@ -203,8 +203,8 @@ def update_feedback(engine,
             student_id = session.scalars(student_id_query).all()
             student_id = student_id[0].SID
             feedback_query = database.select(PROVIDESFEEDBACK).where(
-                PROVIDESFEEDBACK.I_SID == student_id &
-                PROVIDESFEEDBACK.I_EID == q_eid
+                PROVIDESFEEDBACK.P_SID == student_id &
+                PROVIDESFEEDBACK.P_EID == q_eid
             )
             feedback_obj = session.execute(feedback_query).scalar_one()
             feedback_obj.FEEDBACK = feedback
@@ -248,6 +248,48 @@ def update_invite(engine,
 
         except Exception as e:
             raise DBException("Occured at update_invite\n", e)
+def get_invites(engine,
+                q_username: Optional[str] = None):
+    invite_query = None
+    
+    with Session(engine) as session:
+        invites = None
+        try:
+            if q_username is None:
+                student_id_query = database.select(STUDENT).where(STUDENT.USERNAME == q_username)
+                student_id = session.scalars(student_id_query).all()
+                student_id = student_id[0].SID
+                invite_query = database.select(INVITEDTO).where(
+                INVITEDTO.I_SID == student_id
+            )
+                invites = session.scalars(invite_query).all()
+            else:
+                invites = session.scalars(database.select(INVITEDTO)).all()
+        except Exception as e:
+            raise DBException("Occured at get_invite\n", e)
+        return invites
+def get_feedback(engine,
+                q_username: Optional[str] = None):
+    feedback_query = None
+    
+    with Session(engine) as session:
+        feedback_objs = None
+        try:
+            if q_username is None:
+                student_id_query = database.select(STUDENT).where(STUDENT.USERNAME == q_username)
+                student_id = session.scalars(student_id_query).all()
+                student_id = student_id[0].SID
+                feedback_query = database.select(PROVIDESFEEDBACK).where(
+                PROVIDESFEEDBACK.P_SID == student_id
+            )
+                feedback_objs = session.scalars(feedback_query).all()
+            else:
+                feedback_objs = session.scalars(database.select(PROVIDESFEEDBACK)).all()
+        except Exception as e:
+            raise DBException("Occured at get_invite\n", e)
+        return feedback_objs
+
+
         
 
 def main():
