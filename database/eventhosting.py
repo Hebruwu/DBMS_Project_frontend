@@ -46,9 +46,9 @@ def insert_admin(engine,
                  q_username: str,
                  q_password: str,
                  q_email: str) -> None:
-    hash_obj = hashlib.sha256()
+    """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
-    q_password = hash_obj.hexdigest()
+    q_password = hash_obj.hexdigest()"""
     admin = ADMIN(NAME = q_name,
                   USERNAME = q_username,
                   PASSWORD = q_password,
@@ -70,9 +70,9 @@ def insert_student(engine,
                  q_major: str,
                  q_citizenship: str,
                  q_year) -> None:
-    hash_obj = hashlib.sha256()
+    """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
-    q_password = hash_obj.hexdigest()
+    q_password = hash_obj.hexdigest()"""
     student = STUDENT(NAME = q_name,
                   USERNAME = q_username,
                   PASSWORD = q_password,
@@ -92,9 +92,9 @@ def insert_student(engine,
 def authenticate_admin(engine,
                        q_username,
                        q_password) -> bool:
-    hash_obj = hashlib.sha256()
+    """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
-    q_password = hash_obj.hexdigest()
+    q_password = hash_obj.hexdigest()"""
     query = database.select(ADMIN).where((ADMIN.USERNAME == q_username) & (ADMIN.PASSWORD == q_password))
     with Session(engine) as session:
         try:
@@ -106,9 +106,9 @@ def authenticate_admin(engine,
 def authenticate_student(engine,
                        q_username,
                        q_password) -> bool:
-    hash_obj = hashlib.sha256()
+    """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
-    q_password = hash_obj.hexdigest()
+    q_password = hash_obj.hexdigest()"""
     query = database.select(STUDENT).where((STUDENT.USERNAME == q_username) & (STUDENT.PASSWORD == q_password))
     with Session(engine) as session:
         try:
