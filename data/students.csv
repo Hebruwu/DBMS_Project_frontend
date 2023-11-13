@@ -1,0 +1,1001 @@
+SID,Gender,Name,Username,Password,Email,Race,Department,Major,Citizenship,Year
+1,F,John Johnson,gabriel18,*9UCrxBb0e,gabriel18@vt.edu,American Indian or Alaska Native,,General Engineering,Cayman Islands,Sophomore
+2,M,Dr. Lisa Richards,edwardlawrence,6D(S0Mgr_p,edwardlawrence@vt.edu,White,,Russian,Namibia,Junior
+3,O,Steven Sullivan,ashleywood,@8$3zUaGht,ashleywood@vt.edu,American Indian or Alaska Native,,Chemistry,Switzerland,Junior
+4,F,Jason King,madams,9^)VGmfj+8,madams@vt.edu,Asian,,Hospitality,Western Sahara,Freshman
+5,M,Melissa Stafford,flemingemma,MdIASPbS)0,flemingemma@vt.edu,Asian,,Fashion,Peru,Freshman
+6,M,Kent Haynes,orozcowayne,)IEca#L^w0,orozcowayne@vt.edu,Black or African American,,Computer Engineering,Sweden,Freshman
+7,M,Daniel Middleton,jenniferwalker,X9X*D_hg_i,jenniferwalker@vt.edu,Black or African American,,Geosciences,Cote d'Ivoire,Junior
+8,M,John Simpson,veronica98,^c6ozEco(r,veronica98@vt.edu,White,,BIT,Sri Lanka,Junior
+9,M,Debra King,spierce,fug0Iaqv$+,spierce@vt.edu,Asian,,Environmental Policy,Seychelles,Junior
+10,O,Kyle Lin,melissawalker,#1WtHohY8+,melissawalker@vt.edu,Asian,,Construction Engineering,Yemen,Junior
+11,M,Joseph Bell,ocarroll,w*619tRh)n,ocarroll@vt.edu,Native Hawaiian or Other Pacific Islander,,Accounting,Saint Lucia,Sophomore
+12,O,Stephen Smith,aaronspence,d7CeDN_m$H,aaronspence@vt.edu,American Indian or Alaska Native,,Technical Writing,Saint Vincent and the Grenadines,Junior
+13,O,Victor Salas,carlos90,a6x3T2bo+B,carlos90@vt.edu,Black or African American,,Sociology,Qatar,Junior
+14,O,Ricardo Jackson,nelsoncharles,R088&2Mh7t,nelsoncharles@vt.edu,Hispanic or Latino,,Physics,Nigeria,Sophomore
+15,O,Kenneth Schmidt,stevenscarl,F8ibQjmj)M,stevenscarl@vt.edu,American Indian or Alaska Native,,ISE,Dominica,Freshman
+16,F,Karen Miller,schmidtamanda,@)hh9Jz_w+,schmidtamanda@vt.edu,American Indian or Alaska Native,,Biochemistry,Romania,Freshman
+17,M,Mark Crawford,lli,J@0U%U8j!4,lli@vt.edu,American Indian or Alaska Native,,Advertising,Kenya,Sophomore
+18,O,Patrick Harris,thomasmayer,$HU&3Vu8Vp,thomasmayer@vt.edu,Hispanic or Latino,,International Relations,Martinique,Junior
+19,O,Frank Hebert,ramirezdiana,p6$i0hRjPY,ramirezdiana@vt.edu,White,,Environmental Data Science,Bahrain,Senior
+20,F,Maria Golden,eileenrussell,CrmJr1h7^2,eileenrussell@vt.edu,Asian,,Ecological Restoration,Belarus,Freshman
+21,F,Nancy Madden,simmonsscott,+00RlHurWP,simmonsscott@vt.edu,Asian,,Art History,Seychelles,Senior
+22,O,James Ward,voliver,lRWC4dOe%4,voliver@vt.edu,White,,Meteorology,Turkmenistan,Sophomore
+23,O,Sandra Turner,lawrence71,&0FYQzz&Dx,lawrence71@vt.edu,White,,Elementary Education (PK-6),Lesotho,Sophomore
+24,M,Christopher Knight,wklein,aYV5Q4qu++,wklein@vt.edu,Asian,,Physics,Albania,Junior
+25,O,Miss Karen Sharp,patriciayoung,44qZFOwh_H,patriciayoung@vt.edu,Asian,,Industrial Design,French Guiana,Sophomore
+26,O,Nathaniel Rose,patriciarichard,c!pi1Tc3$h,patriciarichard@vt.edu,Black or African American,,Fish Conservation,Cocos (Keeling) Islands,Freshman
+27,M,Jeffrey Ellis,hillkatelyn,%Mu2Xmw6*),hillkatelyn@vt.edu,White,,Biomedical Engineering,Italy,Junior
+28,O,David Hernandez,mccartymichael,PH0DIsgee!,mccartymichael@vt.edu,White,,Environmental Science,United States Virgin Islands,Freshman
+29,F,Isabel Heath,uwiley,2pMWc3bM#h,uwiley@vt.edu,Hispanic or Latino,,Russian,Sierra Leone,Senior
+30,F,Maria Armstrong,drakejoel,PQ3MruFl(*,drakejoel@vt.edu,Black or African American,,International Public Policy,Guyana,Sophomore
+31,O,Howard Snyder,anthony12,tTZpBjSi%6,anthony12@vt.edu,Native Hawaiian or Other Pacific Islander,,Microbiology,Vanuatu,Sophomore
+32,M,Thomas Jacobs,cdavis,(7w9KdYzDz,cdavis@vt.edu,White,,Property Management,Bangladesh,Sophomore
+33,F,Jonathan Moses,jamesnorris,baWhFQ1o%2,jamesnorris@vt.edu,White,,Chemistry,Bermuda,Freshman
+34,F,Jeffrey Cohen,hbarnett,N*6e02Jp((,hbarnett@vt.edu,Native Hawaiian or Other Pacific Islander,,Biomedical Engineering,Austria,Freshman
+35,F,Gabriel Hughes,ryan92,q1)L3)Dn(3,ryan92@vt.edu,Black or African American,,Nanomedicine,Cambodia,Sophomore
+36,O,Mario Lee,nicole03,TC6nO8Oo)7,nicole03@vt.edu,American Indian or Alaska Native,,Geosciences,Ireland,Freshman
+37,M,Eric Ramirez,gstone,#eRHruy#d9,gstone@vt.edu,White,,English Education,Bermuda,Junior
+38,M,Samantha Valencia,brandonhorton,^7IvTRl5c2,brandonhorton@vt.edu,Asian,,Communication,Martinique,Senior
+39,F,Catherine Rodriguez,wnichols,&c!+ELW#36,wnichols@vt.edu,Native Hawaiian or Other Pacific Islander,,Forestry,Tunisia,Freshman
+40,O,Gary Walker,moliver,_4V4JUwb#N,moliver@vt.edu,Asian,,Accounting,Slovakia (Slovak Republic),Senior
+41,F,Laura Green,susanchristian,j0A2b0+@!M,susanchristian@vt.edu,Hispanic or Latino,,Experimental Neuroscience,Andorra,Sophomore
+42,M,Mrs. Kimberly Brown,madisonwong,wABMm7TxX@,madisonwong@vt.edu,American Indian or Alaska Native,,Civil Engineering,Bangladesh,Sophomore
+43,O,Levi Stone,fcoleman,48cFT6cJ#G,fcoleman@vt.edu,Asian,,ISE,Italy,Senior
+44,F,Sarah Barton,rodriguezcolin,^bHhBSPe0i,rodriguezcolin@vt.edu,White,,Meteorology,Bosnia and Herzegovina,Junior
+45,M,Carmen Scott,gabriel05,E^W7cfEw_L,gabriel05@vt.edu,Native Hawaiian or Other Pacific Islander,,English,Bolivia,Freshman
+46,F,Steven Larson,proberson,e1n9HKoB%Y,proberson@vt.edu,White,,Marketing Management,New Zealand,Senior
+47,O,Steven Burton,daniellestuart,f7R6#iRd)(,daniellestuart@vt.edu,Black or African American,,Classical Studies,Saint Helena,Sophomore
+48,O,Jenna Lam,eric62,G$X2_xLgxX,eric62@vt.edu,Hispanic or Latino,,Dairy Science,Congo,Junior
+49,F,Allen West,nperry,gG9xGW_hJ%,nperry@vt.edu,Native Hawaiian or Other Pacific Islander,,English Education,Algeria,Senior
+50,M,Rebecca Holmes,david61,0nI%*gjI^2,david61@vt.edu,American Indian or Alaska Native,,Mathematics Education,Marshall Islands,Sophomore
+51,O,Anthony Kim,kristinadeleon,(chDBEal9M,kristinadeleon@vt.edu,Native Hawaiian or Other Pacific Islander,,Crop and Soil Sciences,Ghana,Senior
+52,M,Amy Freeman,reesehayley,_x6Zdpwi62,reesehayley@vt.edu,Native Hawaiian or Other Pacific Islander,,Crop and Soil Sciences,Isle of Man,Freshman
+53,F,Selena Moody,rowejill,n*2RwgkowV,rowejill@vt.edu,White,,Philosophy,Germany,Sophomore
+54,M,Eric Wallace,emilyfrazier,M6#5O_fq&6,emilyfrazier@vt.edu,Asian,,Electrical Engineering,Saint Kitts and Nevis,Junior
+55,M,Patricia Fowler,tjackson,#m9v8DyTBb,tjackson@vt.edu,Asian,,Finance and Real Estate,Falkland Islands (Malvinas),Senior
+56,O,Matthew Obrien,stacy00,%$5FOqstk5,stacy00@vt.edu,Asian,,International Relations,Nicaragua,Senior
+57,F,Roberto Hudson,ovalencia,y&P*@7Sbc3,ovalencia@vt.edu,Asian,,Early Childhood Development,Saint Vincent and the Grenadines,Freshman
+58,O,Zachary Hughes,jamesstone,_9UX#l@D&8,jamesstone@vt.edu,Black or African American,,Fashion,Botswana,Freshman
+59,F,Daniel Curtis,matthew08,a+c4VV6a_y,matthew08@vt.edu,Black or African American,,International Public Policy,Korea,Freshman
+60,F,Nichole Walker,jwalker,Y9MFrZSM+p,jwalker@vt.edu,Black or African American,,Entrepreneurship,Thailand,Freshman
+61,F,Courtney Johnson,maynardalexa,biKaHIE+%7,maynardalexa@vt.edu,Asian,,Biochemistry,Malta,Junior
+62,O,Amber Chambers,hamptonlouis,pPzmWi3A@1,hamptonlouis@vt.edu,Asian,,French,Estonia,Freshman
+63,O,Tiffany Hines,vmclean,Rd9Jf4iD+O,vmclean@vt.edu,Asian,,Animal and Poultry Sciences,Namibia,Freshman
+64,O,Aaron Evans,rlittle,$19mTjr0g),rlittle@vt.edu,Black or African American,,Political Science,Heard Island and McDonald Islands,Junior
+65,M,Kathleen Brown,wscott,&f9E3x+64Y,wscott@vt.edu,Asian,,NSFA,Mongolia,Senior
+66,O,Patrick Jones,donovankaren,xt8dBQZlT$,donovankaren@vt.edu,Black or African American,,Management,Ukraine,Junior
+67,M,Paula Brown,mwhite,YU8XIydH+I,mwhite@vt.edu,Black or African American,,English Education,South Georgia and the South Sandwich Islands,Senior
+68,F,Allen Weeks,william83,dO9Da1Hq9%,william83@vt.edu,White,,Computer Science,Moldova,Junior
+69,M,Crystal Kent,wheelermary,^aluVBl3a5,wheelermary@vt.edu,American Indian or Alaska Native,,CTE,Cyprus,Senior
+70,M,Curtis Tucker,riverarichard,#+3iVySrFY,riverarichard@vt.edu,Black or African American,,Exercise & Health Sciences,Philippines,Sophomore
+71,F,David Robbins,jelliott,&80hZAOi1k,jelliott@vt.edu,Asian,,Real Estate,Libyan Arab Jamahiriya,Senior
+72,M,Melissa Smith,robertsjoan,*SzCYUEM5b,robertsjoan@vt.edu,American Indian or Alaska Native,,Economics,Falkland Islands (Malvinas),Junior
+73,O,Kelly Thompson,mwright,6e38btF6J!,mwright@vt.edu,Black or African American,,Agricultural Sciences,Azerbaijan,Sophomore
+74,M,Adam Ryan,perry42,y6VPoNjk)g,perry42@vt.edu,White,,Biological Sciences,Congo,Sophomore
+75,O,Wayne Johnson,ktorres,!NURs)Qq2v,ktorres@vt.edu,Hispanic or Latino,,Sports Media and Analytics,Botswana,Junior
+76,F,Ashley Mccoy,adrianrojas,#T&(S5Ymn7,adrianrojas@vt.edu,Black or African American,,Medicinal Chemistry,Sweden,Sophomore
+77,F,Veronica Russell,jorgefields,V0jZdJvj(u,jorgefields@vt.edu,American Indian or Alaska Native,,Chemical Engineering,France,Freshman
+78,F,Matthew Lee,aramirez,(*J8!5Mjyz,aramirez@vt.edu,Hispanic or Latino,,Human Development,France,Sophomore
+79,F,Ryan Mcclure,jacquelinewilliams,(pMxpQ%a%5,jacquelinewilliams@vt.edu,American Indian or Alaska Native,,Criminology,Burundi,Freshman
+80,M,Selena Bates,baileydavid,&4XOaQwy1b,baileydavid@vt.edu,American Indian or Alaska Native,,Mathematics Education,Australia,Freshman
+81,O,Allen Estes,scottacosta,%$hW!GOa3r,scottacosta@vt.edu,White,,Meteorology,Gambia,Junior
+82,F,Joshua West,ryan85,(L*7PZ6xMS,ryan85@vt.edu,Hispanic or Latino,,Real Estate,Tajikistan,Junior
+83,O,Brian Thompson DVM,cynthiamartinez,@_1BcNeEih,cynthiamartinez@vt.edu,Asian,,Computer Engineering,Italy,Sophomore
+84,O,Michael Hunt,kevin78,t+_t46Rf(d,kevin78@vt.edu,Hispanic or Latino,,Nanomedicine,Kazakhstan,Junior
+85,F,Sarah Cisneros,aimee07,1N$Z_(Tg*2,aimee07@vt.edu,Hispanic or Latino,,FST,Saint Martin,Sophomore
+86,F,Lori Griffin,josephpace,@59DB$tp2^,josephpace@vt.edu,White,,BSE,Colombia,Freshman
+87,M,Robert Jones,andrademichael,g&7YAkgMfT,andrademichael@vt.edu,Asian,,Plant Science,South Africa,Sophomore
+88,F,Dominic Bennett,rebeccabeasley,vF%8TMhi(p,rebeccabeasley@vt.edu,Hispanic or Latino,,Real Estate,Benin,Senior
+89,F,Jason Ingram,tuckerchristopher,_1Iz!IR3r^,tuckerchristopher@vt.edu,Native Hawaiian or Other Pacific Islander,,English Education,Singapore,Freshman
+90,F,Daniel Dennis,montgomerynicholas,_7LWfTr#8f,montgomerynicholas@vt.edu,American Indian or Alaska Native,,Arabic,Antigua and Barbuda,Freshman
+91,F,Ashley York,scott45,@42JIupb)w,scott45@vt.edu,Black or African American,,Creative Technologies,Chile,Sophomore
+92,O,Terri Kim,wendyjames,bhU2H%Gv1@,wendyjames@vt.edu,White,,Nanomedicine,Netherlands Antilles,Senior
+93,M,Kelly Reynolds,sherri02,8i3qTO+B%t,sherri02@vt.edu,American Indian or Alaska Native,,Forestry,Guinea-Bissau,Sophomore
+94,F,Dr. Paul Vaughn,owensgreg,*EV0CFc6CR,owensgreg@vt.edu,Black or African American,,ISE,Gambia,Senior
+95,F,Harold Hayes,daniel62,2u9PQw8q!$,daniel62@vt.edu,Native Hawaiian or Other Pacific Islander,,Property Management,Turks and Caicos Islands,Sophomore
+96,O,Charles Dominguez,bhood,!L1DAvG*@1,bhood@vt.edu,Asian,,Landscape Architecture,El Salvador,Junior
+97,F,John Hernandez,jlong,I_10Qkn(vb,jlong@vt.edu,Black or African American,,Statistics,Montenegro,Sophomore
+98,O,Kristen Wilson,cathy42,)N4d0EPwSE,cathy42@vt.edu,Black or African American,,Management,Malta,Sophomore
+99,F,Steven Hernandez,nlong,(*V@34GwC3,nlong@vt.edu,Hispanic or Latino,,Dairy Science,Hungary,Senior
+100,M,Eddie Hoffman,williamcoleman,@4VTNaKmM@,williamcoleman@vt.edu,White,,Management,Turkey,Freshman
+101,M,Melanie Brown,samuelmason,#_5pIsi*i*,samuelmason@vt.edu,Native Hawaiian or Other Pacific Islander,,Chemical Engineering,Turks and Caicos Islands,Freshman
+102,F,Dr. Brittany Garcia PhD,wrichards,$4Xe8K2tm&,wrichards@vt.edu,White,,International Studies,Bhutan,Junior
+103,F,Lori Lutz,zhall,2t+cOPZl%i,zhall@vt.edu,Black or African American,,Multimedia Journalism,Maldives,Junior
+104,O,Christopher Morse,sdavis,@%4GB&pDnf,sdavis@vt.edu,White,,Packaging,Eritrea,Senior
+105,O,Kyle Bates,jonathan86,Z#@5WyqEoo,jonathan86@vt.edu,White,,MSE,Mauritius,Sophomore
+106,F,Taylor Villegas,veronica67,HGQw&Dov&6,veronica67@vt.edu,American Indian or Alaska Native,,ACIS,British Virgin Islands,Junior
+107,M,Joanne Mckinney,espinozamary,44TotcBV*f,espinozamary@vt.edu,Native Hawaiian or Other Pacific Islander,,Agricultural Sciences,Antarctica (the territory South of 60 deg S),Senior
+108,F,Candice Gill,cynthiamills,x4#^4ZwkE9,cynthiamills@vt.edu,Native Hawaiian or Other Pacific Islander,,Aerospace Engineering,Palau,Senior
+109,F,Maria Sullivan,robertwalker,43K($U$n_r,robertwalker@vt.edu,Black or African American,,Music,Rwanda,Junior
+110,F,Lisa Dunn,patelsharon,Q5HBTwgQ*%,patelsharon@vt.edu,Native Hawaiian or Other Pacific Islander,,Chemical Engineering,Gabon,Freshman
+111,O,John Serrano,stephaniemcdonald,G_!03BYyba,stephaniemcdonald@vt.edu,Asian,,Fish Conservation,Saint Helena,Senior
+112,M,Ashley Dunn,jessicabaker,@3VnDvzTz3,jessicabaker@vt.edu,White,,Mining Engineering,Venezuela,Senior
+113,F,Rose Aguilar,chaneymegan,nf2V8JY&+!,chaneymegan@vt.edu,White,,ISE,Wallis and Futuna,Freshman
+114,M,Jamie Meyers,walterhill,+dx74MGgK5,walterhill@vt.edu,Native Hawaiian or Other Pacific Islander,,BSE,Jordan,Senior
+115,O,Rachel Wood,darin13,(_TZij_W25,darin13@vt.edu,Black or African American,,Environmental Policy,Lao People's Democratic Republic,Junior
+116,M,Henry Kelley,randy19,kwu1klNaW^,randy19@vt.edu,American Indian or Alaska Native,,Medicinal Chemistry,Jamaica,Senior
+117,F,Kimberly Haynes,wanda47,s$2PSKAg!j,wanda47@vt.edu,Black or African American,,Dairy Science,Sudan,Freshman
+118,F,Eric Pacheco,jdavidson,Ae)F5iKg(_,jdavidson@vt.edu,Native Hawaiian or Other Pacific Islander,,Medicinal Chemistry,China,Sophomore
+119,O,Rick Yang,bradleykennedy,A&8X$3hGp$,bradleykennedy@vt.edu,White,,Nutrition and Dietetics,Guadeloupe,Sophomore
+120,M,Robert Willis,danielpierce,K2Nz7tBa+Z,danielpierce@vt.edu,White,,Medicinal Chemistry,Mauritania,Sophomore
+121,F,Mark Brock,jamesmiller,#sR7snX)9s,jamesmiller@vt.edu,Asian,,Russian,Guatemala,Junior
+122,F,Randy Martinez,xlopez,!gqMv$*e16,xlopez@vt.edu,Black or African American,,NSFA,Belize,Junior
+123,F,Michelle Bernard,janetreyes,J#W+4ZMk!N,janetreyes@vt.edu,White,,Packaging,Ethiopia,Sophomore
+124,M,Jennifer Garcia,jessica96,_7CE+8dx@+,jessica96@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Resources,Nauru,Senior
+125,F,Emily Roman,russell61,%0N5vh3hEq,russell61@vt.edu,American Indian or Alaska Native,,Environmental Data Science,New Zealand,Freshman
+126,F,Jane Johnson,morgansullivan,^n!ap@Qe2l,morgansullivan@vt.edu,Hispanic or Latino,,Environmental Policy,Madagascar,Freshman
+127,O,Susan Bender,john81,&V45aXoKNa,john81@vt.edu,Black or African American,,Clinical Neuroscience,Bolivia,Freshman
+128,M,David Johnson,slyons,(jZ8GtVg&0,slyons@vt.edu,Hispanic or Latino,,NSFA,Hong Kong,Sophomore
+129,O,Vanessa Davis,bakerwilliam,*VxU1ypBD9,bakerwilliam@vt.edu,American Indian or Alaska Native,,Smart and Sustainable Cities,Antigua and Barbuda,Freshman
+130,F,Jeffery Page,ayersdorothy,A1#33Nml6R,ayersdorothy@vt.edu,White,,Consumer Studies,Peru,Senior
+131,F,Jeff Navarro,rstone,!8Y8a9lL#a,rstone@vt.edu,Hispanic or Latino,,Cybersecurity,Togo,Sophomore
+132,F,Makayla Santos,davidsonkimberly,#KYRPsyqV1,davidsonkimberly@vt.edu,Native Hawaiian or Other Pacific Islander,,Landscape Architecture,Burundi,Senior
+133,O,Ralph Brown,walkerchristina,@#8I5qNl_E,walkerchristina@vt.edu,Asian,,English Education,Lesotho,Senior
+134,F,Julia Lewis,nguyendonna,*6NtDpTe8a,nguyendonna@vt.edu,Black or African American,,Classical Studies,Nicaragua,Senior
+135,M,Mary Williams,dmills,Wl^3ANVb%n,dmills@vt.edu,Asian,,Fashion,Belgium,Junior
+136,O,Beth Rich,valdezbradley,)&2fVb)ohm,valdezbradley@vt.edu,Asian,,Multimedia Journalism,Russian Federation,Junior
+137,M,Kathleen Chen,elizabeth70,s%6fSGOf1M,elizabeth70@vt.edu,White,,Dairy Science,Nauru,Freshman
+138,M,Cory Rivera,wardconnie,9gWkLSdQ#f,wardconnie@vt.edu,Hispanic or Latino,,Mathematics Education,Cameroon,Sophomore
+139,O,Kristen Morgan,tstewart,ag8S6Iu*V(,tstewart@vt.edu,Asian,,Multimedia Journalism,Lebanon,Freshman
+140,O,Sabrina Stanton,christieyoung,2gM8V4Ec+o,christieyoung@vt.edu,Native Hawaiian or Other Pacific Islander,,Computer Engineering,New Zealand,Freshman
+141,M,Mark Dawson,mcmahonzachary,E!#N7iPm@D,mcmahonzachary@vt.edu,White,,International Studies,Palestinian Territory,Sophomore
+142,O,Anthony Hernandez,tiffany38,E2suQu_i*9,tiffany38@vt.edu,Native Hawaiian or Other Pacific Islander,,Explore Science (undecided),Cote d'Ivoire,Senior
+143,F,Kimberly Spencer,pricericky,8w540UPh_),pricericky@vt.edu,Asian,,Mechanical Engineering,Nauru,Freshman
+144,M,John Gonzalez,robersonerika,)&8FJJjZft,robersonerika@vt.edu,Hispanic or Latino,,Technical Writing,North Macedonia,Freshman
+145,F,Heidi Kaufman,debbieperkins,$2$dE4DkiA,debbieperkins@vt.edu,Hispanic or Latino,,Crop and Soil Sciences,Qatar,Sophomore
+146,O,Regina Odonnell,gregory97,z+h!9STpAO,gregory97@vt.edu,White,,Crop and Soil Sciences,Montserrat,Senior
+147,F,Jerry Lewis,amanda50,L0^8WOheV#,amanda50@vt.edu,White,,Agricultural Sciences,Eritrea,Senior
+148,M,Peter Anderson,ramosjames,BSt!&6Wm0I,ramosjames@vt.edu,Native Hawaiian or Other Pacific Islander,,Arabic,Cook Islands,Freshman
+149,O,William Kelly,mmoore,X!1bQlmdI!,mmoore@vt.edu,White,,Graphic Design,Taiwan,Junior
+150,F,Dean Cummings,timothypetersen,&CQ*sCS57c,timothypetersen@vt.edu,Asian,,Public Relations,Solomon Islands,Sophomore
+151,F,Angel Kelley,jjohnson,Q&*MN6DlWZ,jjohnson@vt.edu,Hispanic or Latino,,French,Cook Islands,Junior
+152,M,Margaret Blake,xmiller,bE2AKdsfP(,xmiller@vt.edu,Native Hawaiian or Other Pacific Islander,,Explore Science (undecided),Nepal,Freshman
+153,M,Hannah Lee,carolsnyder,*+590^Jxx%,carolsnyder@vt.edu,Native Hawaiian or Other Pacific Islander,,Hospitality,Russian Federation,Senior
+154,O,Mr. Nathan Smith,jeffrey55,)&8F#n1s*R,jeffrey55@vt.edu,Black or African American,,Communication,Mayotte,Freshman
+155,F,Heather Lewis,campbellcassandra,(SMB+t6*L5,campbellcassandra@vt.edu,Asian,,Ecological Restoration,Netherlands Antilles,Junior
+156,F,Nancy Mccormick,ashleyhernandez,i60yXl*e)M,ashleyhernandez@vt.edu,Hispanic or Latino,,Accounting,San Marino,Freshman
+157,O,Christopher Chase,burnscasey,TVQIK%tq)7,burnscasey@vt.edu,American Indian or Alaska Native,,Polymer Chemistry,Fiji,Freshman
+158,F,Corey Branch,adam44,F))v6JfV@c,adam44@vt.edu,Asian,,Psychology,Cocos (Keeling) Islands,Sophomore
+159,M,Tracy Washington,wpotts,K+PZ8dRk+n,wpotts@vt.edu,White,,Forestry,China,Junior
+160,O,Michael Hart,allison59,oa#2&VNx&r,allison59@vt.edu,Asian,,University Studies,Togo,Senior
+161,O,Mrs. Elizabeth Neal,davidwalker,_6fYXl+SNl,davidwalker@vt.edu,White,,University Studies,United Arab Emirates,Freshman
+162,F,Desiree Hawkins,wevans,EpJd9YzpB$,wevans@vt.edu,White,,Business (undecided),Sudan,Senior
+163,M,Kristina Green,charleslisa,Hm4vLgbl+P,charleslisa@vt.edu,Asian,,Environmental Horticulture,Micronesia,Junior
+164,O,David Garcia,gary83,%nD5kKe43^,gary83@vt.edu,Asian,,Environmental Conservation,Argentina,Senior
+165,F,Alexandra Brown,dalehenderson,i1#fT8XJ+D,dalehenderson@vt.edu,Hispanic or Latino,,Property Management,Equatorial Guinea,Junior
+166,M,Brittney Lopez,barbara16,sZ7pP@$na#,barbara16@vt.edu,Hispanic or Latino,,Ecological Restoration,Cayman Islands,Junior
+167,O,Kendra Jenkins,williamsthomas,e(8DRnR$zb,williamsthomas@vt.edu,American Indian or Alaska Native,,Russian,Cyprus,Freshman
+168,M,Robert Richmond,annette85,@1QJ%pKh7A,annette85@vt.edu,Black or African American,,ACIS,Liberia,Junior
+169,M,Gavin Cochran,dharrington,&L5%Fi_yhS,dharrington@vt.edu,American Indian or Alaska Native,,German,Macao,Sophomore
+170,F,Paul Tran,qmiller,+5puITx_RA,qmiller@vt.edu,Black or African American,,Sports Media and Analytics,Mauritius,Senior
+171,M,Matthew Riley,ucastro,doE1bBdGZ(,ucastro@vt.edu,American Indian or Alaska Native,,Fashion,Russian Federation,Senior
+172,O,Donald Fowler,ccasey,BX8KDSWxe+,ccasey@vt.edu,Hispanic or Latino,,Building Construction,Reunion,Sophomore
+173,M,Jimmy Peck,ccobb,!5hBIdzRcB,ccobb@vt.edu,Asian,,Environmental Resources,Belarus,Junior
+174,O,Rebecca Espinoza,hmartin,g400Q!u*(x,hmartin@vt.edu,Black or African American,,Industrial Design,Singapore,Senior
+175,O,Mandy Dunn,wendy77,2@0LgpFpm!,wendy77@vt.edu,White,,Human Development,Indonesia,Sophomore
+176,F,Daniel Richards,aaronjackson,n*UGXP^e_8,aaronjackson@vt.edu,American Indian or Alaska Native,,CMDA,Eritrea,Freshman
+177,O,Miguel Lowe,brownjohn,c3@0wVwg%#,brownjohn@vt.edu,Asian,,Music,Congo,Freshman
+178,O,Elizabeth Dixon,dgreen,$7Id&IdH_9,dgreen@vt.edu,American Indian or Alaska Native,,Geography,Lesotho,Sophomore
+179,F,Jamie Wilson,philiplopez,80LJqOQz!W,philiplopez@vt.edu,Native Hawaiian or Other Pacific Islander,,Meteorology,Grenada,Freshman
+180,F,Kristine Foster,frank21,!u8WEsmvb6,frank21@vt.edu,Native Hawaiian or Other Pacific Islander,,English,French Guiana,Freshman
+181,F,Jason Frazier,rhondagarcia,%sp7KDb4)@,rhondagarcia@vt.edu,Hispanic or Latino,,Nanoscience,Falkland Islands (Malvinas),Sophomore
+182,O,David Gibson,jeannegibson,_7#3JZ%r#f,jeannegibson@vt.edu,American Indian or Alaska Native,,Statistics,Tokelau,Sophomore
+183,F,Mitchell Walker,jenniferbrown,u2DpW(#!_2,jenniferbrown@vt.edu,Hispanic or Latino,,FST,Namibia,Senior
+184,O,Carol Mathews,michelle86,hp37KnDp^Z,michelle86@vt.edu,Black or African American,,Cybersecurity,Antarctica (the territory South of 60 deg S),Sophomore
+185,F,Phillip Nash,kwest,@6UVYj19Ap,kwest@vt.edu,American Indian or Alaska Native,,Philosophy,Comoros,Sophomore
+186,F,James Proctor,tiffanygriffin,ACo&8MCf6Q,tiffanygriffin@vt.edu,Black or African American,,CMDA,Palau,Senior
+187,F,Dustin Robertson,connor00,ruhy8xNt%$,connor00@vt.edu,Asian,,Environmental Data Science,Malawi,Freshman
+188,M,Paul Mayer MD,gabriel22,M(0GExq1oL,gabriel22@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Policy,Romania,Senior
+189,O,Steven Jordan Jr.,melissafrazier,^u#MkLr06z,melissafrazier@vt.edu,Hispanic or Latino,,Human Development,Tuvalu,Senior
+190,O,Alison Maynard,sheajoann,_+49lQSDNs,sheajoann@vt.edu,White,,Financial Planning,Luxembourg,Senior
+191,M,Teresa Mitchell,james30,3JD(*xRo&1,james30@vt.edu,Hispanic or Latino,,Meteorology,Belize,Freshman
+192,M,Michael Lopez,mark67,!nEHwXCGT7,mark67@vt.edu,Asian,,Public Health,Botswana,Sophomore
+193,F,John Hobbs,stephenstoni,O4VA6Sgm$n,stephenstoni@vt.edu,Hispanic or Latino,,Crop and Soil Sciences,Marshall Islands,Freshman
+194,F,Robert Estes,williamsalazar,Y*B7Ic!1wP,williamsalazar@vt.edu,Hispanic or Latino,,CTE,Yemen,Senior
+195,F,Vanessa Guerrero,lisa69,%qSYyrA4T4,lisa69@vt.edu,American Indian or Alaska Native,,Philosophy,Tunisia,Junior
+196,F,Howard Foster,rlutz,O9EeWiqt!J,rlutz@vt.edu,Black or African American,,Public Relations,Jersey,Sophomore
+197,M,Lindsay Gonzalez,boothjeanette,*1CbwKAk2@,boothjeanette@vt.edu,Hispanic or Latino,,Arabic,Austria,Sophomore
+198,M,Jonathan Peterson,danielballard,L6kWTxxW!r,danielballard@vt.edu,White,,International Studies,Austria,Junior
+199,M,Steven Golden,washingtonaaron,&gB1PZ_b@O,washingtonaaron@vt.edu,White,,ACIS,Venezuela,Senior
+200,M,Kathleen Calhoun,donalddawson,e4MJCv!5+i,donalddawson@vt.edu,Black or African American,,Public Relations,Saint Lucia,Senior
+201,O,Mary Weiss,bhicks,Zr)0Ifygwt,bhicks@vt.edu,Native Hawaiian or Other Pacific Islander,,Sociology,Pakistan,Senior
+202,M,Amy Escobar,marshallmisty,#QW%OzTGi6,marshallmisty@vt.edu,Asian,,Environmental Science,Congo,Senior
+203,F,Catherine Brown,susanmoon,Z^gH0WvuNi,susanmoon@vt.edu,American Indian or Alaska Native,,BIT,Martinique,Sophomore
+204,O,Brandon Fox,corey09,uQ8ZeAW3$d,corey09@vt.edu,American Indian or Alaska Native,,History,Eritrea,Sophomore
+205,F,Lisa Gordon,stephanie74,(7PHrv!#E$,stephanie74@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Resources,Trinidad and Tobago,Freshman
+206,O,Timothy Wall,echan,^J!ZS)k0d1,echan@vt.edu,American Indian or Alaska Native,,Music,Venezuela,Senior
+207,O,Susan Allison,kwarren,%Y+rA$UyI2,kwarren@vt.edu,American Indian or Alaska Native,,Wildlife Conservation,Russian Federation,Junior
+208,M,Jennifer Gibson,susan57,f&#M#3Rw(%,susan57@vt.edu,White,,Computer Engineering,North Macedonia,Sophomore
+209,F,Taylor Davis,glennfarmer,#@D2Lu8OEu,glennfarmer@vt.edu,Black or African American,,Microbiology,Libyan Arab Jamahiriya,Freshman
+210,O,Sarah Schroeder,nelsonmichael,j)Uk(9VgNG,nelsonmichael@vt.edu,Hispanic or Latino,,Exercise & Health Sciences,Grenada,Sophomore
+211,F,Cesar Harris,loveandrew,NS+942Fcj_,loveandrew@vt.edu,White,,Smart and Sustainable Cities,Central African Republic,Freshman
+212,M,Heather Dickerson,charrison,Vnh8EiJi$J,charrison@vt.edu,American Indian or Alaska Native,,Marketing Management,Belize,Junior
+213,O,Kelly Thomas,smithmichael,*_+Bu49J0L,smithmichael@vt.edu,Native Hawaiian or Other Pacific Islander,,Elementary Education (PK-6),Mauritius,Junior
+214,F,Jessica Jimenez,ortizkayla,00!ZXNCn*z,ortizkayla@vt.edu,Hispanic or Latino,,Real Estate,Belize,Senior
+215,O,Anthony Roberts,jwheeler,+%Jc2U^h45,jwheeler@vt.edu,Hispanic or Latino,,Communication,Saint Lucia,Sophomore
+216,O,Donald Stone III,combskendra,rjxx9E2u^5,combskendra@vt.edu,American Indian or Alaska Native,,Physics,Denmark,Senior
+217,F,Dawn Johnson,sarah22,$4K^@j1$@v,sarah22@vt.edu,Black or African American,,Physics,Croatia,Sophomore
+218,M,Nicole Chavez,afoster,!OCBENqvU0,afoster@vt.edu,White,,Fashion,Belize,Freshman
+219,O,Mark Wise,cameronelizabeth,%%FA3cIs9E,cameronelizabeth@vt.edu,American Indian or Alaska Native,,Geography,Iceland,Sophomore
+220,M,Vanessa Pratt,morrisrebekah,q6NhJNdX%w,morrisrebekah@vt.edu,Hispanic or Latino,,Multimedia Journalism,Czech Republic,Sophomore
+221,M,Karen Alvarez,iphillips,D&d0d!Ht%&,iphillips@vt.edu,Black or African American,,Meteorology,Belize,Junior
+222,M,Renee Gaines,thomas92,k!C+2JjK*d,thomas92@vt.edu,Asian,,Experimental Neuroscience,Guernsey,Junior
+223,F,Amy Arnold,steven08,K!7ZGmOjxg,steven08@vt.edu,American Indian or Alaska Native,,Computer Science,Morocco,Junior
+224,O,Andrew Jones,fernandezdenise,$$3@vQic+&,fernandezdenise@vt.edu,American Indian or Alaska Native,,Elementary Education (PK-6),Fiji,Sophomore
+225,F,Nathan Coleman,maybrian,#qh41Bes!R,maybrian@vt.edu,American Indian or Alaska Native,,Exercise & Health Sciences,Nicaragua,Sophomore
+226,M,Kayla Moore,rachel24,#9F@ulFqvf,rachel24@vt.edu,Native Hawaiian or Other Pacific Islander,,Biological Sciences,Peru,Sophomore
+227,M,Christopher Hamilton,dkim,4mNbMzKZ)p,dkim@vt.edu,Native Hawaiian or Other Pacific Islander,,Philosophy,Macao,Freshman
+228,O,Shane Johnson,drogers,78%4Y9z60(,drogers@vt.edu,Asian,,BIT,Belarus,Junior
+229,F,Mary Drake MD,meyershawn,)z4ZGnWx!h,meyershawn@vt.edu,Native Hawaiian or Other Pacific Islander,,Early Childhood Development,Antarctica (the territory South of 60 deg S),Junior
+230,M,Joshua Golden,richardbrandt,)V1SoYry6N,richardbrandt@vt.edu,White,,CMDA,Zambia,Freshman
+231,M,Sherry Herrera,bruce13,Av8DP1Bg&9,bruce13@vt.edu,American Indian or Alaska Native,,PPE,Sweden,Junior
+232,O,Derek Sanchez,scott18,#+5KO5&sZO,scott18@vt.edu,Black or African American,,Chemical Engineering,Tonga,Senior
+233,O,Matthew Rogers MD,jacobpatton,e$w9K^DwJ(,jacobpatton@vt.edu,Native Hawaiian or Other Pacific Islander,,BIT,Netherlands Antilles,Sophomore
+234,M,Jeffery Wolfe,saundersrobert,zNJ$2cJzUF,saundersrobert@vt.edu,Hispanic or Latino,,French,American Samoa,Junior
+235,O,Jamie Carey,shawn97,M+Bi)Ek6NI,shawn97@vt.edu,Hispanic or Latino,,CTE,Spain,Freshman
+236,O,Gregory Robinson,michaelfrederick,YS*67iLtSB,michaelfrederick@vt.edu,Black or African American,,ISE,Saint Helena,Senior
+237,O,Yvonne Hicks,qpoole,(K83RFGsLA,qpoole@vt.edu,White,,Environmental Policy,Argentina,Junior
+238,F,Lindsey Jenkins,heidifrancis,48Tlf0Bx$x,heidifrancis@vt.edu,White,,Polymer Chemistry,Denmark,Sophomore
+239,M,Sharon Willis,morriserik,^)1mT4iu#l,morriserik@vt.edu,American Indian or Alaska Native,,BSE,Barbados,Junior
+240,O,Tammy Baker,jeremy98,+RIirVsFp3,jeremy98@vt.edu,Native Hawaiian or Other Pacific Islander,,Landscape Architecture,Kenya,Senior
+241,F,Adam Coleman,gwilson,JV2RrK)9&1,gwilson@vt.edu,Native Hawaiian or Other Pacific Islander,,German,Tokelau,Sophomore
+242,M,David White,rachelmaynard,*0(1PN!l@b,rachelmaynard@vt.edu,Asian,,Meteorology,Mozambique,Senior
+243,O,James Mcdonald,christophermitchell,xlosqBFH+4,christophermitchell@vt.edu,Black or African American,,Multimedia Journalism,Senegal,Freshman
+244,O,Steven Willis,dianemorgan,UI57Op$f*&,dianemorgan@vt.edu,Asian,,Ocean Engineering,Dominican Republic,Senior
+245,O,Dr. Melissa Hudson,ayalaamanda,)dC71xy4n3,ayalaamanda@vt.edu,White,,Cinema,Greenland,Senior
+246,M,Travis Cooley,jacquelinejackson,w9U%*qOE_7,jacquelinejackson@vt.edu,Native Hawaiian or Other Pacific Islander,,Financial Planning,Germany,Sophomore
+247,M,Eric Thornton,georgecarlson,b4PTEVF*$+,georgecarlson@vt.edu,Native Hawaiian or Other Pacific Islander,,Nutrition and Dietetics,Thailand,Sophomore
+248,M,Sarah Duarte,jsmith,^2BwZqFjSx,jsmith@vt.edu,Black or African American,,Construction Engineering,United States Virgin Islands,Senior
+249,M,Jason Olson,juan39,!oNRdx4NN4,juan39@vt.edu,Hispanic or Latino,,Russian,Iran,Senior
+250,F,William Goodwin,xcastro,&0AqWziR0d,xcastro@vt.edu,White,,English,Turkmenistan,Senior
+251,M,Brittany Schroeder,erikawilliams,l8!&Xam1+o,erikawilliams@vt.edu,Native Hawaiian or Other Pacific Islander,,Creative Technologies,Croatia,Junior
+252,F,Tonya Brown,mfleming,*4#Y8Nh3wv,mfleming@vt.edu,American Indian or Alaska Native,,Advertising,Guatemala,Freshman
+253,F,James Martinez,sjohnson,ZB$71Rq5Y$,sjohnson@vt.edu,Hispanic or Latino,,French,Rwanda,Junior
+254,F,David Barnes,tkirk,@1Z$Qtnjs4,tkirk@vt.edu,White,,BIT,Sweden,Junior
+255,M,Andrew Rivera,nancyhubbard,TVJ9J1&h&*,nancyhubbard@vt.edu,Hispanic or Latino,,Geography,Czech Republic,Junior
+256,F,Patricia Johnston,willissteven,@V2KaxRFG!,willissteven@vt.edu,Hispanic or Latino,,Forestry,Serbia,Freshman
+257,O,Mark Young,markgarcia,%huVXgLJC9,markgarcia@vt.edu,Black or African American,,Sustainable Biomaterials,Saint Kitts and Nevis,Senior
+258,O,Rebecca Bass,mathewsandrew,m$3Y1VcD*i,mathewsandrew@vt.edu,Native Hawaiian or Other Pacific Islander,,Forestry,Dominica,Sophomore
+259,F,Jason Vaughn,fischerlarry,#Vk1GvkySI,fischerlarry@vt.edu,American Indian or Alaska Native,,Finance,Malawi,Junior
+260,O,Rachel Chavez,stephen10,$FLeMiN%S9,stephen10@vt.edu,Black or African American,,Early Childhood Development,Ethiopia,Sophomore
+261,O,Michael Bradshaw,wendy51,Uh4DD!pvq),wendy51@vt.edu,White,,Mining Engineering,Bulgaria,Freshman
+262,O,Brandon Brown,jonathanstephens,p0ZWtbAZ)n,jonathanstephens@vt.edu,Black or African American,,International Public Policy,Azerbaijan,Junior
+263,M,Christopher Watkins,blevinskevin,s$8FTqkrhF,blevinskevin@vt.edu,Native Hawaiian or Other Pacific Islander,,Music,Netherlands Antilles,Senior
+264,O,Jennifer Martinez,jmunoz,(_UJo8Ilt1,jmunoz@vt.edu,Black or African American,,English,United Arab Emirates,Freshman
+265,M,Stephanie Patton DVM,frances26,1+IB3#Ra_G,frances26@vt.edu,American Indian or Alaska Native,,Creative Writing,Marshall Islands,Senior
+266,M,Kevin Butler,nelsonjesse,rp%4aTdyi!,nelsonjesse@vt.edu,Black or African American,,Cinema,Puerto Rico,Senior
+267,O,Jonathan Manning,ncooley,@9e6lTd#u^,ncooley@vt.edu,Black or African American,,English,Antarctica (the territory South of 60 deg S),Sophomore
+268,F,Taylor Smith,jonathanrodgers,4%83FNBds3,jonathanrodgers@vt.edu,Asian,,Biomedical Engineering,Congo,Freshman
+269,M,Lindsay Sparks,cking,Y$4VAMo50D,cking@vt.edu,Native Hawaiian or Other Pacific Islander,,Accounting,Armenia,Senior
+270,M,Robert Mcclure,zmiller,&&9oVxsw7n,zmiller@vt.edu,Native Hawaiian or Other Pacific Islander,,Interior Design,Canada,Freshman
+271,F,Carol Mckee,jessicarobbins,uFEUIhWd$2,jessicarobbins@vt.edu,Black or African American,,Experimental Neuroscience,Czech Republic,Freshman
+272,O,Craig Baker,hardingamy,+(rm1mGta0,hardingamy@vt.edu,American Indian or Alaska Native,,Civil Engineering,Guatemala,Junior
+273,M,Brian Jackson,campbellrobert,rssS7JSrG%,campbellrobert@vt.edu,Black or African American,,Environmental Conservation,Norfolk Island,Freshman
+274,O,Phillip Walker,lrobinson,gwOP^n3%^2,lrobinson@vt.edu,Hispanic or Latino,,Explore Science (undecided),Tuvalu,Junior
+275,M,Michael Walker,faithbeasley,&lI3j9cJ01,faithbeasley@vt.edu,Black or African American,,Mathematics Education,Trinidad and Tobago,Sophomore
+276,M,Melanie Gilbert,jamesshields,M5pBrB%b_&,jamesshields@vt.edu,White,,Criminology,New Caledonia,Freshman
+277,F,Monica Crawford,ylivingston,$Iw_VREi1*,ylivingston@vt.edu,Black or African American,,Building Construction,Iceland,Junior
+278,O,Matthew Lutz,hobbsjames,)C3Hq0rm1^,hobbsjames@vt.edu,White,,Communication,Tajikistan,Freshman
+279,M,Alexa Hayden,georgenicholas,S_i9Gp^&f%,georgenicholas@vt.edu,Black or African American,,Chemical Engineering,Bouvet Island (Bouvetoya),Junior
+280,O,Leah Woods,wilsondeborah,Wzk%1InW%I,wilsondeborah@vt.edu,Asian,,Finance,Gambia,Junior
+281,M,Dakota Price,jennifer13,2_A8)TY_2z,jennifer13@vt.edu,Native Hawaiian or Other Pacific Islander,,Public Relations,Switzerland,Freshman
+282,O,James Romero,sarahsmith,L8aFN02c!3,sarahsmith@vt.edu,American Indian or Alaska Native,,Biomedical Engineering,Swaziland,Sophomore
+283,F,Luke Hayes,fsolis,S&0CfS9e*M,fsolis@vt.edu,Native Hawaiian or Other Pacific Islander,,FST,Switzerland,Sophomore
+284,O,Andre Gilbert,monicamoore,!09VUhyfa@,monicamoore@vt.edu,Native Hawaiian or Other Pacific Islander,,Philosophy,Cameroon,Senior
+285,O,Scott James,leachanthony,&zvDcT8U2p,leachanthony@vt.edu,American Indian or Alaska Native,,Chemistry,Afghanistan,Senior
+286,M,Hannah Hayes,xlucas,1@5Xsls4oA,xlucas@vt.edu,Black or African American,,Physics,Trinidad and Tobago,Junior
+287,O,Alicia Russell,dbarnes,i$05OGe&L7,dbarnes@vt.edu,Black or African American,,MSE,Malawi,Junior
+288,F,Elizabeth Evans,brendancruz,D@5)oI)cGD,brendancruz@vt.edu,Native Hawaiian or Other Pacific Islander,,Human Development,Switzerland,Sophomore
+289,M,Craig Cooper,brandonbowman,@rQ9RM9sM$,brandonbowman@vt.edu,Native Hawaiian or Other Pacific Islander,,Classical Studies,Haiti,Sophomore
+290,O,Kelly Bishop,josephandrews,+N1xHsdgl*,josephandrews@vt.edu,Asian,,Mechanical Engineering,Sweden,Senior
+291,M,Carol Walker,gomezglenn,eRo8QFgu)N,gomezglenn@vt.edu,Native Hawaiian or Other Pacific Islander,,Mathematics,Russian Federation,Sophomore
+292,M,Karen Spencer,michael85,Nk3oNzi!E%,michael85@vt.edu,Asian,,ISE,Morocco,Senior
+293,O,Gregg Vazquez,zbailey,#Z2_6sDqIA,zbailey@vt.edu,Asian,,Mining Engineering,Cameroon,Junior
+294,F,Benjamin Larsen,hilldaniel,%1TALe3Uub,hilldaniel@vt.edu,American Indian or Alaska Native,,Technical Writing,Netherlands Antilles,Senior
+295,O,Jennifer Hill,ritternoah,@7YlF(YZrR,ritternoah@vt.edu,White,,Sociology,Brazil,Freshman
+296,O,Amanda Johnson,qsmith,_7yv4oTR1v,qsmith@vt.edu,Hispanic or Latino,,Creative Technologies,San Marino,Senior
+297,M,Michael Steele,pbarber,6jBYXZ(e$f,pbarber@vt.edu,American Indian or Alaska Native,,Consumer Studies,Mozambique,Freshman
+298,O,Dana Serrano,wilsonjeff,$gk(mJKwX3,wilsonjeff@vt.edu,Asian,,Hospitality,Malaysia,Junior
+299,O,Kimberly Buck,yhowe,F^af7OjhsI,yhowe@vt.edu,Black or African American,,Ecological Restoration,Svalbard & Jan Mayen Islands,Senior
+300,M,Gregory Montes,breweradam,TlQfNJIw+4,breweradam@vt.edu,Native Hawaiian or Other Pacific Islander,,Spanish,Dominican Republic,Freshman
+301,F,Brian Martinez,melissa55,apCqwuEf#3,melissa55@vt.edu,White,,German,United Kingdom,Sophomore
+302,F,Stephen Porter,tneal,XGqXmP@k+4,tneal@vt.edu,Asian,,University Studies,Taiwan,Sophomore
+303,O,Matthew Chan,nicoleanderson,&36KRhsSuR,nicoleanderson@vt.edu,Asian,,Elementary Education (PK-6),Northern Mariana Islands,Junior
+304,F,Evan Nelson,hannah12,&6btu#LB*s,hannah12@vt.edu,Asian,,General Engineering,Uruguay,Sophomore
+305,O,Alison Miller,allentammy,z26wY8Ix$f,allentammy@vt.edu,Native Hawaiian or Other Pacific Islander,,Forestry,Russian Federation,Sophomore
+306,M,Allison Robertson,rnguyen,_0&FXgVMpF,rnguyen@vt.edu,Hispanic or Latino,,Finance,Barbados,Freshman
+307,O,Evelyn Townsend,martinstephanie,_9@uObAncy,martinstephanie@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Conservation,Tunisia,Senior
+308,M,Jessica Fisher,smithtimothy,*(7+d#MqCg,smithtimothy@vt.edu,Native Hawaiian or Other Pacific Islander,,Interior Design,Austria,Junior
+309,M,Michael Roberts,justin81,E$7iQYeR(5,justin81@vt.edu,Asian,,Landscape Architecture,Slovenia,Senior
+310,O,Michael Olsen,fdominguez,j09IopBM$+,fdominguez@vt.edu,Hispanic or Latino,,Forestry,Jordan,Sophomore
+311,F,Linda Berry,markgarcia,B9W6YNfG&D,markgarcia@vt.edu,Asian,,Mining Engineering,Puerto Rico,Senior
+312,O,Alison Little,dlawrence,8A^32wTu(@,dlawrence@vt.edu,American Indian or Alaska Native,,Spanish,Myanmar,Junior
+313,M,Beth Peters,yolandamills,f0)kSb22%p,yolandamills@vt.edu,Black or African American,,Environmental Policy,South Africa,Freshman
+314,M,Katherine Richards,lmoore,i%*$1+Vm^$,lmoore@vt.edu,Hispanic or Latino,,Biochemistry,Lebanon,Freshman
+315,F,William Zimmerman,kingmichael,j+Ix9sXvO!,kingmichael@vt.edu,American Indian or Alaska Native,,Spanish,Costa Rica,Sophomore
+316,O,Jodi Moon,stanleymary,_R9Iuoar2),stanleymary@vt.edu,Asian,,Environmental Horticulture,Morocco,Sophomore
+317,M,Christopher Chapman,lucasdustin,DJ0HFc*c+x,lucasdustin@vt.edu,Asian,,Consumer Studies,United States Virgin Islands,Junior
+318,F,William Brown,vanessa55,G7FUtGMr#G,vanessa55@vt.edu,Hispanic or Latino,,Religion and Culture,Bulgaria,Freshman
+319,O,William Day,stephenscott,l3vMHLxk!m,stephenscott@vt.edu,Native Hawaiian or Other Pacific Islander,,Nutrition and Dietetics,United States of America,Sophomore
+320,O,Rebecca Delacruz,gjordan,(0HM1f(sOB,gjordan@vt.edu,Hispanic or Latino,,Environmental Policy,Trinidad and Tobago,Junior
+321,M,Traci Cervantes,joshua52,7v03U+urx(,joshua52@vt.edu,White,,Multimedia Journalism,Djibouti,Freshman
+322,F,Marcus Dickson,smithallison,p0NJNnMh*r,smithallison@vt.edu,White,,Ocean Engineering,Equatorial Guinea,Sophomore
+323,O,Roy Rice,soconnor,z_fy7UlfX#,soconnor@vt.edu,White,,Philosophy,Portugal,Junior
+324,O,Elizabeth Green,gcarr,kU&03xWcBD,gcarr@vt.edu,Asian,,Building Construction,Indonesia,Junior
+325,O,Christopher Robinson,ashley57,hR4PsnT9%r,ashley57@vt.edu,American Indian or Alaska Native,,Building Construction,Benin,Junior
+326,O,Christopher Sanders,darryl68,+9_DL&&tEE,darryl68@vt.edu,White,,General Engineering,Comoros,Sophomore
+327,F,Michael Smith,robert31,XT2b0HlK#7,robert31@vt.edu,Asian,,Psychology,Senegal,Freshman
+328,M,David Miller,nbartlett,fP!8eR9yMH,nbartlett@vt.edu,Native Hawaiian or Other Pacific Islander,,Fish Conservation,Cayman Islands,Sophomore
+329,F,Dr. Daniel Austin Jr.,victorsmall,c9h3!Yid+6,victorsmall@vt.edu,Black or African American,,Public Relations,Grenada,Senior
+330,O,Daniel Church,rachel05,p34vULAik*,rachel05@vt.edu,American Indian or Alaska Native,,Interior Design,Peru,Freshman
+331,M,Marissa Schaefer,xbennett,#S$_p4Uh@7,xbennett@vt.edu,American Indian or Alaska Native,,Dairy Science,Guinea-Bissau,Freshman
+332,F,Benjamin Andrade,gjacobs,Gk&ZPGai*7,gjacobs@vt.edu,American Indian or Alaska Native,,Construction Engineering,Svalbard & Jan Mayen Islands,Senior
+333,M,Joseph Crane,arnoldstephanie,(33rV1Ln*^,arnoldstephanie@vt.edu,Hispanic or Latino,,Biochemistry,Chile,Junior
+334,F,Amanda Olson,hhouston,_p4yM3qi_M,hhouston@vt.edu,American Indian or Alaska Native,,Communication,Comoros,Sophomore
+335,O,Javier Proctor,lrosales,c6wfYNyt%4,lrosales@vt.edu,Hispanic or Latino,,Environmental Science,Barbados,Junior
+336,M,Karen Miranda,sylviawilliams,)UG13S8lW#,sylviawilliams@vt.edu,Asian,,Ocean Engineering,Gambia,Senior
+337,M,Brenda Salas,ronald56,q2JHKElA+%,ronald56@vt.edu,Asian,,General Engineering,Lithuania,Junior
+338,O,Robert Fields,yespinoza,%0TxLoVnNq,yespinoza@vt.edu,American Indian or Alaska Native,,Classical Studies,Aruba,Senior
+339,O,Corey Wilkinson,kellyday,Td1KBe7Y@_,kellyday@vt.edu,Black or African American,,ACIS,Paraguay,Freshman
+340,O,Olivia Pollard,kimberly97,J97Zz!wV*H,kimberly97@vt.edu,Asian,,University Studies,Oman,Sophomore
+341,O,Kristen Marsh,adrianahall,3gUch8_e!x,adrianahall@vt.edu,Black or African American,,Public Relations,Heard Island and McDonald Islands,Senior
+342,M,Vanessa Jones,ronaldjohnson,z$yyVZ3h)J,ronaldjohnson@vt.edu,Native Hawaiian or Other Pacific Islander,,International Relations,Saint Helena,Sophomore
+343,F,Neil Chapman,qsmith,)!8@BD^q#6,qsmith@vt.edu,Native Hawaiian or Other Pacific Islander,,Business (undecided),Saint Vincent and the Grenadines,Sophomore
+344,F,Christina Guzman,curtiscarroll,)g3bU0DuOR,curtiscarroll@vt.edu,Hispanic or Latino,,Mathematics,Georgia,Sophomore
+345,O,Sergio Stafford,jordanlisa,(Rs0OsQ#%G,jordanlisa@vt.edu,American Indian or Alaska Native,,PPE,Sao Tome and Principe,Senior
+346,F,Joel Bartlett,qbaldwin,$c6DVdVe7S,qbaldwin@vt.edu,Black or African American,,BIT,Korea,Sophomore
+347,F,Grace Morton,ithomas,$6Uz!A6jz1,ithomas@vt.edu,Black or African American,,Mechanical Engineering,Somalia,Junior
+348,M,Nicholas Parks,jenniferklein,+bKcAomV49,jenniferklein@vt.edu,Asian,,Philosophy,Burkina Faso,Sophomore
+349,O,Christopher Zimmerman,laurajones,hV9*#nMf%0,laurajones@vt.edu,Black or African American,,Mechanical Engineering,Greenland,Sophomore
+350,F,Robert Ortiz,hmartinez,_3F^)AZDAu,hmartinez@vt.edu,American Indian or Alaska Native,,Medicinal Chemistry,Iceland,Junior
+351,M,Danielle Bailey,benjaminerickson,(87L8qOweO,benjaminerickson@vt.edu,Black or African American,,Creative Writing,Zambia,Junior
+352,F,Jessica Ramirez,scollins,qdZ9mAB^S(,scollins@vt.edu,Asian,,Finance,Slovenia,Senior
+353,O,Carl Meza,romerodeanna,da0FhY@_$g,romerodeanna@vt.edu,White,,Environmental Resources,Philippines,Junior
+354,O,Jennifer Mason,perezkristen,&CpEVdIkb5,perezkristen@vt.edu,American Indian or Alaska Native,,Statistics,Syrian Arab Republic,Freshman
+355,M,Tina Lopez,jimmynelson,#v&!#Wvg4r,jimmynelson@vt.edu,Black or African American,,MSE,Venezuela,Sophomore
+356,F,Sarah Roberts,jody77,8M+SISm8*W,jody77@vt.edu,White,,Graphic Design,Mozambique,Sophomore
+357,F,Anthony Boyd,wflores,#R2QZsi_(e,wflores@vt.edu,Native Hawaiian or Other Pacific Islander,,Electrical Engineering,Pitcairn Islands,Freshman
+358,M,Kimberly Holland,cgross,x46WoXoo%J,cgross@vt.edu,Hispanic or Latino,,Sociology,Malta,Senior
+359,F,Ashley Torres,walterbell,4j)VbI!n(k,walterbell@vt.edu,Native Hawaiian or Other Pacific Islander,,Meteorology,Ecuador,Freshman
+360,O,David Weber,tammy24,@*y*+1ia3W,tammy24@vt.edu,Asian,,Classical Studies,United States Virgin Islands,Freshman
+361,M,Justin Chambers,alancurry,3JSB(Ki2$7,alancurry@vt.edu,American Indian or Alaska Native,,Nutrition and Dietetics,Christmas Island,Freshman
+362,O,Lauren Garcia,hartmandennis,S*0Nz79XR@,hartmandennis@vt.edu,Black or African American,,Exercise & Health Sciences,South Africa,Sophomore
+363,M,Ann Burch,robbinsdavid,j$S%9AObB%,robbinsdavid@vt.edu,Black or African American,,Mechanical Engineering,Japan,Freshman
+364,O,Sean Weeks,maciasthomas,jMWPaPIn@7,maciasthomas@vt.edu,Native Hawaiian or Other Pacific Islander,,Computer Science,Isle of Man,Sophomore
+365,O,Donna Jones,millerashley,iihDY8Llu_,millerashley@vt.edu,Black or African American,,International Studies,Georgia,Junior
+366,F,Katie Bartlett,benjaminmaddox,mO6XyFzmL(,benjaminmaddox@vt.edu,Native Hawaiian or Other Pacific Islander,,Sports Media and Analytics,Pitcairn Islands,Senior
+367,F,Tara Tran,barrybernard,(9EgOpp6*J,barrybernard@vt.edu,Asian,,Aerospace Engineering,Afghanistan,Sophomore
+368,O,Justin Livingston,scott60,_b4eAq#Cq5,scott60@vt.edu,Asian,,Agricultural Sciences,Australia,Sophomore
+369,M,Brian Jennings,bakerkevin,o_D4fGKufJ,bakerkevin@vt.edu,White,,Financial Planning,Bahamas,Senior
+370,F,Jody Johnson,paul88,0Z20Mbrbk!,paul88@vt.edu,White,,Graphic Design,Puerto Rico,Sophomore
+371,M,Amanda Williams,jamesdaniels,+*RijgNs3y,jamesdaniels@vt.edu,Hispanic or Latino,,Plant Science,Honduras,Sophomore
+372,O,Matthew Brown,wallseric,auTt1n!Y#4,wallseric@vt.edu,Asian,,MSE,Central African Republic,Sophomore
+373,O,Daniel Newton,paul28,p%d2mI@t&H,paul28@vt.edu,Hispanic or Latino,,German,Estonia,Senior
+374,F,Jessica Klein,lindsayperry,iVDdjo7D%5,lindsayperry@vt.edu,American Indian or Alaska Native,,MSE,Armenia,Senior
+375,M,Anthony Mcclure III,paulanderson,+mMaPvIWy0,paulanderson@vt.edu,Asian,,Electrical Engineering,Mexico,Senior
+376,M,Patrick Lopez,emejia,OWwn1Cx52_,emejia@vt.edu,Asian,,History,Malaysia,Sophomore
+377,F,Jonathan Tanner,david73,3xWZ%oy1$8,david73@vt.edu,Native Hawaiian or Other Pacific Islander,,German,Saint Vincent and the Grenadines,Sophomore
+378,F,Nicholas Turner,qyoder,IXAZM4Bm$(,qyoder@vt.edu,Hispanic or Latino,,Creative Writing,Chad,Freshman
+379,O,Jessica Newman,ariasmary,*+F2TqeCr_,ariasmary@vt.edu,White,,Nanoscience,Tokelau,Senior
+380,F,Crystal Gallegos,danielle50,*8aHc4Bpdq,danielle50@vt.edu,American Indian or Alaska Native,,Mining Engineering,Aruba,Sophomore
+381,O,Kaitlyn Kidd,hamiltonlisa,$0Bo^KJdmp,hamiltonlisa@vt.edu,White,,Medicinal Chemistry,Estonia,Sophomore
+382,O,Cheryl Ayala,hunter82,)*0A@_4i&z,hunter82@vt.edu,White,,Art History,Namibia,Junior
+383,M,Barry Ellison,jacquelineirwin,#^67OtLyy6,jacquelineirwin@vt.edu,American Indian or Alaska Native,,Exercise & Health Sciences,British Virgin Islands,Senior
+384,M,Logan Johnson,pam83,d_5KYSxj(e,pam83@vt.edu,American Indian or Alaska Native,,Financial Planning,Peru,Senior
+385,M,Jeremy Cochran,joneslynn,&5EpmPkU%k,joneslynn@vt.edu,Hispanic or Latino,,Nutrition and Dietetics,Iran,Junior
+386,O,Erin Ross,sarahwhitehead,!8_0kx+oUo,sarahwhitehead@vt.edu,Hispanic or Latino,,Interior Design,Saint Martin,Sophomore
+387,F,Stephanie Gonzales,karinathompson,94_94Boyva,karinathompson@vt.edu,Native Hawaiian or Other Pacific Islander,,Nutrition and Dietetics,Ghana,Sophomore
+388,M,Keith Patel,eatonandrew,hq4$RoIA)i,eatonandrew@vt.edu,Black or African American,,Creative Writing,Senegal,Sophomore
+389,F,Samuel Jordan Jr.,tnelson,q1&WJeHv&N,tnelson@vt.edu,American Indian or Alaska Native,,Forestry,Bosnia and Herzegovina,Senior
+390,M,Michelle Young,george67,W7(P(pO($7,george67@vt.edu,Asian,,Ocean Engineering,Kiribati,Junior
+391,F,Lindsey Anderson,kelsey35,o*k%01CcV(,kelsey35@vt.edu,Hispanic or Latino,,Religion and Culture,Togo,Junior
+392,F,Donald Jennings,urussell,v+cl1NeICz,urussell@vt.edu,Hispanic or Latino,,International Public Policy,Western Sahara,Freshman
+393,M,Kaitlyn Melton,jenniferclark,kF1DgYnpS%,jenniferclark@vt.edu,American Indian or Alaska Native,,Criminology,Kenya,Junior
+394,O,Cheryl Bailey,fdunn,T$4CIOdEil,fdunn@vt.edu,Hispanic or Latino,,Public Health,Botswana,Junior
+395,F,Daniel Paul,jonathan46,&3Y4Cc@*oB,jonathan46@vt.edu,Asian,,Environmental Resources,Mauritius,Junior
+396,F,Vickie Brady,alyssawilliams,&J2LiVxtd8,alyssawilliams@vt.edu,Black or African American,,Accounting,Samoa,Senior
+397,O,Jamie Hawkins,washingtonshelia,Cza!5wYe0#,washingtonshelia@vt.edu,American Indian or Alaska Native,,Finance,Dominican Republic,Sophomore
+398,M,Patty Mclean,petersonstephanie,@8^2VHu2W1,petersonstephanie@vt.edu,American Indian or Alaska Native,,NSFA,Korea,Freshman
+399,M,Matthew Carter,stephanie31,0fk9N_A5n(,stephanie31@vt.edu,Asian,,Geography,Belgium,Sophomore
+400,O,Louis Jimenez,whitekelly,t&h5nEnQQq,whitekelly@vt.edu,American Indian or Alaska Native,,CTE,Belgium,Senior
+401,M,Brandy Jackson,mmurillo,@k2BqtDNmo,mmurillo@vt.edu,Black or African American,,Agricultural Sciences,Saint Vincent and the Grenadines,Freshman
+402,F,Sherri Reyes,amyfitzgerald,!PJu8aGOm8,amyfitzgerald@vt.edu,White,,Medicinal Chemistry,El Salvador,Senior
+403,M,Brendan Carlson,jenniferkim,$9)ykUlbQ2,jenniferkim@vt.edu,Hispanic or Latino,,Microbiology,Dominica,Senior
+404,O,Ellen Martinez,obrienlori,#qrn60XGe0,obrienlori@vt.edu,Asian,,German,India,Freshman
+405,O,Jessica Francis,petersonbrianna,8FpXyiQ2*1,petersonbrianna@vt.edu,Black or African American,,Financial Planning,Colombia,Freshman
+406,M,Logan Mayer,timothycarr,xwPHwVpr*9,timothycarr@vt.edu,White,,Statistics,Bulgaria,Freshman
+407,F,Alyssa Smith,nelsonalejandro,w_(9DglVNa,nelsonalejandro@vt.edu,American Indian or Alaska Native,,Management,Algeria,Freshman
+408,M,Lisa Bender,sonya99,Qbm4XuOr!s,sonya99@vt.edu,Native Hawaiian or Other Pacific Islander,,Marketing Management,Chad,Junior
+409,M,Catherine Jones,mcintyrevalerie,_2HBwxvkG1,mcintyrevalerie@vt.edu,Native Hawaiian or Other Pacific Islander,,Chemical Engineering,Kazakhstan,Sophomore
+410,O,Terry Anderson,kentjason,y(i6sJpPye,kentjason@vt.edu,Native Hawaiian or Other Pacific Islander,,Communication,Anguilla,Freshman
+411,F,Shannon Adkins,stephanie16,$gpEj8dgw8,stephanie16@vt.edu,Native Hawaiian or Other Pacific Islander,,Crop and Soil Sciences,Mozambique,Senior
+412,F,Mark Evans,twarren,Mt7AY2k!h),twarren@vt.edu,Native Hawaiian or Other Pacific Islander,,Wildlife Conservation,British Virgin Islands,Senior
+413,F,Bryce Stone,pperry,*nTA9Uo*J@,pperry@vt.edu,Native Hawaiian or Other Pacific Islander,,Polymer Chemistry,Switzerland,Senior
+414,O,Dylan Adams,carlsonsara,(Y4XIlkB(^,carlsonsara@vt.edu,Native Hawaiian or Other Pacific Islander,,Religion and Culture,United Arab Emirates,Senior
+415,O,David Rodriguez,madisoncameron,GRy8c6bm3+,madisoncameron@vt.edu,Native Hawaiian or Other Pacific Islander,,Psychology,Wallis and Futuna,Junior
+416,F,James Stewart,yharper,hD!0O@gvgs,yharper@vt.edu,Native Hawaiian or Other Pacific Islander,,Polymer Chemistry,Ecuador,Freshman
+417,M,Roy King,robinsonashley,*4qH6FEfL1,robinsonashley@vt.edu,Asian,,Elementary Education (PK-6),Netherlands Antilles,Freshman
+418,O,Kimberly Mcgee,jharper,%m74P9LhiZ,jharper@vt.edu,American Indian or Alaska Native,,Industrial Design,Swaziland,Senior
+419,M,Kathleen Johnson,david20,_UYOQFVY3k,david20@vt.edu,Hispanic or Latino,,Technical Writing,Lebanon,Freshman
+420,F,Kenneth Greene,robertgordon,L+7UMJOxhR,robertgordon@vt.edu,Hispanic or Latino,,Mining Engineering,China,Senior
+421,O,Aaron Johnson,hbartlett,*Dr1ZX3zj#,hbartlett@vt.edu,Asian,,Finance and Real Estate,Chile,Senior
+422,O,Jesse Williams,jasondecker,zOFU7PJgS^,jasondecker@vt.edu,Black or African American,,Creative Writing,Bolivia,Freshman
+423,F,Cody Andrade,thompsonapril,Y9(9YhnsI1,thompsonapril@vt.edu,White,,Graphic Design,Christmas Island,Senior
+424,O,Thomas Allen,johnsanders,4%TmR9fQ&1,johnsanders@vt.edu,White,,CMDA,Latvia,Freshman
+425,M,Crystal Green,holly86,Q)7N88Hu+0,holly86@vt.edu,Hispanic or Latino,,Interior Design,Uzbekistan,Junior
+426,O,Timothy Nielsen,beasleycourtney,(3*65hRn(M,beasleycourtney@vt.edu,Native Hawaiian or Other Pacific Islander,,Agricultural Sciences,Turkmenistan,Junior
+427,M,Kimberly Cruz,hernandezmiguel,^8T9BbYvFg,hernandezmiguel@vt.edu,White,,Finance,Nigeria,Senior
+428,F,Jane Paul,farrelltrevor,@%3cAu9nIL,farrelltrevor@vt.edu,Hispanic or Latino,,Cybersecurity,Kyrgyz Republic,Sophomore
+429,F,Yvonne Martin,ericsilva,@r6xLYr3)#,ericsilva@vt.edu,American Indian or Alaska Native,,Cybersecurity,Uganda,Junior
+430,F,Jennifer Bray,bclark,!7ehQT52wt,bclark@vt.edu,American Indian or Alaska Native,,Fish Conservation,Grenada,Freshman
+431,M,Scott English,kayla24,FRJ3nYPk@8,kayla24@vt.edu,Native Hawaiian or Other Pacific Islander,,Interior Design,Jordan,Junior
+432,O,John Howard,lgarza,&!7bLSFxrW,lgarza@vt.edu,Hispanic or Latino,,Biological Sciences,Bulgaria,Sophomore
+433,F,Leslie Johnson,urasmussen,VTY0jLHm6%,urasmussen@vt.edu,Hispanic or Latino,,Geography,Mayotte,Sophomore
+434,O,Brianna Murray,zcuevas,q%yq4LAd(J,zcuevas@vt.edu,Black or African American,,Geography,French Guiana,Junior
+435,M,Bruce Rodriguez,danielhoward,^MPz7Oce^j,danielhoward@vt.edu,Asian,,Spanish,Croatia,Junior
+436,O,Travis Dennis,garzalori,UcPc6GSn!K,garzalori@vt.edu,Asian,,Entrepreneurship,Mauritania,Sophomore
+437,F,William Smith,burgessalfred,V+9AA)eE*A,burgessalfred@vt.edu,Asian,,Human Development,Sweden,Sophomore
+438,F,Christian Jordan,brent15,5pO62iOVT&,brent15@vt.edu,American Indian or Alaska Native,,Mining Engineering,Lithuania,Freshman
+439,F,Olivia Gomez,kellerdarlene,hvgj4^OS+%,kellerdarlene@vt.edu,White,,Russian,Colombia,Senior
+440,F,Lisa Jones,ghenry,9xe63HMwZ^,ghenry@vt.edu,Hispanic or Latino,,Building Construction,Panama,Sophomore
+441,M,Kimberly Ramirez,jesus88,6m4c5ZhG!O,jesus88@vt.edu,American Indian or Alaska Native,,FST,Costa Rica,Sophomore
+442,F,Wesley Gibbs,kmyers,#RvLB*wnc3,kmyers@vt.edu,Black or African American,,Human Development,Libyan Arab Jamahiriya,Senior
+443,O,Joseph Murray,jessicahuff,mP3_DDrLN$,jessicahuff@vt.edu,American Indian or Alaska Native,,Spanish,Saint Helena,Junior
+444,M,Jonathan Dominguez,jfreeman,Sh38RpUT^k,jfreeman@vt.edu,White,,Creative Technologies,Estonia,Senior
+445,O,Ashley Smith,martin41,t_3ubG$lQ^,martin41@vt.edu,Asian,,Marketing Management,Falkland Islands (Malvinas),Freshman
+446,F,Janet Fisher,raymond07,$sQ2hNuUL4,raymond07@vt.edu,Native Hawaiian or Other Pacific Islander,,Communication,Kiribati,Junior
+447,F,Brandon Miller,richard00,e+K%6NsLI0,richard00@vt.edu,Asian,,Music,Dominican Republic,Sophomore
+448,O,Holly Kline,robert63,*3NGHdcGq@,robert63@vt.edu,Native Hawaiian or Other Pacific Islander,,Building Construction,Mauritania,Senior
+449,O,Katherine Benton,ibishop,#ef9yDBkKq,ibishop@vt.edu,Hispanic or Latino,,Art History,Venezuela,Senior
+450,M,William Fowler,edwardsmelissa,ySwC#6fUW^,edwardsmelissa@vt.edu,American Indian or Alaska Native,,Mining Engineering,Honduras,Freshman
+451,O,Erin Brown,tiffany97,_6WolO$KJt,tiffany97@vt.edu,American Indian or Alaska Native,,Business (undecided),Slovakia (Slovak Republic),Sophomore
+452,M,Peter Munoz,sarah72,N7fNFhcp+c,sarah72@vt.edu,Asian,,Creative Technologies,Namibia,Junior
+453,O,Karen Valenzuela,david32,#f+2XZMf8#,david32@vt.edu,American Indian or Alaska Native,,Construction Engineering,Algeria,Junior
+454,O,Adrienne Warren,melissataylor,w7&&4Yb9hG,melissataylor@vt.edu,American Indian or Alaska Native,,Property Management,Western Sahara,Senior
+455,M,Terry Stevens,jimmy80,&r37Yky2y5,jimmy80@vt.edu,Black or African American,,Animal and Poultry Sciences,Myanmar,Sophomore
+456,M,Derek Whitehead,nyang,7kYyKzlD%n,nyang@vt.edu,Native Hawaiian or Other Pacific Islander,,Finance,Saint Lucia,Senior
+457,M,Donna Arroyo,becky92,)^GA0VSkM$,becky92@vt.edu,White,,Experimental Neuroscience,Moldova,Freshman
+458,F,Daniel Smith,lisa60,@$c4H6Ej7n,lisa60@vt.edu,Black or African American,,Interior Design,Antigua and Barbuda,Freshman
+459,M,Aaron Smith,ariasgloria,+ry6GdX%(v,ariasgloria@vt.edu,Hispanic or Latino,,Meteorology,Nicaragua,Sophomore
+460,M,Lindsay Robinson PhD,georgecarson,&@@HlN4m(3,georgecarson@vt.edu,Black or African American,,General Engineering,Cameroon,Sophomore
+461,O,Jacob Shelton,meganavery,sI8fE&bhb),meganavery@vt.edu,Native Hawaiian or Other Pacific Islander,,Accounting,Poland,Senior
+462,M,Jim Jones,dianajones,%P5YArdjvg,dianajones@vt.edu,White,,Accounting,Seychelles,Senior
+463,M,Thomas Thornton,yhouse,(6iXv)SkX9,yhouse@vt.edu,Native Hawaiian or Other Pacific Islander,,PPE,Thailand,Senior
+464,M,Amanda Mendez,archerelizabeth,g7@FUpdQ%0,archerelizabeth@vt.edu,White,,Public Health,Bulgaria,Freshman
+465,M,Mr. Roger Curry,thomas67,Xc6RzdyR@Y,thomas67@vt.edu,Hispanic or Latino,,Ocean Engineering,Lesotho,Freshman
+466,O,Joshua Daniel,bonnienovak,+3(+3KuoeB,bonnienovak@vt.edu,American Indian or Alaska Native,,Aerospace Engineering,India,Freshman
+467,F,Ralph Jacobs,moorewayne,%3G(siyuGF,moorewayne@vt.edu,Native Hawaiian or Other Pacific Islander,,Nanomedicine,Cape Verde,Freshman
+468,F,Christy Bennett,haleyosborn,@fJOw+Fj14,haleyosborn@vt.edu,Hispanic or Latino,,Consumer Studies,Papua New Guinea,Junior
+469,F,Haley Hardy MD,ashley83,S99RHxZE+c,ashley83@vt.edu,Asian,,Computer Science,Zambia,Senior
+470,O,Jillian Horne,clarklinda,Z2UwIZ3o)9,clarklinda@vt.edu,American Indian or Alaska Native,,Human Development,Turkmenistan,Sophomore
+471,F,Joshua White,fbanks,nW&bL4b8(7,fbanks@vt.edu,American Indian or Alaska Native,,Crop and Soil Sciences,Togo,Junior
+472,F,Audrey Williams,jared34,%JQuow&Fe7,jared34@vt.edu,Native Hawaiian or Other Pacific Islander,,Russian,Montenegro,Freshman
+473,O,Troy Clark,angela77,GyiN7Es1(%,angela77@vt.edu,American Indian or Alaska Native,,Consumer Studies,Estonia,Senior
+474,O,Kimberly Jenkins,nathan15,^@Ch7V7r5L,nathan15@vt.edu,Native Hawaiian or Other Pacific Islander,,Finance and Real Estate,Seychelles,Junior
+475,M,Shannon Smith,hardymanuel,ur@8T2elYM,hardymanuel@vt.edu,Asian,,Classical Studies,Malta,Junior
+476,F,Earl Page,tiffanymartinez,_F4BR6rc#+,tiffanymartinez@vt.edu,American Indian or Alaska Native,,Creative Technologies,Kuwait,Sophomore
+477,O,Nancy Love,mercedes38,@QQ#ZIYa43,mercedes38@vt.edu,White,,Chemical Engineering,Christmas Island,Freshman
+478,F,Kimberly Rios,moransteven,+y#4TYcaqa,moransteven@vt.edu,Hispanic or Latino,,Physics,Lao People's Democratic Republic,Freshman
+479,M,Charles Morrison,rdavis,4sSf$oj+)*,rdavis@vt.edu,American Indian or Alaska Native,,Fashion,Thailand,Sophomore
+480,O,Kelly Newman,daniellecantu,78!2GXx2hA,daniellecantu@vt.edu,Asian,,Ecological Restoration,Kyrgyz Republic,Freshman
+481,O,Michelle Harrell,brent08,!jtnXI+uy9,brent08@vt.edu,White,,General Engineering,Japan,Freshman
+482,M,Monique Edwards,floresdonald,t!KQ0TOz8!,floresdonald@vt.edu,Black or African American,,Biological Sciences,Turkmenistan,Sophomore
+483,M,Latasha Knapp,elamb,1VCnWPPd_J,elamb@vt.edu,Native Hawaiian or Other Pacific Islander,,Marketing Management,Canada,Senior
+484,M,Rachel Patton,donald84,h!27PKKz%g,donald84@vt.edu,American Indian or Alaska Native,,Fish Conservation,French Guiana,Sophomore
+485,F,Marissa Young MD,terrance28,%5)7VDZiQv,terrance28@vt.edu,White,,Creative Writing,Indonesia,Freshman
+486,F,Joshua Foley,brandonestrada,_8WF%DBeit,brandonestrada@vt.edu,American Indian or Alaska Native,,Systems Biology,Slovakia (Slovak Republic),Senior
+487,O,Vincent Roth,angelalopez,s)(KS6Mlu*,angelalopez@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Policy,Lesotho,Senior
+488,O,Samantha Anderson,samantha44,!6NQiixOZn,samantha44@vt.edu,Asian,,Finance and Real Estate,Haiti,Freshman
+489,F,Sarah Hall,swheeler,((*3)EPb6P,swheeler@vt.edu,Hispanic or Latino,,Landscape Architecture,Myanmar,Sophomore
+490,O,Nicole Gamble,patricia73,pPk4GNrB($,patricia73@vt.edu,Black or African American,,Environmental Data Science,Cote d'Ivoire,Junior
+491,M,Glen Villarreal,stephanie30,w7OQgfMS+*,stephanie30@vt.edu,White,,University Studies,Faroe Islands,Freshman
+492,F,Kimberly Parsons,milleramanda,!U1+0FjzdD,milleramanda@vt.edu,Black or African American,,Fish Conservation,Martinique,Senior
+493,M,Kevin Page,ngriffin,@!60VEiU(a,ngriffin@vt.edu,Hispanic or Latino,,BIT,Mali,Freshman
+494,M,Dylan Miller,smithcrystal,)C0SQBv6HM,smithcrystal@vt.edu,Hispanic or Latino,,Dairy Science,Mayotte,Freshman
+495,F,Claudia Peters,charles63,y^L5)XUuyD,charles63@vt.edu,White,,Environmental Horticulture,Paraguay,Sophomore
+496,M,Erin Rodriguez,millerchad,%5a_RmtirL,millerchad@vt.edu,Black or African American,,Cybersecurity,Japan,Sophomore
+497,M,Megan Espinoza,peter08,yNXB2SlB%1,peter08@vt.edu,White,,Physics,Bahamas,Senior
+498,O,Christine Fisher,weberlynn,x@0GMxwgK+,weberlynn@vt.edu,American Indian or Alaska Native,,Nanoscience,Guinea,Junior
+499,F,Lacey Coleman,bruce20,$+Mo2RRfS@,bruce20@vt.edu,Asian,,Studio Art,Taiwan,Sophomore
+500,M,Erik Martinez,jacquelinerodriguez,)vUl4E8k#&,jacquelinerodriguez@vt.edu,Native Hawaiian or Other Pacific Islander,,Criminology,United States of America,Senior
+501,O,Michael Hubbard,newtonmark,AZ1!K4Qs&2,newtonmark@vt.edu,White,,International Relations,Nepal,Senior
+502,F,Erica Snyder,murraydavid,q)d_3jZg(K,murraydavid@vt.edu,Asian,,Dairy Science,Venezuela,Freshman
+503,O,Alejandro Estrada,laurendavis,f62_(@Vl*a,laurendavis@vt.edu,White,,Biochemistry,Cyprus,Freshman
+504,F,Raymond Brooks,jason93,zhNb9FJm#0,jason93@vt.edu,Black or African American,,Philosophy,Kyrgyz Republic,Junior
+505,O,Diamond Brown,wsummers,41oG7tzI%z,wsummers@vt.edu,Asian,,Explore Science (undecided),Gambia,Junior
+506,O,Michael Rose,georgemcconnell,BB1W5Ayf)j,georgemcconnell@vt.edu,Black or African American,,Wildlife Conservation,New Caledonia,Junior
+507,O,Amy Page,scott65,^@IU$GJb82,scott65@vt.edu,American Indian or Alaska Native,,Spanish,Costa Rica,Junior
+508,O,Andrew Jones,mary03,&i9^GlMa3H,mary03@vt.edu,Native Hawaiian or Other Pacific Islander,,Systems Biology,Northern Mariana Islands,Junior
+509,O,Michael Murphy,mccoyjennifer,klX4R3PiH%,mccoyjennifer@vt.edu,Black or African American,,Sports Media and Analytics,Pitcairn Islands,Senior
+510,O,Derrick Scott,drosales,)2LNhSOfay,drosales@vt.edu,Native Hawaiian or Other Pacific Islander,,Communication,Sierra Leone,Junior
+511,M,George Cook,thompsonashley,03q3FrJA(4,thompsonashley@vt.edu,Black or African American,,Ecological Restoration,Equatorial Guinea,Sophomore
+512,O,Phillip Avery,dkeller,$9O@edl+K4,dkeller@vt.edu,Native Hawaiian or Other Pacific Islander,,Criminology,Hong Kong,Junior
+513,M,Bob Hayes,lopezgeorge,$#5CmQyWTA,lopezgeorge@vt.edu,Hispanic or Latino,,Hospitality,Albania,Sophomore
+514,O,Seth Hamilton,vasquezcarmen,b94YFjvg+H,vasquezcarmen@vt.edu,Asian,,Public Relations,Croatia,Junior
+515,M,Bradley Rich,fishertimothy,amZPq7@G@4,fishertimothy@vt.edu,Native Hawaiian or Other Pacific Islander,,Finance,Saint Pierre and Miquelon,Senior
+516,M,James Fowler,parrishisabel,vdwQ5IHBM!,parrishisabel@vt.edu,Native Hawaiian or Other Pacific Islander,,Political Science,Hong Kong,Freshman
+517,O,Erin Taylor,pwells,+P7Y8YJiP^,pwells@vt.edu,Native Hawaiian or Other Pacific Islander,,English,Ethiopia,Junior
+518,M,Andrew Cruz,sherrijones,1g0yRvMc&f,sherrijones@vt.edu,Hispanic or Latino,,Chemical Engineering,Montserrat,Junior
+519,F,Phillip Castro,emarshall,5zcWgegT&8,emarshall@vt.edu,Native Hawaiian or Other Pacific Islander,,Marketing Management,Jordan,Senior
+520,F,Amy Smith,mortiz,&K2l*VXslr,mortiz@vt.edu,Native Hawaiian or Other Pacific Islander,,Industrial Design,Austria,Sophomore
+521,F,Tristan Bradford,bpowers,p(kjXkyL!5,bpowers@vt.edu,Asian,,Consumer Studies,Portugal,Junior
+522,O,Barbara Morse,danielle87,mni3DbGM*n,danielle87@vt.edu,White,,Ocean Engineering,Tonga,Senior
+523,F,Erin Garcia,bryan91,!eg4*Jq8n8,bryan91@vt.edu,Native Hawaiian or Other Pacific Islander,,Elementary Education (PK-6),Gambia,Senior
+524,F,William Clark,patrickwhitney,_Esz7zJd%p,patrickwhitney@vt.edu,Native Hawaiian or Other Pacific Islander,,NSFA,Bosnia and Herzegovina,Senior
+525,M,Sabrina Dunn,bwilliamson,*HN&5jAd+N,bwilliamson@vt.edu,Asian,,Aerospace Engineering,Pitcairn Islands,Sophomore
+526,F,Christopher Dixon,danny91,4R2r!Qjj#0,danny91@vt.edu,Native Hawaiian or Other Pacific Islander,,Graphic Design,Argentina,Sophomore
+527,F,David Villanueva,rbradshaw,+d&iYHtfm6,rbradshaw@vt.edu,Black or African American,,Ocean Engineering,Cayman Islands,Senior
+528,O,Jennifer Watson,fdonovan,$LAUfAvH8w,fdonovan@vt.edu,American Indian or Alaska Native,,Microbiology,Maldives,Senior
+529,F,Lauren Gomez,idennis,lf3CZDc+D$,idennis@vt.edu,Asian,,Ocean Engineering,Falkland Islands (Malvinas),Senior
+530,M,Isaac Lindsey,gregory30,(*Ua2vHbgO,gregory30@vt.edu,Native Hawaiian or Other Pacific Islander,,Building Construction,Saudi Arabia,Freshman
+531,M,Mary Hudson,mary35,VTC3NTfC9),mary35@vt.edu,American Indian or Alaska Native,,Packaging,Seychelles,Junior
+532,F,Kelsey Rogers,imitchell,#0BGs)z#xm,imitchell@vt.edu,Black or African American,,Multimedia Journalism,Montserrat,Junior
+533,O,Anthony Kennedy,georgecummings,*1A7Mn#!Mb,georgecummings@vt.edu,American Indian or Alaska Native,,Theatre Arts,Slovenia,Junior
+534,M,Nicole Rojas,marksdavid,(QC6Kqwk8x,marksdavid@vt.edu,Asian,,Mathematics Education,Saudi Arabia,Sophomore
+535,F,Virginia Estrada,noah73,NvwKinzN(7,noah73@vt.edu,Hispanic or Latino,,Electrical Engineering,Aruba,Senior
+536,M,Ashley Davis,karilee,r9nejE0t(D,karilee@vt.edu,Hispanic or Latino,,Cinema,Gabon,Junior
+537,M,Jasmine Chambers,singhjennifer,d*JG9Vc7Ub,singhjennifer@vt.edu,Asian,,Music,Botswana,Sophomore
+538,O,Julie Mccall,rogersnicole,(!d9P(cFle,rogersnicole@vt.edu,Asian,,History,Niger,Junior
+539,F,Emily Burgess,mbarrett,_k#a2NiQw!,mbarrett@vt.edu,Asian,,Animal and Poultry Sciences,Honduras,Junior
+540,O,Donna Schultz,ryanwebb,7@5*Fanw3^,ryanwebb@vt.edu,Asian,,Environmental Science,Hong Kong,Senior
+541,F,Angel Hayes,barbarabarnes,cQ9rHJxm^U,barbarabarnes@vt.edu,Black or African American,,Nutrition and Dietetics,Mexico,Sophomore
+542,F,Melissa Alvarez,luisparker,%8eO*ySmZT,luisparker@vt.edu,American Indian or Alaska Native,,Nanoscience,Guinea,Senior
+543,O,Debra Graham,zperez,5_R$5JjlUK,zperez@vt.edu,Hispanic or Latino,,Agricultural Sciences,Mozambique,Sophomore
+544,F,Jaime Williams,lopezjorge,)xNu3TqYY&,lopezjorge@vt.edu,Hispanic or Latino,,Nutrition and Dietetics,Suriname,Freshman
+545,M,Jennifer Huang,michael65,A01_7mYec),michael65@vt.edu,American Indian or Alaska Native,,Nanoscience,Albania,Sophomore
+546,M,Brenda Wiley,barrmichael,5Q$E_y50^y,barrmichael@vt.edu,Black or African American,,Early Childhood Development,Australia,Junior
+547,O,Ashley Brewer,amoore,_i9BMMw1+a,amoore@vt.edu,Hispanic or Latino,,Sociology,Zimbabwe,Junior
+548,M,Nicholas Melton,jeffery63,@GHk6c(xl8,jeffery63@vt.edu,American Indian or Alaska Native,,Ecological Restoration,Egypt,Sophomore
+549,O,Angelica Johns,jlawrence,%0fgpTlD73,jlawrence@vt.edu,American Indian or Alaska Native,,Marketing Management,Saint Barthelemy,Freshman
+550,M,Melissa Collins,torresralph,h+7CViTkZS,torresralph@vt.edu,White,,CMDA,Cape Verde,Freshman
+551,O,Ashley Williamson,rebeccagreen,!+5UjXFgf1,rebeccagreen@vt.edu,Hispanic or Latino,,Agribusiness,Argentina,Freshman
+552,O,Jennifer Stevens,joshuathomas,6fOo0Qtx&2,joshuathomas@vt.edu,White,,Finance,Pakistan,Sophomore
+553,M,Sandra Calderon,rallen,_2$YjSqM!k,rallen@vt.edu,Native Hawaiian or Other Pacific Islander,,Chemical Engineering,Barbados,Sophomore
+554,M,Jennifer Garcia,smithanthony,!qc1SD_cJ*,smithanthony@vt.edu,Asian,,Microbiology,Malaysia,Junior
+555,O,Chelsea Meadows,david58,MTUjqs_5*0,david58@vt.edu,Hispanic or Latino,,Geosciences,New Caledonia,Freshman
+556,M,Linda Blake,losborne,)N*6Z3BpnX,losborne@vt.edu,Black or African American,,French,Croatia,Senior
+557,O,Nicholas Rodriguez,taylorrobert,7ldU&!om+d,taylorrobert@vt.edu,Asian,,Nutrition and Dietetics,China,Sophomore
+558,O,Richard Torres MD,kimberlycarrillo,V4YvPcc4@m,kimberlycarrillo@vt.edu,Black or African American,,Sports Media and Analytics,Papua New Guinea,Senior
+559,O,Willie Lowe,stephen95,!jq29Jlyi9,stephen95@vt.edu,Hispanic or Latino,,NSFA,Poland,Junior
+560,F,Jonathan Adkins,usalas,TfF@6ywI^8,usalas@vt.edu,Asian,,ACIS,India,Senior
+561,M,Catherine Mayer,kimmcdonald,(AQ$RXVl#6,kimmcdonald@vt.edu,American Indian or Alaska Native,,Economics,United States Virgin Islands,Freshman
+562,O,Christopher Little,juandaniels,)35iFrw^E5,juandaniels@vt.edu,Asian,,Elementary Education (PK-6),Tanzania,Senior
+563,F,Brian Robinson,erogers,GfdM7He1%6,erogers@vt.edu,Black or African American,,Psychology,Israel,Freshman
+564,O,Donna Martin,justinlivingston,t_k7Y1wEJz,justinlivingston@vt.edu,Asian,,PPE,Bangladesh,Sophomore
+565,F,Brandon Zhang,tcline,_5UgGMGV)_,tcline@vt.edu,White,,Fashion,Pitcairn Islands,Freshman
+566,O,Christopher Allen,gloriakim,X3Hi35*n!5,gloriakim@vt.edu,American Indian or Alaska Native,,Property Management,Jamaica,Junior
+567,F,Richard Robinson,qzhang,$!cJGoqRa8,qzhang@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Data Science,Bosnia and Herzegovina,Sophomore
+568,M,Michelle Giles,arichardson,0z^2IDHwi*,arichardson@vt.edu,Asian,,Biochemistry,Korea,Senior
+569,F,Angela Lewis,slynn,!8SHLs4EhG,slynn@vt.edu,American Indian or Alaska Native,,Psychology,Guinea,Sophomore
+570,F,Mr. Brian White,wilsonamber,+eJ7VE%kC5,wilsonamber@vt.edu,White,,Medicinal Chemistry,Georgia,Sophomore
+571,M,Christopher Harris,aguilardorothy,#2m7GaMa@r,aguilardorothy@vt.edu,Native Hawaiian or Other Pacific Islander,,English,Malaysia,Junior
+572,O,Rachael Burton,bross,mu2QF_MKZ!,bross@vt.edu,American Indian or Alaska Native,,International Public Policy,Rwanda,Senior
+573,M,Anne Ray,woodardamber,C)AWv0Fnbd,woodardamber@vt.edu,Native Hawaiian or Other Pacific Islander,,Meteorology,Ireland,Senior
+574,F,Lisa Bass,ycopeland,t64Bjuhs+),ycopeland@vt.edu,Black or African American,,Animal and Poultry Sciences,Macao,Sophomore
+575,M,Christopher Mitchell,jamessmith,_qmwfYPeg8,jamessmith@vt.edu,Hispanic or Latino,,Explore Science (undecided),Denmark,Freshman
+576,F,Sandra Kim,raymondbrian,#c5KFpDjk3,raymondbrian@vt.edu,Asian,,CMDA,Tanzania,Senior
+577,M,Joshua Stewart,sphillips,L&&(8GZsmb,sphillips@vt.edu,Black or African American,,Mechanical Engineering,United States of America,Junior
+578,M,Christina Bowman,lisa54,gc9yn)Wo&^,lisa54@vt.edu,Asian,,English Education,Brazil,Junior
+579,F,Mary Evans,joshua38,qt3AatvP3+,joshua38@vt.edu,Black or African American,,Creative Technologies,Ireland,Senior
+580,O,Jonathan Williams,qwade,td22RESc6(,qwade@vt.edu,Native Hawaiian or Other Pacific Islander,,Mechanical Engineering,Eritrea,Sophomore
+581,O,Troy Weber,kathleensimon,*4^qSOe*NQ,kathleensimon@vt.edu,American Indian or Alaska Native,,Fish Conservation,Heard Island and McDonald Islands,Freshman
+582,O,Hailey Hayes,jeffreybradley,S%6@$vTl0M,jeffreybradley@vt.edu,American Indian or Alaska Native,,Plant Science,Liberia,Freshman
+583,M,Robin Quinn,campbellcharles,9H5^V3aI(4,campbellcharles@vt.edu,Asian,,Nanoscience,Zambia,Sophomore
+584,M,Tammy Jennings,maldonadowilliam,WF8(T9wn^R,maldonadowilliam@vt.edu,Asian,,Crop and Soil Sciences,Mayotte,Junior
+585,F,John Moore,ejackson,rR2RVRl(#^,ejackson@vt.edu,White,,Entrepreneurship,Cyprus,Sophomore
+586,F,Willie Thompson,hannahtrujillo,!2qDf^r#T2,hannahtrujillo@vt.edu,Black or African American,,Russian,Comoros,Junior
+587,O,Jared Hubbard,eugene62,w%fx4Ckt#S,eugene62@vt.edu,Hispanic or Latino,,PPE,Kuwait,Freshman
+588,F,Michele Wong,dianaroberts,#*CmnN@+J3,dianaroberts@vt.edu,White,,CMDA,Equatorial Guinea,Freshman
+589,M,Hector Deleon,elizabethanthony,pa3Wui^k$k,elizabethanthony@vt.edu,Black or African American,,Interior Design,Northern Mariana Islands,Senior
+590,O,Katelyn Scott,stephencraig,fd0Tf4!*^h,stephencraig@vt.edu,Asian,,Elementary Education (PK-6),Lao People's Democratic Republic,Junior
+591,O,Paul Frank,bryanchase,0UWLIqEI%j,bryanchase@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Horticulture,Haiti,Sophomore
+592,M,Brooke Barton,lisa54,WF1BCVZw_t,lisa54@vt.edu,Asian,,Ocean Engineering,San Marino,Sophomore
+593,O,Curtis Sanchez,ryoung,+4)CRnt0QG,ryoung@vt.edu,Black or African American,,Exercise & Health Sciences,Bosnia and Herzegovina,Freshman
+594,M,Justin Rivas,deanbenjamin,(4OWKltvjr,deanbenjamin@vt.edu,White,,Business (undecided),Cape Verde,Junior
+595,M,Alejandro Freeman,zacharygarcia,&Y8uZbjk*g,zacharygarcia@vt.edu,Black or African American,,BIT,Tanzania,Freshman
+596,F,Katherine Schwartz,dbrown,(QRPa3t794,dbrown@vt.edu,Black or African American,,Studio Art,Tanzania,Sophomore
+597,O,Justin White,suarezdaniel,%okthSzqE5,suarezdaniel@vt.edu,Asian,,Financial Planning,Marshall Islands,Senior
+598,F,Jack Myers,lori72,#d08A&s+_k,lori72@vt.edu,Native Hawaiian or Other Pacific Islander,,Real Estate,Thailand,Junior
+599,F,Jeffery Walton,joshua67,3I+0R6Xs5P,joshua67@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Resources,Somalia,Senior
+600,F,Kenneth Obrien,avaughn,pt5K9qU#(S,avaughn@vt.edu,Native Hawaiian or Other Pacific Islander,,Criminology,Congo,Sophomore
+601,F,James Lewis,ambercastro,u8!IGhjl^X,ambercastro@vt.edu,Hispanic or Latino,,Economics,Isle of Man,Senior
+602,O,Mr. Terry Butler,raymond13,9#o2C#rjy$,raymond13@vt.edu,White,,Business (undecided),Iceland,Senior
+603,O,Michael Dixon,jillobrien,&9OQCtFQWl,jillobrien@vt.edu,American Indian or Alaska Native,,Art History,Venezuela,Senior
+604,F,Gloria Parker,reyesdaniel,hfNqlYtj@9,reyesdaniel@vt.edu,American Indian or Alaska Native,,Religion and Culture,Ethiopia,Junior
+605,M,Sherry Miller,qperez,cf8(GpQbT^,qperez@vt.edu,Hispanic or Latino,,MSE,Guyana,Junior
+606,F,Sean Farrell,eric06,@VKBPmbVm4,eric06@vt.edu,American Indian or Alaska Native,,BIT,Macao,Junior
+607,F,Victoria Walker,uhill,%0CEL7&Dk7,uhill@vt.edu,Native Hawaiian or Other Pacific Islander,,Landscape Architecture,Kazakhstan,Freshman
+608,F,Jennifer Flores,gabrielsmith,!eMlyPEO(3,gabrielsmith@vt.edu,White,,Plant Science,Guadeloupe,Junior
+609,F,Jennifer Cameron,aprice,0&L9AfLyy@,aprice@vt.edu,American Indian or Alaska Native,,Environmental Resources,Lao People's Democratic Republic,Sophomore
+610,M,Anthony Orr,danielle06,Z7ruRv+9$8,danielle06@vt.edu,White,,Environmental Policy,Rwanda,Senior
+611,M,Adam Shah,jamie60,3H7DM1ff6_,jamie60@vt.edu,American Indian or Alaska Native,,Management,Kuwait,Freshman
+612,F,Dakota Mendez,foxcorey,xJKXWQpx!8,foxcorey@vt.edu,Asian,,Aerospace Engineering,French Southern Territories,Sophomore
+613,F,Stacey Thomas,kelly06,@@18FaZe!l,kelly06@vt.edu,American Indian or Alaska Native,,Biochemistry,France,Junior
+614,M,Lauren Finley,veronicadean,GV0vSsrb%k,veronicadean@vt.edu,White,,Geography,Gambia,Senior
+615,M,Megan Smith,bellrodney,p(4bQ6pz5J,bellrodney@vt.edu,White,,Smart and Sustainable Cities,North Macedonia,Sophomore
+616,F,Hannah Patrick,bhansen,(6UlrOm731,bhansen@vt.edu,White,,Biochemistry,United Arab Emirates,Senior
+617,O,Mr. Joel Jennings,alexandrabaker,8BVNdico&2,alexandrabaker@vt.edu,American Indian or Alaska Native,,Philosophy,Bulgaria,Junior
+618,M,Cheryl May,patrickyu,%*)4XCu2Jm,patrickyu@vt.edu,American Indian or Alaska Native,,PPE,Zimbabwe,Junior
+619,O,Robert Gutierrez,rayjames,^9UGUujE#I,rayjames@vt.edu,Native Hawaiian or Other Pacific Islander,,Construction Engineering,Kuwait,Senior
+620,F,Ann Ford,ikeith,*6YUMwmtR9,ikeith@vt.edu,White,,Environmental Conservation,El Salvador,Sophomore
+621,M,Shirley Peterson,john60,%8ex_IBi6r,john60@vt.edu,American Indian or Alaska Native,,Advertising,Jamaica,Senior
+622,F,Mary Wallace,gutierrezjohn,Z2QCUl%!)4,gutierrezjohn@vt.edu,Asian,,Electrical Engineering,Niue,Sophomore
+623,F,Tiffany Daniels,pprice,)HS1+Uxz!f,pprice@vt.edu,White,,Geosciences,Cayman Islands,Sophomore
+624,F,Natalie Hicks,cdelgado,&2SeUx4l37,cdelgado@vt.edu,White,,Architecture,Papua New Guinea,Junior
+625,M,Jessica Murphy,ashleycole,Yw0DMeiH^$,ashleycole@vt.edu,Hispanic or Latino,,Forestry,Dominican Republic,Freshman
+626,M,Emily Francis,deleontammy,*J4wTi+t_L,deleontammy@vt.edu,Black or African American,,Political Science,Turks and Caicos Islands,Junior
+627,F,Brianna Vang,johnstonlisa,U5ALFb&g)m,johnstonlisa@vt.edu,American Indian or Alaska Native,,Financial Planning,Somalia,Junior
+628,M,Jorge Holmes,valeriebarnes,o3nGqewn&t,valeriebarnes@vt.edu,Hispanic or Latino,,FST,Andorra,Freshman
+629,O,Brittany Collins,hriley,_DLT#RE1r6,hriley@vt.edu,Native Hawaiian or Other Pacific Islander,,Music,Korea,Sophomore
+630,M,Deborah Garrett,ravila,CC35ZRiwH),ravila@vt.edu,Black or African American,,Criminology,Gabon,Sophomore
+631,M,Angela Fisher,robertcollins,F!2*Z0s37Y,robertcollins@vt.edu,Black or African American,,Geography,Saint Martin,Freshman
+632,F,Jessica Holden,thomaswright,&1XvtZ8h$d,thomaswright@vt.edu,White,,Public Relations,Tajikistan,Junior
+633,M,Mark Reynolds,robertbarber,&F77YVloZc,robertbarber@vt.edu,White,,Landscape Architecture,Pitcairn Islands,Senior
+634,F,Linda Ortiz DDS,mariamiller,k!9vv3CgNV,mariamiller@vt.edu,Asian,,Communication,French Southern Territories,Junior
+635,O,Robert Morris,pdavis,#TZ6Lak6xi,pdavis@vt.edu,White,,Advertising,Uruguay,Junior
+636,F,Adam Pearson,conleystephanie,+2zbVFbsF3,conleystephanie@vt.edu,White,,Geosciences,Guatemala,Junior
+637,F,Marcus Davis,michelle85,+g5P@xTx*y,michelle85@vt.edu,White,,Creative Writing,Bolivia,Sophomore
+638,F,Stephanie Matthews,sweeneyjeffrey,+G9gQ9&i90,sweeneyjeffrey@vt.edu,Hispanic or Latino,,Public Relations,Canada,Freshman
+639,O,Jennifer Nelson,smithmargaret,8cqtfY(D+k,smithmargaret@vt.edu,Black or African American,,German,Luxembourg,Sophomore
+640,F,Kristen Ryan,gsmith,Ext5HZd7z),gsmith@vt.edu,White,,Russian,Myanmar,Senior
+641,M,Juan Perez,mcbridebryan,E1k0TZIw%k,mcbridebryan@vt.edu,Hispanic or Latino,,Environmental Policy,Gambia,Senior
+642,M,Jeremy Sullivan,carolyndixon,K8)Z9N^q^2,carolyndixon@vt.edu,Hispanic or Latino,,Marketing Management,Saint Barthelemy,Senior
+643,M,Melinda George,evanhernandez,3%7qlLnqUz,evanhernandez@vt.edu,Hispanic or Latino,,Civil Engineering,Marshall Islands,Freshman
+644,O,Terri Robinson MD,dhamilton,D9TJvgJX$s,dhamilton@vt.edu,White,,Dairy Science,Micronesia,Junior
+645,M,Eric Roy,james35,R5$&Unt@*!,james35@vt.edu,White,,Accounting,Saint Pierre and Miquelon,Senior
+646,M,Andrew Rogers,twest,Y_5AjBG6mb,twest@vt.edu,American Indian or Alaska Native,,Geography,Saint Helena,Senior
+647,F,Victor Houston,theresa97,@1H34FDnQj,theresa97@vt.edu,Hispanic or Latino,,Consumer Studies,Aruba,Sophomore
+648,O,Shelby Lucas,jonathan02,8#M9LLhW)Q,jonathan02@vt.edu,Black or African American,,Hospitality,Austria,Senior
+649,M,Christopher Roy,charles35,!p3DUVKf13,charles35@vt.edu,Asian,,Cinema,British Virgin Islands,Freshman
+650,O,Marc Medina,urivera,#Qf9zVTbCg,urivera@vt.edu,Asian,,Chemical Engineering,Singapore,Freshman
+651,O,Diana Carlson,kimberlyrosario,!S9Dk5WkVE,kimberlyrosario@vt.edu,Black or African American,,CMDA,Belgium,Sophomore
+652,M,John Lee,sking,Bf4HZj_8)%,sking@vt.edu,Hispanic or Latino,,Ocean Engineering,Mauritius,Freshman
+653,M,Veronica Kelly,jasminefritz,!A0sWxCio@,jasminefritz@vt.edu,Native Hawaiian or Other Pacific Islander,,Cybersecurity,Myanmar,Junior
+654,M,Elizabeth Howard,denise13,1$9QfN6j6*,denise13@vt.edu,Asian,,Environmental Science,Bahrain,Junior
+655,M,Lisa Hansen,jonesalyssa,B0SY)^dp+x,jonesalyssa@vt.edu,American Indian or Alaska Native,,Finance,Uzbekistan,Senior
+656,M,Kristina Raymond,randolphmarisa,$5R_6tBPeL,randolphmarisa@vt.edu,Asian,,Nanoscience,Niue,Sophomore
+657,O,Ashley Hanson,jonessharon,xnK2fHAQF),jonessharon@vt.edu,American Indian or Alaska Native,,Industrial Design,Grenada,Freshman
+658,O,Jordan Williams,jennifergomez,(EH4ID!hu2,jennifergomez@vt.edu,American Indian or Alaska Native,,Dairy Science,Sri Lanka,Senior
+659,F,Mckenzie Ho,yreese,VY5tsS8ok$,yreese@vt.edu,American Indian or Alaska Native,,International Studies,Botswana,Freshman
+660,O,Steven Smith,sara99,5C0pLh$M@P,sara99@vt.edu,Native Hawaiian or Other Pacific Islander,,Agribusiness,Antarctica (the territory South of 60 deg S),Freshman
+661,M,Vanessa Berg,masonrachel,3o0vNaWN%9,masonrachel@vt.edu,Hispanic or Latino,,Arabic,Norfolk Island,Senior
+662,O,Dale Mcneil,omartin,*0rwEH8gS1,omartin@vt.edu,Native Hawaiian or Other Pacific Islander,,Exercise & Health Sciences,Nauru,Sophomore
+663,O,Brenda Keith,shannon54,+5ug!yKrZk,shannon54@vt.edu,Black or African American,,Wildlife Conservation,Belarus,Freshman
+664,O,Elizabeth Vazquez,lsimmons,2aTF8Jn2)^,lsimmons@vt.edu,Hispanic or Latino,,Theatre Arts,Iceland,Senior
+665,M,Cindy Haas,eddiebrewer,HS6@#VTg!z,eddiebrewer@vt.edu,Asian,,Electrical Engineering,Portugal,Freshman
+666,F,Michael Wong,elizabeth79,TK%L&5ZnZR,elizabeth79@vt.edu,Black or African American,,Experimental Neuroscience,Papua New Guinea,Freshman
+667,O,Sara Allen,pfranklin,!^m3TrHqfD,pfranklin@vt.edu,Native Hawaiian or Other Pacific Islander,,Explore Science (undecided),Turkey,Freshman
+668,F,Heather Miller,kerry45,n4JgNc!4_2,kerry45@vt.edu,American Indian or Alaska Native,,Philosophy,Liberia,Sophomore
+669,M,Jill Lane,jillnelson,xb&3e8Bu)C,jillnelson@vt.edu,Hispanic or Latino,,Marketing Management,Nicaragua,Freshman
+670,F,Nancy Wood,susanduncan,!oeq5WUpv9,susanduncan@vt.edu,American Indian or Alaska Native,,Nanoscience,Mexico,Senior
+671,F,Ariel Coleman,deanconnie,_4a)rMsz%^,deanconnie@vt.edu,Black or African American,,Theatre Arts,Tokelau,Senior
+672,F,Travis Carter,jasminemeyers,gYEv*5aiT$,jasminemeyers@vt.edu,Black or African American,,Agricultural Sciences,Martinique,Junior
+673,F,David Solomon,shawn22,j^2Oep(^!$,shawn22@vt.edu,Asian,,Electrical Engineering,Niger,Junior
+674,F,Connor Wilson,benjamin61,jx3Y3vDU+C,benjamin61@vt.edu,White,,Creative Technologies,Iraq,Senior
+675,O,Victoria Gonzalez,ryan90,ZkT6Bpxq#&,ryan90@vt.edu,Hispanic or Latino,,International Relations,Sri Lanka,Freshman
+676,M,Jessica Smith,youngjames,K3#dUpq6%+,youngjames@vt.edu,Hispanic or Latino,,Landscape Architecture,Svalbard & Jan Mayen Islands,Sophomore
+677,M,James Espinoza,imathis,2yUK7F3yX),imathis@vt.edu,White,,Early Childhood Development,Moldova,Junior
+678,F,Michelle Wong,mary64,mE%0mI_u6o,mary64@vt.edu,White,,Spanish,Mauritius,Sophomore
+679,O,Krista Green,charles78,#KhX8YclmY,charles78@vt.edu,White,,Biochemistry,Slovenia,Freshman
+680,M,William Bird,ggonzales,)y20W49zks,ggonzales@vt.edu,Black or African American,,Meteorology,Gambia,Junior
+681,O,Lori Reed,mpatel,DFe3JgJd+V,mpatel@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Data Science,Iceland,Junior
+682,F,Vanessa Burns,mgregory,GM9WnhNt)l,mgregory@vt.edu,Black or African American,,Philosophy,Sao Tome and Principe,Freshman
+683,F,Keith Pearson,qwatts,Q@1Hg@kkly,qwatts@vt.edu,Native Hawaiian or Other Pacific Islander,,Finance and Real Estate,Sierra Leone,Junior
+684,M,Nathan Harrison,odavila,(11DDhj+2E,odavila@vt.edu,Asian,,Entrepreneurship,Anguilla,Senior
+685,M,Adam Kim,yburns,^7*TJM&pc_,yburns@vt.edu,Asian,,Sports Media and Analytics,Monaco,Senior
+686,O,Warren Garza,ruizhannah,*(M0D1keql,ruizhannah@vt.edu,Black or African American,,Public Relations,Cameroon,Freshman
+687,F,Christopher Johnson,christopher20,_Dz2zxJg%$,christopher20@vt.edu,Asian,,Industrial Design,Kazakhstan,Sophomore
+688,M,Mrs. Stephanie Marshall MD,jaclyn32,5%x(J2Vy95,jaclyn32@vt.edu,Black or African American,,History,Liberia,Sophomore
+689,O,Latasha Ramirez,dbennett,Nsp2XG^t_c,dbennett@vt.edu,Black or African American,,Statistics,India,Senior
+690,M,Deborah Duncan,wfitzgerald,Dq3RY9wd*%,wfitzgerald@vt.edu,American Indian or Alaska Native,,History,Ecuador,Sophomore
+691,O,Jordan Anderson,davilarhonda,9+7GV82nmZ,davilarhonda@vt.edu,White,,Marketing Management,Bolivia,Freshman
+692,F,Kyle Johnson,taylordavid,4%CZF*Ze)f,taylordavid@vt.edu,Black or African American,,Smart and Sustainable Cities,Italy,Senior
+693,O,Rebecca Love,chaneyashley,@F)Q*6Bd(k,chaneyashley@vt.edu,Hispanic or Latino,,Industrial Design,Madagascar,Senior
+694,M,Patrick Clarke MD,nfisher,!#8Yi90M4f,nfisher@vt.edu,Black or African American,,Communication,Nicaragua,Senior
+695,O,Kelsey Galvan,carolyn74,r6_I*j4w&A,carolyn74@vt.edu,American Indian or Alaska Native,,BSE,United States of America,Freshman
+696,O,Kenneth Ellison,paul99,Y!o6KJ%kX4,paul99@vt.edu,Native Hawaiian or Other Pacific Islander,,ISE,New Zealand,Junior
+697,F,Robert Thomas,tamaraschmidt,GJ%YnNBi@1,tamaraschmidt@vt.edu,American Indian or Alaska Native,,Sports Media and Analytics,Brazil,Freshman
+698,O,Ashley Roberts,richardschneider,@MO9n4KO*6,richardschneider@vt.edu,American Indian or Alaska Native,,Computer Engineering,Timor-Leste,Junior
+699,M,Thomas Thomas,gregory72,&+0HOgrWpO,gregory72@vt.edu,Asian,,Meteorology,Uzbekistan,Freshman
+700,F,Laurie Parker,annmorgan,z!LVNrT5Zv,annmorgan@vt.edu,Hispanic or Latino,,Public Relations,Uganda,Junior
+701,F,Susan Henry,natalie52,)5ERTFIEqQ,natalie52@vt.edu,Asian,,Psychology,Bulgaria,Senior
+702,F,Ashley Booth,crich,^ktAYgmrT7,crich@vt.edu,Hispanic or Latino,,Clinical Neuroscience,Mali,Freshman
+703,O,Anne Farmer,phughes,(W(YDBDjK7,phughes@vt.edu,White,,Finance and Real Estate,Yemen,Senior
+704,O,Amber Faulkner,suzanne84,Mh5#Gjvu$i,suzanne84@vt.edu,Hispanic or Latino,,Technical Writing,Philippines,Senior
+705,F,Matthew Wright,alexander28,)5hCYxfgh7,alexander28@vt.edu,American Indian or Alaska Native,,International Studies,Jamaica,Senior
+706,F,Molly Stanton,williamsjennifer,Bl4#Tbp1Y_,williamsjennifer@vt.edu,Hispanic or Latino,,Mining Engineering,Rwanda,Junior
+707,M,Jonathan Wright,teresa32,U)u3JO9vBq,teresa32@vt.edu,American Indian or Alaska Native,,Cybersecurity,Portugal,Sophomore
+708,O,Vincent Gomez,johnnyrichardson,B^3S2UGeN&,johnnyrichardson@vt.edu,Hispanic or Latino,,Systems Biology,Lebanon,Senior
+709,O,Sheena Weber,braylaura,M2qN9QSm&a,braylaura@vt.edu,White,,ACIS,Saint Pierre and Miquelon,Freshman
+710,F,Dawn Maxwell,gregory27,3(!C6HGax2,gregory27@vt.edu,Hispanic or Latino,,Biochemistry,Saint Kitts and Nevis,Junior
+711,O,Denise Frank,stewartstephen,bebGvUzh#9,stewartstephen@vt.edu,Black or African American,,Theatre Arts,Madagascar,Senior
+712,O,Justin Holder,tylermedina,@uM8^U_u%!,tylermedina@vt.edu,Native Hawaiian or Other Pacific Islander,,Mining Engineering,Mexico,Sophomore
+713,F,Caroline Meyer,rodrigueznathan,k5+8cHgS3S,rodrigueznathan@vt.edu,American Indian or Alaska Native,,Smart and Sustainable Cities,Kazakhstan,Senior
+714,M,Michael Stephens,kaylakelley,q&3Qlg2*D7,kaylakelley@vt.edu,Black or African American,,Early Childhood Development,Liberia,Sophomore
+715,F,James Russell,danielspence,YlD4Ir3#@6,danielspence@vt.edu,Native Hawaiian or Other Pacific Islander,,Exercise & Health Sciences,Sao Tome and Principe,Sophomore
+716,F,Kelly Hall,qsummers,&$FQ0R(f!6,qsummers@vt.edu,Asian,,Finance,Tajikistan,Junior
+717,M,Gary Greene,anthonymurphy,^vXR9KIrJB,anthonymurphy@vt.edu,Native Hawaiian or Other Pacific Islander,,ISE,Vanuatu,Freshman
+718,M,Marcus Murillo,sanfordkarl,03d)Qafy_K,sanfordkarl@vt.edu,American Indian or Alaska Native,,Environmental Resources,Colombia,Sophomore
+719,O,Bethany Roberts,smithscott,wW*G1J2mlV,smithscott@vt.edu,Asian,,Computer Science,Christmas Island,Sophomore
+720,F,Jody Chapman,larryrobinson,_7sLKMwN(#,larryrobinson@vt.edu,White,,Geography,Brunei Darussalam,Senior
+721,M,Eugene Carpenter,michaelhenry,4O_!8EVrR7,michaelhenry@vt.edu,American Indian or Alaska Native,,Computer Engineering,Trinidad and Tobago,Senior
+722,F,Megan Hendricks,jennifer36,8eM3Xwwu_X,jennifer36@vt.edu,American Indian or Alaska Native,,English,Yemen,Sophomore
+723,F,Adam Mendez,john05,%#0XhaA!6H,john05@vt.edu,White,,Theatre Arts,Bermuda,Sophomore
+724,O,Karen Todd,nmartin,!V9Y+3ZoTU,nmartin@vt.edu,White,,Microbiology,Bolivia,Freshman
+725,O,Jeff Cook,waltercody,#xJm0XvcE4,waltercody@vt.edu,Native Hawaiian or Other Pacific Islander,,Mechanical Engineering,Mongolia,Senior
+726,O,James Diaz,mortoncharles,wYuMK4EsJ#,mortoncharles@vt.edu,American Indian or Alaska Native,,Chemistry,South Africa,Sophomore
+727,O,Joshua Burns,shall,!$8RFc%OHh,shall@vt.edu,Native Hawaiian or Other Pacific Islander,,Mathematics Education,Saint Pierre and Miquelon,Junior
+728,O,Alex Hernandez,zpatel,I((4n1UocQ,zpatel@vt.edu,American Indian or Alaska Native,,Chemistry,Rwanda,Freshman
+729,M,Matthew Burton,xhorton,dHS+5zBn4I,xhorton@vt.edu,Hispanic or Latino,,Mathematics,Ireland,Senior
+730,M,Susan Davis,todd12,_9Fg^G#s^3,todd12@vt.edu,White,,Economics,Thailand,Junior
+731,M,Cody Leonard,newtonkaren,*pPLFJyIK6,newtonkaren@vt.edu,American Indian or Alaska Native,,Mechanical Engineering,Croatia,Senior
+732,F,Tyler Lane,pamelahanson,pJa2!N4nY+,pamelahanson@vt.edu,Asian,,Theatre Arts,Papua New Guinea,Freshman
+733,F,Jay Rodriguez,rlewis,*dD7PmwJU6,rlewis@vt.edu,Asian,,Creative Writing,Mongolia,Freshman
+734,F,William Williams,manuel69,@3_#Wip1mg,manuel69@vt.edu,Hispanic or Latino,,Fashion,Bulgaria,Junior
+735,O,Tyler Thomas,christina97,h12%3NutQ^,christina97@vt.edu,Asian,,Public Health,Bhutan,Freshman
+736,O,Gina Moore,michealjohnson,pj^0FD8hp8,michealjohnson@vt.edu,White,,Sociology,Dominica,Junior
+737,F,Harry Owen,cynthiapope,5m8BcllQ0!,cynthiapope@vt.edu,Asian,,Meteorology,Netherlands Antilles,Senior
+738,O,James Allen,emily65,+u4kHvr_T0,emily65@vt.edu,White,,Chemistry,Peru,Freshman
+739,M,Harold Wong,victoria65,3cR2vIm+W^,victoria65@vt.edu,Black or African American,,Geosciences,Guyana,Freshman
+740,M,Christina Klein,robert78,$#95XGivMZ,robert78@vt.edu,Asian,,Creative Writing,Tanzania,Senior
+741,O,Kristine Stephens,bwilliams,$@e4tVVrb_,bwilliams@vt.edu,American Indian or Alaska Native,,Mining Engineering,Guatemala,Freshman
+742,M,Jessica Shaw,john00,Nbf8Pnja+v,john00@vt.edu,Asian,,Civil Engineering,Nauru,Freshman
+743,O,Daniel Schwartz,judytaylor,L3Z)3)rJ!8,judytaylor@vt.edu,Native Hawaiian or Other Pacific Islander,,Philosophy,Anguilla,Freshman
+744,M,Ethan Perkins,newmanjason,CGdU1Ekr#3,newmanjason@vt.edu,Native Hawaiian or Other Pacific Islander,,NSFA,Colombia,Senior
+745,F,Charlotte Phillips,melissaclay,yxk*4Vvrd@,melissaclay@vt.edu,White,,Environmental Conservation,Japan,Freshman
+746,O,John Hill,dmyers,_b9g4Xm)u1,dmyers@vt.edu,Asian,,Ocean Engineering,Mauritania,Sophomore
+747,M,Robert Pruitt,davidfields,j!O99rByZR,davidfields@vt.edu,White,,Accounting,Singapore,Junior
+748,F,Anthony Sanford,melaniejones,j9dn@dMM_G,melaniejones@vt.edu,White,,Religion and Culture,Hungary,Freshman
+749,F,Theresa James,camachoelizabeth,l@l7mE$xOl,camachoelizabeth@vt.edu,Asian,,Mechanical Engineering,Martinique,Sophomore
+750,F,Tracey Tran,whernandez,6ZywkjJs)u,whernandez@vt.edu,White,,Advertising,Faroe Islands,Freshman
+751,M,Matthew Adams,lee52,!sLorvz*G5,lee52@vt.edu,American Indian or Alaska Native,,Public Relations,Djibouti,Freshman
+752,O,Kelsey Cruz,brandonlong,%ivJ3OJyj+,brandonlong@vt.edu,American Indian or Alaska Native,,Biomedical Engineering,Germany,Freshman
+753,F,Hannah Michael,megan96,kVQa)jCC!6,megan96@vt.edu,Asian,,Wildlife Conservation,Guinea,Junior
+754,M,Sean Hudson,millerdavid,^t#8RLb8DP,millerdavid@vt.edu,Native Hawaiian or Other Pacific Islander,,Building Construction,South Georgia and the South Sandwich Islands,Senior
+755,O,Terri Hernandez,xgutierrez,)uLjc^r54+,xgutierrez@vt.edu,American Indian or Alaska Native,,Plant Science,Netherlands Antilles,Junior
+756,M,Rachel Mcknight,david43,p(9%iPZwA_,david43@vt.edu,Black or African American,,French,Cyprus,Sophomore
+757,F,Amanda Lloyd,cruzsharon,sp80TXQg$@,cruzsharon@vt.edu,White,,Wildlife Conservation,Norfolk Island,Sophomore
+758,M,Justin Marsh,ronaldmedina,2_O7QNivdJ,ronaldmedina@vt.edu,Black or African American,,ISE,American Samoa,Junior
+759,O,Olivia Manning,vjefferson,+OH0BX%mZ7,vjefferson@vt.edu,American Indian or Alaska Native,,Systems Biology,Equatorial Guinea,Sophomore
+760,F,Adam Young,brian61,Eq8OZzlEp+,brian61@vt.edu,Hispanic or Latino,,Dairy Science,Guam,Sophomore
+761,M,Grace Gallegos,andrea77,9QvIYj!h@i,andrea77@vt.edu,Hispanic or Latino,,Nanomedicine,Lithuania,Senior
+762,O,Sabrina Russell,morgan81,u03!qkWx&O,morgan81@vt.edu,Native Hawaiian or Other Pacific Islander,,Ecological Restoration,Mexico,Junior
+763,O,Kristin Hansen,aford,$42WUibQ%G,aford@vt.edu,American Indian or Alaska Native,,French,Gabon,Senior
+764,F,Joy Stewart,james83,!XJxVH+q72,james83@vt.edu,Hispanic or Latino,,Biological Sciences,Russian Federation,Sophomore
+765,F,Nancy Hines,elizabeth23,@q3T9o5vHL,elizabeth23@vt.edu,Asian,,Sports Media and Analytics,Bahamas,Freshman
+766,O,Frances Terrell,tinaware,3K6XDa+L@(,tinaware@vt.edu,Black or African American,,BIT,El Salvador,Junior
+767,O,Michael Cohen,randy24,J@IHttXl@8,randy24@vt.edu,American Indian or Alaska Native,,Cybersecurity,Martinique,Senior
+768,M,Daniel Logan,diazheather,r2@4F(cHR1,diazheather@vt.edu,American Indian or Alaska Native,,Classical Studies,Bermuda,Sophomore
+769,M,Sandra Smith,sheila12,FuZNS8Gu)f,sheila12@vt.edu,American Indian or Alaska Native,,Statistics,China,Freshman
+770,M,James Ramirez,davidgrant,#qUwAf%L*3,davidgrant@vt.edu,Native Hawaiian or Other Pacific Islander,,Technical Writing,Finland,Junior
+771,F,Renee Aguilar,brianjones,b+w9vQuv9u,brianjones@vt.edu,Native Hawaiian or Other Pacific Islander,,English,Dominican Republic,Junior
+772,O,Samuel Barker,coxdaniel,)jzMswab3H,coxdaniel@vt.edu,Native Hawaiian or Other Pacific Islander,,Music,Barbados,Sophomore
+773,O,Felicia Morris,emilywilliams,!5LTe*BOFp,emilywilliams@vt.edu,American Indian or Alaska Native,,CTE,Austria,Senior
+774,F,Kathleen Higgins,ddavis,St#2X6ajwj,ddavis@vt.edu,Native Hawaiian or Other Pacific Islander,,Cinema,Yemen,Sophomore
+775,O,Phillip Mccoy,joshuagreen,bG!4YSKzlV,joshuagreen@vt.edu,White,,Crop and Soil Sciences,Korea,Junior
+776,F,Kimberly Cobb,andrewreid,%!nI0hdq!7,andrewreid@vt.edu,White,,International Studies,Paraguay,Freshman
+777,O,Danny Evans,kerriross,$$FQNHmvi3,kerriross@vt.edu,American Indian or Alaska Native,,Computer Engineering,Lebanon,Freshman
+778,F,Patricia Williams,curtis03,*K2Z*2e26V,curtis03@vt.edu,American Indian or Alaska Native,,Agricultural Sciences,Falkland Islands (Malvinas),Junior
+779,M,Jacob Lambert,fraziervanessa,51K(3aCP@n,fraziervanessa@vt.edu,White,,Chemical Engineering,France,Senior
+780,M,William Foster,edwardsjoshua,bg0Ef8I%*3,edwardsjoshua@vt.edu,White,,Fashion,Lesotho,Junior
+781,M,Lisa Jimenez,jessica98,^jd7FZqmy^,jessica98@vt.edu,Native Hawaiian or Other Pacific Islander,,Meteorology,Bahrain,Junior
+782,O,Elizabeth White,deanna45,%5A&zK4a(w,deanna45@vt.edu,Black or African American,,Art History,Kyrgyz Republic,Junior
+783,O,Kathleen Moore,murphyjeremy,4X@!@9KdHj,murphyjeremy@vt.edu,Native Hawaiian or Other Pacific Islander,,Public Health,Fiji,Sophomore
+784,M,Nicole Gomez,mgonzalez,loIrhO&b)0,mgonzalez@vt.edu,Black or African American,,International Studies,Sierra Leone,Junior
+785,M,Natalie Schwartz,ajohnston,nTJnQ4dB(3,ajohnston@vt.edu,American Indian or Alaska Native,,Political Science,Qatar,Junior
+786,M,Daniel Clark,brittanydavis,W0(OXhGu!i,brittanydavis@vt.edu,Hispanic or Latino,,Architecture,Puerto Rico,Sophomore
+787,F,Nicole Williams,mgarcia,ysD9mVvj%1,mgarcia@vt.edu,White,,Interior Design,Ghana,Senior
+788,O,Hannah Smith,smithkimberly,0(9Q^deV+y,smithkimberly@vt.edu,Hispanic or Latino,,Entrepreneurship,Liechtenstein,Junior
+789,F,Jimmy Potter,hrichardson,@WPKa2Nh#7,hrichardson@vt.edu,Asian,,Statistics,Samoa,Sophomore
+790,O,Sharon Wang,priley,@6RiBq8ir5,priley@vt.edu,Native Hawaiian or Other Pacific Islander,,ACIS,Saint Lucia,Senior
+791,F,Keith Roth,bryanjackson,of9YDn8qD#,bryanjackson@vt.edu,Asian,,Environmental Horticulture,Liberia,Junior
+792,F,Austin Clark,daviddaniels,@vPN+_^f2k,daviddaniels@vt.edu,American Indian or Alaska Native,,Environmental Horticulture,Senegal,Freshman
+793,M,Debra Hernandez,stevensonmegan,+14RMB(k@D,stevensonmegan@vt.edu,Hispanic or Latino,,Elementary Education (PK-6),Mali,Senior
+794,M,Patricia Bowman,paula82,dQa0tOIe@0,paula82@vt.edu,Asian,,Smart and Sustainable Cities,Georgia,Freshman
+795,M,Melissa Jordan,karen24,n&3Q!YanvY,karen24@vt.edu,Asian,,Chemical Engineering,New Zealand,Junior
+796,M,Bianca Flynn,nicholasanderson,@6Mkc1VR!3,nicholasanderson@vt.edu,Asian,,French,Lao People's Democratic Republic,Senior
+797,F,Patricia Hansen,baileyclayton,4e*4Gmyz@),baileyclayton@vt.edu,Native Hawaiian or Other Pacific Islander,,Mechanical Engineering,Norway,Sophomore
+798,F,Shawn Simon,joe55,8T#UmBg_+p,joe55@vt.edu,White,,Arabic,Panama,Junior
+799,F,Amber Adams,christinabradley,N0$^Wdl$^y,christinabradley@vt.edu,Native Hawaiian or Other Pacific Islander,,Marketing Management,Kenya,Freshman
+800,M,Cassie Mcknight,heather51,)p2teVmpn&,heather51@vt.edu,Native Hawaiian or Other Pacific Islander,,International Studies,Ghana,Freshman
+801,F,Hector Durham,nfoster,SrKm9uQvV^,nfoster@vt.edu,Hispanic or Latino,,Environmental Data Science,San Marino,Junior
+802,M,Derrick Ryan,sjohnson,XHU#w0PpWB,sjohnson@vt.edu,White,,ACIS,San Marino,Senior
+803,F,Sean Jordan,blackmaria,%oLA%l&qS6,blackmaria@vt.edu,American Indian or Alaska Native,,General Engineering,Bahrain,Freshman
+804,O,Christine Reese,strongconnor,%@9tL)q^B3,strongconnor@vt.edu,Asian,,Criminology,Bahamas,Freshman
+805,M,Sharon Jones,youngjeffrey,+bkTyFw%n9,youngjeffrey@vt.edu,American Indian or Alaska Native,,Nanomedicine,Guadeloupe,Freshman
+806,O,Cameron Lynn,jbecker,Hb$7^JBc*t,jbecker@vt.edu,Black or African American,,Biochemistry,Brunei Darussalam,Freshman
+807,M,James Brown,ehuber,(V1DAb1jhY,ehuber@vt.edu,Hispanic or Latino,,Economics,Palau,Sophomore
+808,M,Katrina Cooper PhD,brendannelson,%r2IFuFz@1,brendannelson@vt.edu,White,,Theatre Arts,Monaco,Junior
+809,M,Michael Hernandez,jmiller,A@NW5edouI,jmiller@vt.edu,Hispanic or Latino,,Consumer Studies,Sierra Leone,Junior
+810,O,Alexander Berg MD,cjohnson,WiSrlUK0#5,cjohnson@vt.edu,Hispanic or Latino,,Finance and Real Estate,Bangladesh,Freshman
+811,F,Colton Harris,vegaerin,bb86MhVxd+,vegaerin@vt.edu,Black or African American,,Agricultural Sciences,Tokelau,Sophomore
+812,F,Amanda Barnes,melissa23,#dR51Db7L&,melissa23@vt.edu,Asian,,Marketing Management,Colombia,Sophomore
+813,M,Jennifer Edwards,kristina75,cw*_27DvZ7,kristina75@vt.edu,Asian,,Classical Studies,Timor-Leste,Junior
+814,F,Ronald Walters,jacobvillanueva,$!6wJ*aW^v,jacobvillanueva@vt.edu,American Indian or Alaska Native,,Geography,Togo,Senior
+815,O,Susan Jarvis,emily71,b5Nfiamo(E,emily71@vt.edu,White,,Forestry,Bolivia,Freshman
+816,O,Sabrina Ellis,smithdenise,)+E8!0D$sd,smithdenise@vt.edu,Asian,,Technical Writing,Syrian Arab Republic,Senior
+817,F,Terrance Thompson,lori23,_pzM$jw4q3,lori23@vt.edu,Asian,,Classical Studies,Saudi Arabia,Senior
+818,O,Sue Welch,millerjohn,^XxDO#n7(3,millerjohn@vt.edu,Hispanic or Latino,,Agribusiness,Central African Republic,Senior
+819,O,Ryan Bradford,savannah64,Q%pV8SPg#i,savannah64@vt.edu,Asian,,Microbiology,El Salvador,Senior
+820,M,Isaiah Miles,wilsonsteven,j5OnX&e4@G,wilsonsteven@vt.edu,Black or African American,,Real Estate,Montserrat,Senior
+821,O,Jesus Wilkins,zthompson,^As!S7cp5U,zthompson@vt.edu,White,,Mathematics,Rwanda,Sophomore
+822,F,Daniel Ferguson,fpham,G)Q28zbszN,fpham@vt.edu,White,,Religion and Culture,Burkina Faso,Senior
+823,F,Kyle Shaffer,davisbrenda,^XT5RkT6u$,davisbrenda@vt.edu,Native Hawaiian or Other Pacific Islander,,BSE,Taiwan,Freshman
+824,M,Hailey Young,schaefertimothy,&h01Xo$AfV,schaefertimothy@vt.edu,Hispanic or Latino,,MSE,Nigeria,Junior
+825,M,Eric Gibson,vanessa83,82Xsj4bo@J,vanessa83@vt.edu,American Indian or Alaska Native,,Building Construction,Cayman Islands,Freshman
+826,M,Brittany Warner,zwillis,$rA03Orwwx,zwillis@vt.edu,White,,Nutrition and Dietetics,New Caledonia,Sophomore
+827,M,Jonathan Walton,michellejohnson,U&99QKhxZu,michellejohnson@vt.edu,Hispanic or Latino,,Russian,Micronesia,Junior
+828,O,Elizabeth Washington,carterdiane,+5DD*a%16#,carterdiane@vt.edu,Black or African American,,Meteorology,Equatorial Guinea,Junior
+829,M,Megan Roberts,morrisonchristine,xe0hBo3rc@,morrisonchristine@vt.edu,White,,Real Estate,Madagascar,Freshman
+830,F,Madison Wolf,rebecca11,$SZfEDpuC9,rebecca11@vt.edu,Asian,,Philosophy,Somalia,Freshman
+831,O,Mr. Kevin Anderson Jr.,kristiestewart,_HEowa%P&8,kristiestewart@vt.edu,Hispanic or Latino,,Building Construction,Denmark,Senior
+832,M,Richard Lutz,landrytyler,+n(6S9cJxd,landrytyler@vt.edu,Asian,,Theatre Arts,Colombia,Junior
+833,M,Lisa Riley,anne78,Q6T8BReaR+,anne78@vt.edu,Native Hawaiian or Other Pacific Islander,,French,Togo,Freshman
+834,F,Alicia Mills,usmith,@S6zBLXh^(,usmith@vt.edu,Native Hawaiian or Other Pacific Islander,,Spanish,Burundi,Sophomore
+835,O,Gary Booker,williammartinez,44w(Revv*N,williammartinez@vt.edu,Black or African American,,BIT,Benin,Freshman
+836,M,Alison Rose,adam48,aqC*0S0x@2,adam48@vt.edu,Black or African American,,Economics,Gabon,Junior
+837,F,Michelle Davis,frank79,*qYX()Zra0,frank79@vt.edu,Hispanic or Latino,,Marketing Management,Dominican Republic,Senior
+838,M,Hannah Dickson,shawchristopher,cadw7Dn&g^,shawchristopher@vt.edu,Asian,,CMDA,Korea,Junior
+839,F,Robert Sexton,jacquelinegomez,Wy5XoUqt^2,jacquelinegomez@vt.edu,American Indian or Alaska Native,,Biochemistry,Australia,Junior
+840,M,Daniel Cruz,brent34,g0O*#YIR*s,brent34@vt.edu,Hispanic or Latino,,Wildlife Conservation,Gabon,Senior
+841,O,Amanda Kim,thompsonmichael,w5EKYaOq*A,thompsonmichael@vt.edu,Black or African American,,Explore Science (undecided),Senegal,Senior
+842,O,Brent Brown,nicholas63,SKl6rBsNq$,nicholas63@vt.edu,Hispanic or Latino,,Early Childhood Development,Kuwait,Senior
+843,O,Christy Mcdonald,harrisonsteven,fS!5WbZn!5,harrisonsteven@vt.edu,Hispanic or Latino,,Fish Conservation,Panama,Senior
+844,M,Elizabeth Moore,jsmith,k82l2Hd&+^,jsmith@vt.edu,American Indian or Alaska Native,,Biomedical Engineering,Andorra,Freshman
+845,M,James Cruz,joshuagutierrez,Fw47mQWk**,joshuagutierrez@vt.edu,Hispanic or Latino,,Studio Art,Dominica,Junior
+846,F,Melissa Butler,sherriweber,^4L$Zg$PD0,sherriweber@vt.edu,White,,Clinical Neuroscience,Mayotte,Freshman
+847,F,Abigail Tanner,laura22,_EJ2WWSw2%,laura22@vt.edu,Asian,,Nutrition and Dietetics,Kenya,Freshman
+848,M,Judy Taylor,cbernard,P(3OsrzC^r,cbernard@vt.edu,Black or African American,,MSE,Estonia,Senior
+849,O,Kristin Andrade,jamiemccall,YP^H2Zwk#8,jamiemccall@vt.edu,Black or African American,,Finance and Real Estate,Saint Pierre and Miquelon,Senior
+850,O,Kenneth Williams,davidjose,VT0_KwweX(,davidjose@vt.edu,White,,Building Construction,Sao Tome and Principe,Sophomore
+851,F,James Smith,guzmanrachel,)3M@&+pvi(,guzmanrachel@vt.edu,Hispanic or Latino,,Animal and Poultry Sciences,Togo,Sophomore
+852,O,Patricia Sullivan,mcdowellwilliam,T&0HoPul^),mcdowellwilliam@vt.edu,Black or African American,,Animal and Poultry Sciences,American Samoa,Senior
+853,F,Laura Larsen,michelejackson,@7JY!Q*j5X,michelejackson@vt.edu,Hispanic or Latino,,Agribusiness,Guadeloupe,Junior
+854,M,Meghan Thompson,teresa44,+Z4a0^Qvz),teresa44@vt.edu,American Indian or Alaska Native,,Packaging,Thailand,Junior
+855,F,Zachary Anderson Jr.,brian05,!_04B6zrAM,brian05@vt.edu,White,,Mechanical Engineering,Cook Islands,Junior
+856,O,Jeffrey Hurst,qtaylor,4!Z9CiootL,qtaylor@vt.edu,White,,Environmental Conservation,Belgium,Junior
+857,O,Robin Harris,fharmon,5Q0LD#gR(X,fharmon@vt.edu,Native Hawaiian or Other Pacific Islander,,Environmental Conservation,Spain,Sophomore
+858,M,Michael Edwards,shelbyhicks,c*l1UcBkuG,shelbyhicks@vt.edu,White,,International Public Policy,North Macedonia,Sophomore
+859,F,Veronica Clay,klamb,&0AVJhmBl*,klamb@vt.edu,American Indian or Alaska Native,,PPE,Korea,Freshman
+860,O,Mrs. Tina Vazquez,cobbsandra,f@65HNlEs2,cobbsandra@vt.edu,White,,Sports Media and Analytics,Montserrat,Senior
+861,O,Debbie Snyder,ijames,QCSCS1sof),ijames@vt.edu,Hispanic or Latino,,Architecture,Mongolia,Freshman
+862,F,Karen Davis,paul59,!y3pmVy#11,paul59@vt.edu,Asian,,Environmental Conservation,British Indian Ocean Territory (Chagos Archipelago),Junior
+863,M,Timothy Webb,robertpalmer,)&NoJRZo21,robertpalmer@vt.edu,Hispanic or Latino,,Agribusiness,Italy,Freshman
+864,F,Nicholas Duran,sarahgrant,_!!!1hPfTK,sarahgrant@vt.edu,Black or African American,,Political Science,Timor-Leste,Senior
+865,O,Elizabeth Moore,owenmarie,y89R%E8bN*,owenmarie@vt.edu,Hispanic or Latino,,Systems Biology,Brazil,Freshman
+866,F,James Gonzalez,charles95,s&b9UXyPL5,charles95@vt.edu,Black or African American,,Electrical Engineering,Liechtenstein,Sophomore
+867,M,Pamela Foster,teresa81,Hy&IlZ^Q%8,teresa81@vt.edu,American Indian or Alaska Native,,Economics,Haiti,Freshman
+868,O,Michael Burton,lewisdaniel,+E5Y9)YzE+,lewisdaniel@vt.edu,Asian,,Music,Tuvalu,Sophomore
+869,M,Amanda Garner,brittneymartinez,P&5dOTvgaY,brittneymartinez@vt.edu,Native Hawaiian or Other Pacific Islander,,BSE,Iceland,Sophomore
+870,O,Jason Grimes,lauren64,#HG@lMrb5U,lauren64@vt.edu,Asian,,International Relations,Norway,Senior
+871,O,Michelle Hendrix,robin33,Y^kjg2f*XO,robin33@vt.edu,American Indian or Alaska Native,,Art History,Estonia,Sophomore
+872,O,Kevin Rowe,elizabeth13,v^7Pj#kqQV,elizabeth13@vt.edu,Hispanic or Latino,,Spanish,Singapore,Freshman
+873,O,Diane Pacheco,fgonzalez,z6JK*LPB%o,fgonzalez@vt.edu,American Indian or Alaska Native,,Geosciences,Falkland Islands (Malvinas),Freshman
+874,M,Pam Kennedy,bridgetlogan,!693Y&tTEV,bridgetlogan@vt.edu,Asian,,Microbiology,Nigeria,Junior
+875,F,Diana Wright,hannahbrooks,%Up7dTwQhi,hannahbrooks@vt.edu,American Indian or Alaska Native,,Exercise & Health Sciences,Philippines,Sophomore
+876,M,Lisa Schultz,loridiaz,Q5L#Jt+w!o,loridiaz@vt.edu,Asian,,NSFA,Albania,Sophomore
+877,M,Michael Mcguire,sabrinabradford,$5s4WAHkp2,sabrinabradford@vt.edu,Asian,,General Engineering,United States of America,Junior
+878,O,Heather Mckay,lflores,n#9GnCel)q,lflores@vt.edu,American Indian or Alaska Native,,History,Suriname,Sophomore
+879,O,Julie Payne,sandra00,Y2EFY$nX$m,sandra00@vt.edu,American Indian or Alaska Native,,Systems Biology,Kenya,Sophomore
+880,F,Bethany Williams,yunderwood,!TW!&Ci@C7,yunderwood@vt.edu,Native Hawaiian or Other Pacific Islander,,Chemistry,Cayman Islands,Senior
+881,M,Amanda Cantrell,ifoster,I)CzCaow_1,ifoster@vt.edu,Asian,,Statistics,Colombia,Junior
+882,O,Anthony Ross,clee,$$AsP#t4d9,clee@vt.edu,Native Hawaiian or Other Pacific Islander,,Medicinal Chemistry,Norway,Senior
+883,O,Kimberly Taylor,whitneyrobinson,%tm03#Vu^N,whitneyrobinson@vt.edu,Native Hawaiian or Other Pacific Islander,,Statistics,Colombia,Sophomore
+884,M,Thomas Horn,erinwalker,&5dUUXHv_E,erinwalker@vt.edu,Hispanic or Latino,,Wildlife Conservation,Jordan,Sophomore
+885,F,Courtney Ward,swise,u@R4Q)i%f@,swise@vt.edu,White,,Meteorology,French Southern Territories,Junior
+886,O,Teresa Cochran,debbiemitchell,Zm7sAlKav&,debbiemitchell@vt.edu,White,,Mathematics,Greenland,Sophomore
+887,M,Joseph Rhodes,matthewking,!!40PfnnY$,matthewking@vt.edu,American Indian or Alaska Native,,ISE,Pitcairn Islands,Junior
+888,O,Kristin Watkins,shawgina,b(1wOvUcj_,shawgina@vt.edu,Asian,,Packaging,Myanmar,Freshman
+889,M,Michelle Jordan,clogan,_G5RATdoyv,clogan@vt.edu,Asian,,Agricultural Sciences,Jersey,Junior
+890,M,Matthew Levine,paulingram,BH)x7Kag%),paulingram@vt.edu,White,,Chemical Engineering,Moldova,Senior
+891,M,Roberto May,debradaniels,$m8XNs6(FJ,debradaniels@vt.edu,White,,Aerospace Engineering,Malaysia,Sophomore
+892,O,Michael Norris,christopherthomas,(TxePj#^27,christopherthomas@vt.edu,White,,Advertising,Netherlands Antilles,Junior
+893,F,David Johnson,hjones,x04M9plj_Q,hjones@vt.edu,Native Hawaiian or Other Pacific Islander,,Chemistry,Israel,Junior
+894,O,Anthony Lucero,christinaandrews,fov$ZSSc)7,christinaandrews@vt.edu,Black or African American,,Computer Engineering,Moldova,Senior
+895,O,Julie Schwartz,mhernandez,_o9zZOt)2D,mhernandez@vt.edu,Asian,,Multimedia Journalism,Gambia,Freshman
+896,M,Justin Mendoza,casey34,PI1(2P%siN,casey34@vt.edu,American Indian or Alaska Native,,Biological Sciences,Grenada,Senior
+897,M,Mark Walker,jimmyyang,#(d7Vqta)s,jimmyyang@vt.edu,White,,MSE,Iceland,Freshman
+898,F,Craig Hill,salinaskatherine,5VnWjNTP*l,salinaskatherine@vt.edu,Hispanic or Latino,,Computer Science,Benin,Sophomore
+899,M,Randy Brown,jessica79,*^kv9C6ghY,jessica79@vt.edu,Asian,,Sociology,Jordan,Sophomore
+900,F,Jonathan Short,vgonzales,0d3wuNFkG*,vgonzales@vt.edu,White,,Systems Biology,Bahamas,Senior
+901,M,Aaron Taylor,murphyangela,A2!4NLnWpR,murphyangela@vt.edu,Hispanic or Latino,,Systems Biology,Czech Republic,Senior
+902,O,Amber Ingram DDS,ryanmunoz,#n4UxGK+$R,ryanmunoz@vt.edu,Black or African American,,Political Science,Norfolk Island,Freshman
+903,M,Chelsea Cole,gcarter,*8$^0VttlL,gcarter@vt.edu,Black or African American,,Environmental Policy,Israel,Junior
+904,F,Christopher Perez,rhonda55,&1EMhFP_8B,rhonda55@vt.edu,Native Hawaiian or Other Pacific Islander,,Public Health,Andorra,Freshman
+905,F,John Parker,kimberlyphelps,ScSaQ8HZX!,kimberlyphelps@vt.edu,American Indian or Alaska Native,,Nutrition and Dietetics,Morocco,Senior
+906,F,Janice Leach,williamsmith,!7WC4Ezhpa,williamsmith@vt.edu,Asian,,Human Development,Rwanda,Junior
+907,F,Angel Mckay,torreskelli,)0rvsRNuY+,torreskelli@vt.edu,American Indian or Alaska Native,,Crop and Soil Sciences,Eritrea,Freshman
+908,M,Heidi Johnson,nancyrose,^5x6H@YvjC,nancyrose@vt.edu,Asian,,Chemistry,Iceland,Senior
+909,F,Sandra Nelson,christian48,e(Wh(upI+5,christian48@vt.edu,Native Hawaiian or Other Pacific Islander,,Public Relations,Samoa,Freshman
+910,O,Jeffrey Warren,gorozco,G&3BAVtXAU,gorozco@vt.edu,Asian,,Polymer Chemistry,Gibraltar,Freshman
+911,F,Debbie Maynard,grantsamuel,#DR%6(WaNb,grantsamuel@vt.edu,Native Hawaiian or Other Pacific Islander,,Plant Science,Lao People's Democratic Republic,Senior
+912,M,Stacy Young,gary18,_cgVus+A^0,gary18@vt.edu,American Indian or Alaska Native,,Accounting,Svalbard & Jan Mayen Islands,Freshman
+913,F,Anthony Duran,hmueller,$B^Yt5Zez0,hmueller@vt.edu,American Indian or Alaska Native,,Clinical Neuroscience,Iceland,Sophomore
+914,F,Nancy Foster,zbailey,(Pr%jqjdk0,zbailey@vt.edu,Native Hawaiian or Other Pacific Islander,,History,Dominica,Freshman
+915,O,Benjamin Williams,stacy55,)mHKd5(1g5,stacy55@vt.edu,White,,Multimedia Journalism,Ghana,Junior
+916,O,Matthew Henry,vcunningham,lM$b80na%(,vcunningham@vt.edu,Native Hawaiian or Other Pacific Islander,,German,Singapore,Senior
+917,M,Wendy Carter,fbrown,^6rXgv%dCZ,fbrown@vt.edu,Native Hawaiian or Other Pacific Islander,,Consumer Studies,Barbados,Senior
+918,O,Stefanie Campbell,nicholas32,j^s5y!WsJO,nicholas32@vt.edu,Asian,,Polymer Chemistry,Norway,Freshman
+919,M,Shawna Nash,gloriawhite,(dM1Vx^x^M,gloriawhite@vt.edu,Native Hawaiian or Other Pacific Islander,,Russian,Maldives,Freshman
+920,M,Wanda Edwards,woodardjames,7Xc^4nWgyZ,woodardjames@vt.edu,White,,Creative Technologies,North Macedonia,Freshman
+921,M,Christopher Lambert,michael50,_1QwEbCDMk,michael50@vt.edu,White,,French,Barbados,Senior
+922,O,Diana Lee,ymoody,0^c5DV$y!+,ymoody@vt.edu,Hispanic or Latino,,Advertising,Mongolia,Senior
+923,M,Laura Kim,jennifer55,y#B8VdGnMM,jennifer55@vt.edu,American Indian or Alaska Native,,International Studies,Tanzania,Junior
+924,F,Ashley Weber,powerschristina,^Jj8%Uh&VC,powerschristina@vt.edu,Black or African American,,Nanomedicine,Norfolk Island,Junior
+925,M,Cynthia Wallace,smithkimberly,HW3Z5VFbx+,smithkimberly@vt.edu,White,,Entrepreneurship,Belarus,Freshman
+926,O,Ashley Lewis,adamhernandez,#DozFQoy5n,adamhernandez@vt.edu,White,,Russian,Saint Pierre and Miquelon,Freshman
+927,M,Kirsten Torres,vmolina,%lZ8QqB%T#,vmolina@vt.edu,Hispanic or Latino,,Business (undecided),Finland,Senior
+928,O,Ariel Nelson MD,caseyphillips,)8A5XfhB%g,caseyphillips@vt.edu,Black or African American,,History,Senegal,Senior
+929,M,Erin Hunt,pricealexis,&X5K1lXx%G,pricealexis@vt.edu,Black or African American,,University Studies,Nauru,Sophomore
+930,O,Ashley King,willisnicole,x#3Yash0%c,willisnicole@vt.edu,Asian,,Accounting,Paraguay,Junior
+931,F,Dr. Jennifer Taylor,codygilbert,8+_4Jz(jL+,codygilbert@vt.edu,Native Hawaiian or Other Pacific Islander,,Meteorology,Poland,Sophomore
+932,M,Jonathan Johnston,justinthomas,nr2GPq2Ue&,justinthomas@vt.edu,Asian,,University Studies,Sri Lanka,Sophomore
+933,O,Kristopher Walker,timothy49,_Ui6bUtb+P,timothy49@vt.edu,Asian,,International Relations,Bahamas,Sophomore
+934,M,Natasha Pennington,zrodriguez,q!(6IXCy+3,zrodriguez@vt.edu,White,,History,Myanmar,Sophomore
+935,F,Dr. Alexander Brown,deanna85,qci2An7U!j,deanna85@vt.edu,Black or African American,,Psychology,Eritrea,Junior
+936,F,Anna Estrada,bward,#6PzGnv_)d,bward@vt.edu,American Indian or Alaska Native,,Graphic Design,Niue,Senior
+937,O,Victoria Contreras,bberry,289BeMFmg),bberry@vt.edu,Native Hawaiian or Other Pacific Islander,,Packaging,Croatia,Junior
+938,F,Brett Ruiz,vwood,YXPcJnvu!7,vwood@vt.edu,Black or African American,,Packaging,Paraguay,Sophomore
+939,F,Denise Morgan,kimberlywilliams,c^6MM1if#8,kimberlywilliams@vt.edu,White,,International Relations,El Salvador,Sophomore
+940,F,Kristin Palmer,rogerbaker,(0aVI6Rg69,rogerbaker@vt.edu,Native Hawaiian or Other Pacific Islander,,Meteorology,Grenada,Junior
+941,M,Kenneth Torres,parrishcaitlin,*1JndVjxw^,parrishcaitlin@vt.edu,Native Hawaiian or Other Pacific Islander,,Marketing Management,Indonesia,Senior
+942,F,Emma Campos,sylvia08,%w*4%Mgn+J,sylvia08@vt.edu,Asian,,Chemical Engineering,Grenada,Senior
+943,F,Monica Smith,ocarter,+yL0@Xl_d5,ocarter@vt.edu,American Indian or Alaska Native,,Hospitality,Philippines,Senior
+944,F,Christopher Young,cameronbell,@PYfMLj0^9,cameronbell@vt.edu,Asian,,MSE,Chad,Senior
+945,O,Christina Cummings,silvajoseph,&0QjOFk3uC,silvajoseph@vt.edu,Native Hawaiian or Other Pacific Islander,,Marketing Management,Greece,Senior
+946,M,Virginia Pierce,wmcintosh,Fdl5pOGfc$,wmcintosh@vt.edu,White,,Criminology,Montserrat,Sophomore
+947,F,Kaylee Espinoza,karinacannon,7OjNJ5^m#8,karinacannon@vt.edu,American Indian or Alaska Native,,Art History,Burundi,Sophomore
+948,F,Jessica Allen,nathanielsaunders,14&R%bZt&n,nathanielsaunders@vt.edu,Native Hawaiian or Other Pacific Islander,,German,United Kingdom,Senior
+949,F,Kimberly Ramirez,michelle64,885JGv&n@Q,michelle64@vt.edu,Native Hawaiian or Other Pacific Islander,,Statistics,Papua New Guinea,Freshman
+950,M,Kathryn Watts,thompsonsara,)G4BfgMl+H,thompsonsara@vt.edu,Asian,,Russian,Bahamas,Senior
+951,O,Steven Williams,colemanjennifer,_2BMV9#avH,colemanjennifer@vt.edu,Asian,,Environmental Conservation,Iran,Senior
+952,F,Jason Boyd,schaeferkeith,^Ev%9JOcs!,schaeferkeith@vt.edu,American Indian or Alaska Native,,Management,Bahrain,Junior
+953,O,Elizabeth Maldonado,marshalldaniel,I&u8VhxZAK,marshalldaniel@vt.edu,Hispanic or Latino,,Business (undecided),Samoa,Senior
+954,F,Emily Molina,kelly05,8@!lXoGe#+,kelly05@vt.edu,Native Hawaiian or Other Pacific Islander,,Graphic Design,Aruba,Freshman
+955,F,Kayla Scott,nkim,xHdW5Sbj^%,nkim@vt.edu,White,,Animal and Poultry Sciences,Saint Helena,Senior
+956,M,David Ortiz,robleschristina,VVF1TSm7_s,robleschristina@vt.edu,Black or African American,,Environmental Horticulture,United States Minor Outlying Islands,Junior
+957,O,Jason Gardner,lambelizabeth,$5R14Hpol9,lambelizabeth@vt.edu,American Indian or Alaska Native,,Human Development,Holy See (Vatican City State),Freshman
+958,O,Kathleen Caldwell,elarson,F^q1NAAtBi,elarson@vt.edu,Native Hawaiian or Other Pacific Islander,,Exercise & Health Sciences,Kazakhstan,Junior
+959,F,Adam Beard,marksmith,xq@&g8OqaM,marksmith@vt.edu,White,,International Relations,Samoa,Senior
+960,M,Christopher Johnson,luisguerrero,w^eN3Avy$s,luisguerrero@vt.edu,Native Hawaiian or Other Pacific Islander,,Crop and Soil Sciences,Myanmar,Sophomore
+961,F,Brandon Kelly,dflowers,W6OIJk8Q$b,dflowers@vt.edu,Asian,,Environmental Science,Grenada,Senior
+962,F,Brian Dunn,clayton56,q1MG%(z9@l,clayton56@vt.edu,Asian,,Accounting,Honduras,Sophomore
+963,O,Julie Washington,ifranco,#@5SjaAyME,ifranco@vt.edu,Asian,,Geosciences,Oman,Sophomore
+964,M,Jacob Smith,ericcampbell,$auWNpV9J9,ericcampbell@vt.edu,Asian,,Animal and Poultry Sciences,Uruguay,Senior
+965,F,Karen Rosales,mward,M)!9Au(pZu,mward@vt.edu,Hispanic or Latino,,Human Development,Antigua and Barbuda,Junior
+966,M,Valerie Walton,teresaferguson,%LKL+N@bJ1,teresaferguson@vt.edu,Native Hawaiian or Other Pacific Islander,,Ecological Restoration,Guernsey,Freshman
+967,O,Dennis Johnson,joseph36,(JB3%dMykx,joseph36@vt.edu,White,,Environmental Science,Monaco,Senior
+968,F,Laura Garcia,jmartinez,A9r6DX&j%K,jmartinez@vt.edu,American Indian or Alaska Native,,Sports Media and Analytics,Burundi,Junior
+969,O,Tyler Potts,smithteresa,&c9Hei_&7z,smithteresa@vt.edu,Asian,,NSFA,Mongolia,Senior
+970,M,Christopher Heath,kevinmcdonald,&fKo0MMo_0,kevinmcdonald@vt.edu,Asian,,Marketing Management,Equatorial Guinea,Senior
+971,M,Matthew Zuniga,pwright,%1S%DZr!dO,pwright@vt.edu,American Indian or Alaska Native,,BSE,British Virgin Islands,Junior
+972,M,Jordan Kent,fergusonpamela,)25EFyYUdd,fergusonpamela@vt.edu,Native Hawaiian or Other Pacific Islander,,Computer Science,Malta,Senior
+973,F,Kevin Collins,joanne94,gl5+54SOt!,joanne94@vt.edu,Asian,,Industrial Design,Nauru,Sophomore
+974,F,Juan Webster,madelinesmith,F%8CRpMqqM,madelinesmith@vt.edu,Native Hawaiian or Other Pacific Islander,,Agricultural Sciences,Qatar,Freshman
+975,O,Jesus Vazquez,mark50,C1AQq3JT@h,mark50@vt.edu,White,,Property Management,French Guiana,Junior
+976,M,Nicholas Case,tammygordon,%7w5IS#nqG,tammygordon@vt.edu,Native Hawaiian or Other Pacific Islander,,Nanoscience,Syrian Arab Republic,Freshman
+977,M,John Hicks,tkoch,(4(k)u^zJ2,tkoch@vt.edu,Black or African American,,MSE,Turkey,Senior
+978,F,Mrs. Jennifer Gillespie,hicksnicholas,_89cM8svE$,hicksnicholas@vt.edu,Native Hawaiian or Other Pacific Islander,,Finance and Real Estate,China,Freshman
+979,M,Danielle Flores,jphillips,2mn_9dBxSA,jphillips@vt.edu,White,,Environmental Horticulture,Nauru,Senior
+980,O,Emily Jimenez MD,gary98,_48QBib_m$,gary98@vt.edu,American Indian or Alaska Native,,International Relations,Afghanistan,Freshman
+981,M,Erin Fritz,aroth,!r7WkqI5@Y,aroth@vt.edu,White,,Environmental Data Science,Sudan,Junior
+982,M,Martin Parsons Jr.,paul28,2y2C8Tl$+6,paul28@vt.edu,White,,Ocean Engineering,Cambodia,Freshman
+983,O,Marie Green,garciadaniel,&M98WUf0f8,garciadaniel@vt.edu,Asian,,Classical Studies,Canada,Freshman
+984,M,Carl Gardner,patrick48,+8w3bcYlnI,patrick48@vt.edu,Black or African American,,Hospitality,Tuvalu,Sophomore
+985,M,Steven Crawford,amanda57,)H38Z2Xr18,amanda57@vt.edu,American Indian or Alaska Native,,International Studies,Guinea-Bissau,Junior
+986,M,Margaret Flynn,ballmarilyn,C9A1YKCaF@,ballmarilyn@vt.edu,White,,Agribusiness,Honduras,Freshman
+987,O,Melissa Thompson,aaron93,^9vUt6BbO_,aaron93@vt.edu,Hispanic or Latino,,Criminology,Costa Rica,Freshman
+988,M,Adam Burgess,carterkimberly,%JXU0Tmfj&,carterkimberly@vt.edu,Native Hawaiian or Other Pacific Islander,,Russian,Bangladesh,Sophomore
+989,F,Wyatt Hays,eanderson,+UbT83Kdg1,eanderson@vt.edu,White,,Art History,Trinidad and Tobago,Senior
+990,F,Sylvia Snyder,lonnieyoung,1IALm+II#z,lonnieyoung@vt.edu,Asian,,Computer Engineering,Iran,Senior
+991,F,Edward Byrd,drobinson,y+Ek5*lL$1,drobinson@vt.edu,Native Hawaiian or Other Pacific Islander,,Chemical Engineering,Barbados,Senior
+992,F,Cassandra Murphy,miguel33,_8Iit1A_he,miguel33@vt.edu,Hispanic or Latino,,Packaging,Kenya,Junior
+993,M,Alex Hopkins,careyjames,%G7wNiWkg9,careyjames@vt.edu,Native Hawaiian or Other Pacific Islander,,MSE,Korea,Freshman
+994,M,Lindsay Jones,harrellerin,@0n9GZQp@@,harrellerin@vt.edu,White,,Clinical Neuroscience,Burundi,Junior
+995,O,Mrs. Jade Holmes MD,williamscrystal,Kkr5Upa3+4,williamscrystal@vt.edu,Asian,,Smart and Sustainable Cities,Svalbard & Jan Mayen Islands,Junior
+996,F,Michael Atkinson,uharris,6!ekIp*n#M,uharris@vt.edu,American Indian or Alaska Native,,University Studies,Mongolia,Freshman
+997,O,Christy Harris,rachelmartinez,(3PXwTvx(#,rachelmartinez@vt.edu,White,,Biochemistry,Hong Kong,Sophomore
+998,O,Billy Wilson,fraziervalerie,_3mGbNmkrb,fraziervalerie@vt.edu,Black or African American,,Wildlife Conservation,France,Freshman
+999,F,Gary Carson,estesjessica,*et5Jreio0,estesjessica@vt.edu,American Indian or Alaska Native,,Theatre Arts,Wallis and Futuna,Freshman
+1000,F,Jessica Peters,sheppardtammy,!49ckKrxJ*,sheppardtammy@vt.edu,American Indian or Alaska Native,,Philosophy,Heard Island and McDonald Islands,Senior
