@@ -17,15 +17,16 @@ const AcceptedEvents = () => {
     };
 
     return (
-        <div className="student-account-container" style={{ marginLeft: -750, marginTop: -20}}>
+        <div className="student-account-container" style={{ marginLeft: -700, marginTop: -20}}>
             <div className="sidebar">
-                <button className="button">Homepage</button>
+                <button className="button2">Homepage</button>
                 <button className="button">Invitations</button>
-                <button className="button2">Account</button>
+                <button className="button">Account</button>
             </div>
             <div className="header" style={{ marginLeft: -10, marginTop: 30}}>
                 <h2>Events (Already Accepted)</h2>
             </div>
+            <button style={{ marginTop: 50}} className="button" >Logout</button>
         </div>
     );
 };

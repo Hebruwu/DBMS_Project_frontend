@@ -15,8 +15,7 @@ import EventDetails from "./Components/StudentView/EventDetails";
 function App() {
     return (
 
-        <EventDetails></EventDetails>
-
+        <PostedEvents></PostedEvents>
     );
 }
 

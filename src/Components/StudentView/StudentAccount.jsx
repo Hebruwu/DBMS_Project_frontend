@@ -70,6 +70,9 @@ const StudentAccount = () => {
             </div>
             <div className="additional-actions" style={{ marginTop: 400, marginRight: -400}}>
                 <button className="button">View Accepted Events</button>
+                <div className="additional-actions" style={{marginTop: -10}}>
+                <button className="button">Logout</button>
+                </div>
             </div>
         </div>
     );

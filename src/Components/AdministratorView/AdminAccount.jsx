@@ -45,6 +45,7 @@ const AdminAccount = () => {
             </div>
             <div className="sidebar2" style={{ marginLeft: 100, marginTop: 30}}>
                 <button className="button">View Posted Events</button>
+                <button className="button">Logout</button>
             </div>
         </div>
     );

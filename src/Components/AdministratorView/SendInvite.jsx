@@ -199,6 +199,7 @@ const SendInvite = () => {
             </div>
             <div className="sidebar2">
                 <button style={{ marginLeft: -20}} className="button" >Send!</button>
+                <button style={{ marginLeft: -20}} className="button" >Logout</button>
             </div>
         </div>
     );

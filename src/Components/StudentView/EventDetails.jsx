@@ -45,6 +45,7 @@ const EventDetails = () => {
             <div className="action-buttons">
                 <button onClick={handleAcceptClick}>Accept/Accepted</button>
                 <button onClick={handleFeedbackClick}>Provide Feedback</button>
+                <button>Logout</button>
             </div>
         </div>
     );

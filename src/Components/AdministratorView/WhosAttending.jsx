@@ -37,6 +37,7 @@ const WhosAttending = () => {
                 ))}
                 </tbody>
             </table>
+            <button style={{ marginTop: 50}} className="button" >Logout</button>
         </div>
     );
 };

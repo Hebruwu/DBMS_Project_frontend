@@ -81,6 +81,7 @@ const EventCreation = () => {
             <div className="sidebar2" style={{ marginLeft: 0, marginTop: 80}}>
                 <button className="button">Send Invite</button>
                 <button className="button">Who's attending?</button>
+                <button className="button">Logout</button>
             </div>
         </div>
     );
