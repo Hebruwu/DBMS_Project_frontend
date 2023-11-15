@@ -90,8 +90,8 @@ def insert_student(engine,
             raise DBException("Occured at student insert\n", e)
     
 def authenticate_admin(engine,
-                       q_username,
-                       q_password) -> bool:
+                       q_username: str,
+                       q_password: str) -> bool:
     """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
     q_password = hash_obj.hexdigest()"""
@@ -104,8 +104,8 @@ def authenticate_admin(engine,
     return authenticated
 
 def authenticate_student(engine,
-                       q_username,
-                       q_password) -> bool:
+                       q_username: str,
+                       q_password: str) -> bool:
     """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
     q_password = hash_obj.hexdigest()"""
