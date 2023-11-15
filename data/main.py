@@ -164,8 +164,7 @@ def generate_student_table(num_students: int = 1000) -> List[List[str]]:
         Citizenship = generator.country()
         Year = random.choice(["Freshman", "Sophomore", "Junior", "Senior"])
 
-        student = [SID, Gender, Name, Username, Password, Email, Race, Department,
-                   Major, Citizenship, Year]
+        student = [SID, Race, Gender, Department, Major, Name, Username, Password, Email, Citizenship, Year]
 
         students.append(student)
 
