@@ -255,7 +255,7 @@ def delete_invite(engine,
         except Exception as e:
             raise DBException("Occured at update_invite\n", e)
 def get_invites(engine,
-                q_username: Optional[str] = None):
+                q_username: Optional[str] = None) -> INVITEDTO:
     invite_query = None
     
     with Session(engine) as session:
@@ -275,7 +275,7 @@ def get_invites(engine,
             raise DBException("Occured at get_invite\n", e)
         return invites
 def get_feedback(engine,
-                q_username: Optional[str] = None):
+                q_username: Optional[str] = None) -> PROVIDESFEEDBACK:
     feedback_query = None
     
     with Session(engine) as session:
