@@ -12,7 +12,7 @@ const AdminAccount = () => {
     };
 
     return (
-        <div className="event-creation-container" style={{ marginLeft: -700,  marginTop: 80}}>
+        <div className="event-creation-container" style={{ marginLeft: -650,  marginTop: 80}}>
             <div className="sidebar" style={{ marginLeft: -50 }}>
                 <button className="button">Homepage</button>
                 <button className="button">Create Event</button>
@@ -28,10 +28,6 @@ const AdminAccount = () => {
                 </div>
                 <div className="text">
                     <img src="" alt="" />
-                    Admin ID: {adminDetails.adminID}
-                </div>
-                <div className="text">
-                    <img src="" alt="" />
                     Username: {adminDetails.username}
                 </div>
                 <div className="text">
@@ -44,7 +40,6 @@ const AdminAccount = () => {
                 </div>
             </div>
             <div className="sidebar2" style={{ marginLeft: 100, marginTop: 30}}>
-                <button className="button">View Posted Events</button>
                 <button className="button">Logout</button>
             </div>
         </div>

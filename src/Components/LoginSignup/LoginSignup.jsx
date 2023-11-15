@@ -151,26 +151,24 @@ const LoginSignup = () => {
 
     return (
         <div className='container'>
-            {action === 'Sign Up' ? (
-                <div className="checkboxes">
-                    <label>
-                        <input
-                            type="checkbox"
-                            checked={isAdministrator}
-                            onChange={() => handleCheckboxChange('administrator')}
-                        />
-                        Administrator
-                    </label>
-                    <label>
-                        <input
-                            type="checkbox"
-                            checked={isStudent}
-                            onChange={() => handleCheckboxChange('student')}
-                        />
-                        Student
-                    </label>
-                </div>
-            ) : null}
+            <div className="checkboxes">
+                <label>
+                    <input
+                        type="checkbox"
+                        checked={isAdministrator}
+                        onChange={() => handleCheckboxChange('administrator')}
+                    />
+                    Administrator
+                </label>
+                <label>
+                    <input
+                        type="checkbox"
+                        checked={isStudent}
+                        onChange={() => handleCheckboxChange('student')}
+                    />
+                    Student
+                </label>
+            </div>
             <div className="header">
                 <div className="text2">{action}</div>
                 <div className="underline"></div>
@@ -178,7 +176,7 @@ const LoginSignup = () => {
             {action === 'Login' ? (
                 <div className="inputs">
                     <div className="input">
-                        <img src=""alt="" />
+                        <img src="" alt="" />
                         <input type="text" placeholder="Username" />
                     </div>
                     <div className="input">
@@ -191,27 +189,19 @@ const LoginSignup = () => {
                     <div className="inputs">
                         {isAdministrator && (
                             <div>
-                                <div className="input" style={{ marginBottom: 15}}>
+                                <div className="input" style={{ marginBottom: 5 }}>
                                     <img src="" alt="" />
-                                    <input type="text" style={{ marginLeft: -15}} placeholder="Admin Name" />
-                                </div>
-                                <div className="input">
-                                    <img src="" alt="" />
-                                    <input type="text" style={{ marginLeft: -15}} placeholder="Admin ID" />
+                                    <input type="text" style={{ marginLeft: -15 }} placeholder="Admin Name" />
                                 </div>
                             </div>
                         )}
                         {isStudent && (
                             <div>
-                                <div className="input" style={{ marginBottom: 15}}>
+                                <div className="input" style={{ marginBottom: 15 }}>
                                     <img src="" alt="" />
-                                    <input type="text" style={{ marginLeft: -15}} placeholder="Student Name" />
+                                    <input type="text" style={{ marginLeft: -15 }} placeholder="Student Name" />
                                 </div>
-                                <div className="input" style={{ marginBottom: 15}}>
-                                    <img src="" alt="" />
-                                    <input type="text" style={{ marginLeft: -15}} placeholder="Student ID" />
-                                </div>
-                                <div className="input" style={{ marginBottom: 15}}>
+                                <div className="input" style={{ marginBottom: 15 }}>
                                     <img src="" alt="" />
                                     <select
                                         value={selectedMajor}
@@ -223,41 +213,41 @@ const LoginSignup = () => {
                                         ))}
                                     </select>
                                 </div>
-                                <div className="input" style={{ marginBottom: 15}}>
-                                        <select
-                                            value={selectedGender}
-                                            onChange={(e) => setSelectedGender(e.target.value)}
-                                            className="right-align"
-                                        >
-                                            <option value="" disabled>Select Gender</option>
-                                            {genderOptions.map((gender, index) => (
-                                                <option key={index} value={gender}>{gender}</option>
-                                            ))}
-                                        </select>
+                                <div className="input" style={{ marginBottom: 15 }}>
+                                    <select
+                                        value={selectedGender}
+                                        onChange={(e) => setSelectedGender(e.target.value)}
+                                        className="right-align"
+                                    >
+                                        <option value="" disabled>Select Gender</option>
+                                        {genderOptions.map((gender, index) => (
+                                            <option key={index} value={gender}>{gender}</option>
+                                        ))}
+                                    </select>
                                 </div>
-                                <div className="input" style={{ marginBottom: 15}}>
-                                        <select
-                                            value={selectedRace}
-                                            onChange={(e) => setSelectedRace(e.target.value)}
-                                            className="right-align2"
-                                        >
-                                            <option value="" disabled>Select Race</option>
-                                            {raceOptions.map((race, index) => (
-                                                <option key={index} value={race}>{race}</option>
-                                            ))}
-                                        </select>
+                                <div className="input" style={{ marginBottom: 15 }}>
+                                    <select
+                                        value={selectedRace}
+                                        onChange={(e) => setSelectedRace(e.target.value)}
+                                        className="right-align2"
+                                    >
+                                        <option value="" disabled>Select Race</option>
+                                        {raceOptions.map((race, index) => (
+                                            <option key={index} value={race}>{race}</option>
+                                        ))}
+                                    </select>
                                 </div>
-                                <div className="input" style={{ marginBottom: 15}}>
-                                        <select
-                                            value={selectedYear}
-                                            onChange={(e) => setSelectedYear(e.target.value)}
-                                            className="right-align3"
-                                        >
-                                            <option value="" disabled>Select Year</option>
-                                            {yearOptions.map((year, index) => (
-                                                <option key={index} value={year}>{year}</option>
-                                            ))}
-                                        </select>
+                                <div className="input" style={{ marginBottom: 15 }}>
+                                    <select
+                                        value={selectedYear}
+                                        onChange={(e) => setSelectedYear(e.target.value)}
+                                        className="right-align3"
+                                    >
+                                        <option value="" disabled>Select Year</option>
+                                        {yearOptions.map((year, index) => (
+                                            <option key={index} value={year}>{year}</option>
+                                        ))}
+                                    </select>
                                 </div>
                                 <div className="input">
                                     <label>
@@ -281,26 +271,25 @@ const LoginSignup = () => {
                         {isAdministrator || isStudent ? (
                             <div className="input">
                                 <img src="" alt="" />
-                                <input type="text" style={{ marginLeft: -15}} placeholder={`${isAdministrator ? 'Admin' : 'Student'} Username`} />
+                                <input type="text" style={{ marginLeft: -15 }} placeholder={`${isAdministrator ? 'Admin' : 'Student'} Username`} />
                             </div>
                         ) : null}
                         <div className="input">
                             <img src="" alt="" />
-                            <input type="email" style={{ marginLeft: -15}} placeholder="Email ID" />
+                            <input type="email" style={{ marginLeft: -15 }} placeholder="Email ID" />
                         </div>
                         <div className="input">
                             <img src="" alt="" />
-                            <input type="password" style={{ marginLeft: -15}} placeholder="Password" />
+                            <input type="password" style={{ marginLeft: -15 }} placeholder="Password" />
                         </div>
                     </div>
                 ))}
-
             {action === 'Login' ? (
                 <div className="forgot-password">
                     Lost Password? <span>Click Here!</span>
                 </div>
             ) : null}
-            <div className="submit-container" style={{ marginLeft: -35}}>
+            <div className="submit-container" style={{ marginLeft: -35 }}>
                 <div className={action === 'Login' ? 'submit gray' : 'submit'} onClick={() => setAction('Sign Up')}>
                     Sign Up
                 </div>

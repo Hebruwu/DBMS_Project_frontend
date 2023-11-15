@@ -33,10 +33,6 @@ const StudentAccount = () => {
                 </div>
                 <div className="text">
                     <img src="" alt="" />
-                    Student ID: {studentDetails.studentID}
-                </div>
-                <div className="text">
-                    <img src="" alt="" />
                     Username: {studentDetails.username}
                 </div>
                 <div className="text">
@@ -69,10 +65,7 @@ const StudentAccount = () => {
                 </div>
             </div>
             <div className="additional-actions" style={{ marginTop: 400, marginRight: -400}}>
-                <button className="button">View Accepted Events</button>
-                <div className="additional-actions" style={{marginTop: -10}}>
                 <button className="button">Logout</button>
-                </div>
             </div>
         </div>
     );

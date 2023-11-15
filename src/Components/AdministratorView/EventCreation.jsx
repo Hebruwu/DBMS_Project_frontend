@@ -34,14 +34,6 @@ const EventCreation = () => {
                 <div className="input">
                     <input
                         type="text"
-                        placeholder="Event ID"
-                        value={eventID}
-                        onChange={(e) => setEventID(e.target.value)}
-                    />
-                </div>
-                <div className="input">
-                    <input
-                        type="text"
                         placeholder="Event Description"
                         value={eventDescription}
                         onChange={(e) => setEventDescription(e.target.value)}
