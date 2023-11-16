@@ -16,11 +16,6 @@ const EventDetails = () => {
         console.log('Accepted');
     };
 
-    const handleFeedbackClick = () => {
-        // Handle the "Provide feedback" button click action
-        console.log('Provide feedback clicked');
-    };
-
     return (
         <div className="event-container">
             <div className="event-details">
@@ -44,7 +39,6 @@ const EventDetails = () => {
 
             <div className="action-buttons">
                 <button onClick={handleAcceptClick}>Accept/Accepted</button>
-                <button onClick={handleFeedbackClick}>Provide Feedback</button>
                 <button>Logout</button>
             </div>
         </div>

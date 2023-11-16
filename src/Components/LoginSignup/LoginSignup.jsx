@@ -138,6 +138,7 @@ const LoginSignup = () => {
     const [selectedRace, setSelectedRace] = useState('');
     const [selectedYear, setSelectedYear] = useState('');
     const [selectedCitizenship, setSelectedCitizenship] = useState('');
+    const [selectedDepartment, setSelectedDepartment] = useState('');
 
     const handleCheckboxChange = (type) => {
         if (type === 'administrator') {
@@ -200,6 +201,15 @@ const LoginSignup = () => {
                                 <div className="input" style={{ marginBottom: 15 }}>
                                     <img src="" alt="" />
                                     <input type="text" style={{ marginLeft: -15 }} placeholder="Student Name" />
+                                </div>
+                                <div className="input" style={{ marginBottom: 15 }}>
+                                    <input
+                                        type="text"
+                                        style={{ marginLeft: 2 }}
+                                        placeholder="Department"
+                                        value={selectedDepartment}
+                                        onChange={(e) => setSelectedDepartment(e.target.value)}
+                                    />
                                 </div>
                                 <div className="input" style={{ marginBottom: 15 }}>
                                     <img src="" alt="" />
