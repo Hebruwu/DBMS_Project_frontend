@@ -34,3 +34,5 @@ Response:
   "YEAR": "Junior\r"
 }
 ```
+
+To run the Flask app locally install the requirements.txt file and click play on app.py in VSCode
