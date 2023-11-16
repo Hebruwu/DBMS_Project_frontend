@@ -69,7 +69,8 @@ def insert_student(engine,
                  q_dept: str,
                  q_major: str,
                  q_citizenship: str,
-                 q_year) -> None:
+                 q_year: str,
+                 q_gender: str) -> None:
     """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
     q_password = hash_obj.hexdigest()"""
@@ -81,7 +82,8 @@ def insert_student(engine,
                   DEPARTMENT = q_dept,
                   MAJOR = q_major,
                   CITIZENSHIP = q_citizenship,
-                  YEAR = q_year)
+                  YEAR = q_year,
+                  GENDER = q_gender)
     with Session(engine) as session:
         try:
             session.add(student)
