@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import datetime
 from dataclasses_json import dataclass_json
 from sqlalchemy import CHAR, Column, DateTime, ForeignKeyConstraint, Index, Integer, String
 from sqlalchemy.orm import relationship
@@ -46,15 +47,15 @@ class EVENT(Base):
         ForeignKeyConstraint(['E_AID'], ['ADMIN.AID'], name='EVENT_fk0'),
     )
 
-    EID = Column(Integer, primary_key=True)
-    NAME = Column(String(250), nullable=False)
-    DATE_FROM = Column(DateTime, nullable=False)
-    DATE_TO = Column(DateTime, nullable=False)
-    EVENT_TYPE = Column(String(250), nullable=False)
-    MODALITY = Column(String(250), nullable=False)
-    LOCATION = Column(String(500), nullable=False)
-    E_AID = Column(Integer, nullable=False, index=True)
-    DESCRIPTION = Column(String(1000))
+    EID: int = Column(Integer, primary_key=True)
+    NAME: str = Column(String(250), nullable=False)
+    DATE_FROM: datetime.datetime = Column(DateTime, nullable=False)
+    DATE_TO: datetime.datetime = Column(DateTime, nullable=False)
+    EVENT_TYPE: str = Column(String(250), nullable=False)
+    MODALITY: str = Column(String(250), nullable=False)
+    LOCATION: str = Column(String(500), nullable=False)
+    E_AID: int = Column(Integer, nullable=False, index=True)
+    DESCRIPTION: str = Column(String(1000))
 
     ADMIN_ = relationship('ADMIN', back_populates='EVENT')
     INVITED_TO = relationship('INVITEDTO', back_populates='EVENT_')
@@ -68,9 +69,9 @@ class INVITEDTO(Base):
         ForeignKeyConstraint(['I_SID'], ['STUDENT.SID'], name='INVITED_TO_fk0')
     )
 
-    I_SID = Column(Integer, primary_key=True, nullable=False)
-    I_EID = Column(Integer, primary_key=True, nullable=False, index=True)
-    ATTENDING = Column(String(3))
+    I_SID: int = Column(Integer, primary_key=True, nullable=False)
+    I_EID: int = Column(Integer, primary_key=True, nullable=False, index=True)
+    ATTENDING: str = Column(String(3))
 
     EVENT_ = relationship('EVENT', back_populates='INVITED_TO')
     STUDENT_ = relationship('STUDENT', back_populates='INVITED_TO')
@@ -83,9 +84,9 @@ class PROVIDESFEEDBACK(Base):
         ForeignKeyConstraint(['P_SID'], ['STUDENT.SID'], name='PROVIDES_FEEDBACK_fk0')
     )
 
-    P_SID = Column(Integer, primary_key=True, nullable=False)
-    P_EID = Column(Integer, primary_key=True, nullable=False, index=True)
-    FEEDBACK = Column(String(1000), nullable=False)
+    P_SID: int = Column(Integer, primary_key=True, nullable=False)
+    P_EID: int = Column(Integer, primary_key=True, nullable=False, index=True)
+    FEEDBACK: str = Column(String(1000), nullable=False)
 
     EVENT_ = relationship('EVENT', back_populates='PROVIDES_FEEDBACK')
     STUDENT_ = relationship('STUDENT', back_populates='PROVIDES_FEEDBACK')

@@ -5,12 +5,14 @@
 GET http://127.0.0.1:5000/eventhosting/admins/admin_details/test
 
 Response:
-```{
+```
+{
   "AID": 1,
   "EMAIL": "test",
   "NAME": "test",
   "USERNAME": "test"
-}```
+}
+```
 
 2) Request for get_student_details for student having username judith77:
 
@@ -18,7 +20,8 @@ GET http://127.0.0.1:5000/eventhosting/students/student_details/judith77
 
 Response: 
 
-```{
+```
+{
   "CITIZENSHIP": "New Zealand",
   "DEPARTMENT": "",
   "EMAIL": "judith77@vt.edu",
@@ -29,4 +32,5 @@ Response:
   "SID": 1,
   "USERNAME": "judith77",
   "YEAR": "Junior\r"
-}```
+}
+```
