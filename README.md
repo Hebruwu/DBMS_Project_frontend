@@ -292,5 +292,68 @@ Example Body:
 
 HTTP 200 if Success else HTTP 400
 
+11) Get Invites And Associated Events for username judith77
+
+GET http://127.0.0.1:5000/eventhosting/events/invites/judith77
+
+Response:
+
+```
+[
+    {
+        "event": {
+            "DATE_FROM": "Sun, 12 Nov 2023 12:40:38 GMT",
+            "DATE_TO": "Sun, 12 Nov 2023 12:40:38 GMT",
+            "DESCRIPTION": "test",
+            "EID": 4,
+            "EVENT_TYPE": "research",
+            "E_AID": 1,
+            "LOCATION": "now",
+            "MODALITY": "online",
+            "NAME": "test_event"
+        },
+        "invite": {
+            "ATTENDING": "No",
+            "I_EID": 4,
+            "I_SID": 1
+        }
+    }
+]
+```
+
+HTTP 200 if Success else HTTP 400
+
+12) Get students and associated feedback for an event having eid 4
+
+GET http://127.0.0.1:5000/eventhosting/events/feedback/4
+
+Response:
+
+```
+[
+    {
+        "feedback": {
+            "FEEDBACK": "just a test",
+            "P_EID": 4,
+            "P_SID": 1
+        },
+        "student": {
+            "CITIZENSHIP": "New Zealand",
+            "DEPARTMENT": "",
+            "EMAIL": "judith77@vt.edu",
+            "GENDER": "O",
+            "MAJOR": "Creative Technologies",
+            "NAME": "Katherine Burns",
+            "RACE": "Black or African American",
+            "SID": 1,
+            "USERNAME": "judith77",
+            "YEAR": "Junior\r"
+        }
+    }
+]
+```
+
+HTTP 200 if Success else HTTP 400
+
 
 To run the Flask app locally install the requirements.txt file and click play on app.py in VSCode
