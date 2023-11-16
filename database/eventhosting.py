@@ -2,7 +2,7 @@ import datetime
 import hashlib
 import sqlalchemy as database
 from sqlalchemy.orm import Session
-from db import ADMIN, EVENT, INVITEDTO, PROVIDESFEEDBACK, STUDENT
+from .db import ADMIN, EVENT, INVITEDTO, PROVIDESFEEDBACK, STUDENT
 from typing import Optional, List
 from sqlalchemy import any_
 
@@ -121,7 +121,7 @@ def authenticate_student(engine,
 
 # SELECT * FROM EVENT
 # Returns a list of EVENT objects
-def get_events(engine) -> EVENT:
+def get_events(engine) -> List[EVENT]:
     query = database.select(EVENT)
     with Session(engine) as session:
         try:
@@ -132,7 +132,7 @@ def get_events(engine) -> EVENT:
 
 # SELECT * FROM STUDENT where MAJOR LIKE
 # Returns a list of STUDENT objects
-def get_students(engine, q_major: List[str] = ["%"], q_citizenship: List[str] = ["%"], q_race: List[str] = ["%"], q_gender: List[str] = ["%"]) -> STUDENT:
+def get_students(engine, q_major: List[str] = ["%"], q_citizenship: List[str] = ["%"], q_race: List[str] = ["%"], q_gender: List[str] = ["%"]) -> List[STUDENT]:
 
     query = database.select(STUDENT).filter(STUDENT.MAJOR.like(any_(q_major)) & STUDENT.CITIZENSHIP.like(any_(q_citizenship)) &
                                             STUDENT.RACE.like(any_(q_race)) & STUDENT.GENDER.like(any_(q_gender)))
@@ -142,6 +142,26 @@ def get_students(engine, q_major: List[str] = ["%"], q_citizenship: List[str] = 
         except Exception as e:
             raise DBException("Occured at get_students\n", e)
     return students
+
+def get_student(engine, q_username: str) -> STUDENT:
+    student_query = database.select(STUDENT).where(STUDENT.USERNAME == q_username)
+    with Session(engine) as session:
+        try:
+            student = session.scalars(student_query).one()
+        except Exception as e:
+            raise DBException("Occured at get_student\n", e)
+    return student
+
+def get_admin(engine, q_username: str) -> ADMIN:
+    admin_query = database.select(ADMIN).where(ADMIN.USERNAME == q_username)
+    with Session(engine) as session:
+        try:
+            admin = session.scalars(admin_query).one()
+        except Exception as e:
+            raise DBException("Occured at get_admin\n", e)
+    return admin
+
+
     
 def insert_invite(engine,
                   q_username: str,
@@ -257,7 +277,7 @@ def delete_invite(engine,
         except Exception as e:
             raise DBException("Occured at update_invite\n", e)
 def get_invites(engine,
-                q_username: Optional[str] = None) -> INVITEDTO:
+                q_username: Optional[str] = None) -> List[INVITEDTO]:
     invite_query = None
     
     with Session(engine) as session:
@@ -277,7 +297,7 @@ def get_invites(engine,
             raise DBException("Occured at get_invite\n", e)
         return invites
 def get_feedback(engine,
-                q_username: Optional[str] = None) -> PROVIDESFEEDBACK:
+                q_username: Optional[str] = None) -> List[PROVIDESFEEDBACK]:
     feedback_query = None
     
     with Session(engine) as session:

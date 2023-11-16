@@ -1,35 +1,40 @@
+from dataclasses import dataclass
+from dataclasses_json import dataclass_json
 from sqlalchemy import CHAR, Column, DateTime, ForeignKeyConstraint, Index, Integer, String
-from sqlalchemy.orm import declarative_base, relationship
+from sqlalchemy.orm import relationship
+from sqlalchemy.orm import MappedAsDataclass
+from sqlalchemy.orm import DeclarativeBase
 
-Base = declarative_base()
+
+class Base(MappedAsDataclass, DeclarativeBase):
+    """subclasses will be converted to dataclasses"""
 
 
 class ADMIN(Base):
     __tablename__ = 'ADMIN'
 
-    AID = Column(Integer, primary_key=True)
-    NAME = Column(String(250), nullable=False)
-    USERNAME = Column(String(250), nullable=False, unique=True)
+    AID: int = Column(Integer, primary_key=True)
+    NAME: str = Column(String(250), nullable=False)
+    USERNAME: str = Column(String(250), nullable=False, unique=True)
     PASSWORD = Column(String(1000), nullable=False)
-    EMAIL = Column(String(250), nullable=False, unique=True)
+    EMAIL: str = Column(String(250), nullable=False, unique=True)
 
     EVENT = relationship('EVENT', back_populates='ADMIN_')
-
 
 class STUDENT(Base):
     __tablename__ = 'STUDENT'
 
-    SID = Column(Integer, primary_key=True)
-    GENDER = Column(CHAR(1), nullable=False)
-    NAME = Column(String(250), nullable=False)
-    USERNAME = Column(String(250), nullable=False, unique=True)
+    SID: int = Column(Integer, primary_key=True)
+    GENDER: str = Column(CHAR(1), nullable=False)
+    NAME: str = Column(String(250), nullable=False)
+    USERNAME: str = Column(String(250), nullable=False, unique=True)
     PASSWORD = Column(String(1000), nullable=False)
-    EMAIL = Column(String(250), nullable=False, unique=True)
-    RACE = Column(String(250))
-    DEPARTMENT = Column(String(250))
-    MAJOR = Column(String(250))
-    CITIZENSHIP = Column(String(250), nullable=False)
-    YEAR = Column(String(250))
+    EMAIL: str = Column(String(250), nullable=False, unique=True)
+    RACE: str = Column(String(250))
+    DEPARTMENT: str = Column(String(250))
+    MAJOR: str = Column(String(250))
+    CITIZENSHIP: str = Column(String(250), nullable=False)
+    YEAR: str = Column(String(250))
 
     INVITED_TO = relationship('INVITEDTO', back_populates='STUDENT_')
     PROVIDES_FEEDBACK = relationship('PROVIDESFEEDBACK', back_populates='STUDENT_')
