@@ -5,11 +5,11 @@ import './EventCreation.css'; // You can create a CSS file for styling
 
 const EventCreation = () => {
     const [eventName, setEventName] = useState('');
-    const [eventID, setEventID] = useState('');
     const [eventDescription, setEventDescription] = useState('');
     const [location, setLocation] = useState('');
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [eventType, setEventType] = useState('');
+    const [eventModality, setEventModality] = useState('');
 
     const handleDateChange = (date) => {
         setSelectedDate(date);
@@ -64,6 +64,14 @@ const EventCreation = () => {
                         placeholder="Type"
                         value={eventType}
                         onChange={(e) => setEventType(e.target.value)}
+                    />
+                </div>
+                <div className="input">
+                    <input
+                        type="text"
+                        placeholder="Modality"
+                        value={eventModality}
+                        onChange={(e) => setEventModality(e.target.value)}
                     />
                 </div>
             </div>
