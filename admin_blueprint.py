@@ -6,11 +6,13 @@ from database.eventhosting import get_engine, get_admin, authenticate_admin
 admin_routes = Blueprint('admin_routes', __name__)
 
 @admin_routes.route("/admin_details/<username>", methods = ["GET"])
-def index(username: str) -> Response:
+def get_admin_details(username: str) -> Response:
     try:
         engine = get_engine()
         admin = get_admin(engine, username)
-        return asdict(admin)
+        admin = asdict(admin)
+        del admin["PASSWORD"]
+        return admin
     except Exception as e:
         return jsonify(error=traceback.format_exc()),500
 

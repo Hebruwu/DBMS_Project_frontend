@@ -1,10 +1,11 @@
+from dataclasses import asdict
 import datetime
 import hashlib
 import sqlalchemy as database
 from sqlalchemy.orm import Session
 from .db import ADMIN, EVENT, INVITEDTO, PROVIDESFEEDBACK, STUDENT
 from typing import Optional, List
-from sqlalchemy import any_
+from sqlalchemy import any_, or_
 
 class DBException(Exception):
     pass
@@ -65,11 +66,11 @@ def insert_student(engine,
                  q_username: str,
                  q_password: str,
                  q_email: str,
-                 q_race: str,
-                 q_dept: str,
-                 q_major: str,
+                 q_race: Optional[str],
+                 q_dept: Optional[str],
+                 q_major: Optional[str],
                  q_citizenship: str,
-                 q_year: str,
+                 q_year: Optional[str],
                  q_gender: str) -> None:
     """hash_obj = hashlib.sha256()
     hash_obj.update(q_password.encode())
@@ -134,8 +135,10 @@ def get_events(engine) -> List[EVENT]:
 # Returns a list of STUDENT objects
 def get_students(engine, q_major: List[str] = ["%"], q_citizenship: List[str] = ["%"], q_race: List[str] = ["%"], q_gender: List[str] = ["%"]) -> List[STUDENT]:
 
-    query = database.select(STUDENT).filter(STUDENT.MAJOR.like(any_(q_major)) & STUDENT.CITIZENSHIP.like(any_(q_citizenship)) &
-                                            STUDENT.RACE.like(any_(q_race)) & STUDENT.GENDER.like(any_(q_gender)))
+    query = database.select(STUDENT).filter((or_(*[STUDENT.MAJOR.like(major) for major in q_major])) &
+                                             (or_(*[STUDENT.CITIZENSHIP.like(citizenship) for citizenship in q_citizenship])) &
+                                            (or_(*[STUDENT.RACE.like(race) for race in q_race])) & 
+                                            (or_(*[STUDENT.GENDER.like(gender) for gender in q_gender])))
     with Session(engine) as session:
         try:
             students = session.scalars(query).all()
@@ -164,7 +167,7 @@ def get_admin(engine, q_username: str) -> ADMIN:
 
     
 def insert_invite(engine,
-                  q_username: str,
+                  q_username: Optional[str],
                   q_eid: int, q_sid: int = -1) -> None:
     student_id_query = database.select(STUDENT).where(STUDENT.USERNAME == q_username)
     with Session(engine) as session:
@@ -190,11 +193,12 @@ def update_invite(engine,
     student_id_query = database.select(STUDENT).where(STUDENT.USERNAME == q_username)
     with Session(engine) as session:
         try:
-            student_id = session.scalars(student_id_query).all()
-            student_id = student_id[0].SID
+            student_id = session.scalars(student_id_query).one()
+            student_id = asdict(student_id)
+            student_id = student_id["SID"]
             invite_query = database.select(INVITEDTO).where(
-                INVITEDTO.I_SID == student_id &
-                INVITEDTO.I_EID == q_eid
+                (INVITEDTO.I_SID == student_id) &
+                (INVITEDTO.I_EID == q_eid)
             )
             invite = session.execute(invite_query).scalar_one()
             invite.ATTENDING = attending
@@ -210,8 +214,9 @@ def insert_feedback(engine,
     student_id_query = database.select(STUDENT).where(STUDENT.USERNAME == q_username)
     with Session(engine) as session:
         try:
-            student_id = session.scalars(student_id_query).all()
-            student_id = student_id[0].SID
+            student_id = session.scalars(student_id_query).one()
+            student_id = asdict(student_id)
+            student_id = student_id["SID"]
             feedback = PROVIDESFEEDBACK(P_SID = student_id,
                       P_EID = q_eid,
                       FEEDBACK = feedback)
@@ -231,8 +236,8 @@ def update_feedback(engine,
             student_id = session.scalars(student_id_query).all()
             student_id = student_id[0].SID
             feedback_query = database.select(PROVIDESFEEDBACK).where(
-                PROVIDESFEEDBACK.P_SID == student_id &
-                PROVIDESFEEDBACK.P_EID == q_eid
+                (PROVIDESFEEDBACK.P_SID == student_id) &
+                (PROVIDESFEEDBACK.P_EID == q_eid)
             )
             feedback_obj = session.execute(feedback_query).scalar_one()
             feedback_obj.FEEDBACK = feedback
@@ -266,8 +271,8 @@ def delete_invite(engine,
             else:
                 student_id = q_sid
             invite_query = database.select(INVITEDTO).where(
-                INVITEDTO.I_SID == student_id &
-                INVITEDTO.I_EID == q_eid
+                (INVITEDTO.I_SID == student_id) &
+                (INVITEDTO.I_EID == q_eid)
             )
             invite = session.execute(invite_query).scalar_one()
             session.delete(invite)

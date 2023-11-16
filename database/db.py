@@ -17,7 +17,7 @@ class ADMIN(Base):
     AID: int = Column(Integer, primary_key=True)
     NAME: str = Column(String(250), nullable=False)
     USERNAME: str = Column(String(250), nullable=False, unique=True)
-    PASSWORD = Column(String(1000), nullable=False)
+    PASSWORD: str = Column(String(1000), nullable=False)
     EMAIL: str = Column(String(250), nullable=False, unique=True)
 
     EVENT = relationship('EVENT', back_populates='ADMIN_')
@@ -29,7 +29,7 @@ class STUDENT(Base):
     GENDER: str = Column(CHAR(1), nullable=False)
     NAME: str = Column(String(250), nullable=False)
     USERNAME: str = Column(String(250), nullable=False, unique=True)
-    PASSWORD = Column(String(1000), nullable=False)
+    PASSWORD: str = Column(String(1000), nullable=False)
     EMAIL: str = Column(String(250), nullable=False, unique=True)
     RACE: str = Column(String(250))
     DEPARTMENT: str = Column(String(250))
