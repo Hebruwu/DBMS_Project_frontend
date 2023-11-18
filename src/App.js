@@ -19,14 +19,14 @@ function App() {
                 <Route exact path='/' element={<HomePage/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/login-signup' element={<LoginSignup/>}/>
-                <Route path='/adminView/eventCreation' element={<EventCreation/>}/>
-                <Route path='/adminView/adminAccount' element={<AdminAccount/>}/>
-                <Route path='/adminView/postedEvents' element={<PostedEvents/>}/>
-                <Route path='/adminView/sendInvite' element={<SendInvite/>}/>
-                <Route path='/adminView/whosAttending' element={<WhosAttending/>}/>
-                <Route path='/studentView/studentAccount' element={<StudentAccount/>}/>
-                <Route path='/studentView/acceptedEvents' element={<AcceptedEvents/>}/>
-                <Route path='/studentView/eventDetails' element={<EventDetails/>}/>
+                <Route path='/admin-view/event-creation' element={<EventCreation/>}/>
+                <Route path='/admin-view/admin-account' element={<AdminAccount/>}/>
+                <Route path='/admin-view/posted-events' element={<PostedEvents/>}/>
+                <Route path='/admin-view/send-invite' element={<SendInvite/>}/>
+                <Route path='/admin-view/whos-attending' element={<WhosAttending/>}/>
+                <Route path='/student-view/student-account' element={<StudentAccount/>}/>
+                <Route path='/student-view/accepted-events' element={<AcceptedEvents/>}/>
+                <Route path='/student-view/event-details' element={<EventDetails/>}/>
             </Routes>
         </Router>
     );
