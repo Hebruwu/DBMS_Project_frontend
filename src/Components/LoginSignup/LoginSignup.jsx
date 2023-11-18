@@ -64,6 +64,19 @@ function LoginSignup() {
     const [selectedCitizenship, setSelectedCitizenship] = useState('');
     const [selectedDepartment, setSelectedDepartment] = useState('');
 
+    function handleSignupButton() {
+        if (action !== "Signup") setAction('Signup');
+        else {
+            // Make a POST request to the backend.
+        }
+    }
+
+    function handleLoginButton() {
+        if (action !== "Login") setAction('Login');
+        else {
+            // Make a GET request to the backend.
+        }
+    }
 
     return (
         <div className='container'>
@@ -99,10 +112,10 @@ function LoginSignup() {
                     selectedCitizenship={selectedCitizenship}
                 />}
             <div className="submit-container" style={{marginLeft: -35}}>
-                <div className={action === 'Login' ? 'submit gray' : 'submit'} onClick={() => setAction('Signup')}>
+                <div className={action === 'Login' ? 'submit gray' : 'submit'} onClick={() => handleSignupButton()}>
                     Sign Up
                 </div>
-                <div className={action === 'Sign Up' ? 'submit gray' : 'submit'} onClick={() => setAction('Login')}>
+                <div className={action === 'Sign Up' ? 'submit gray' : 'submit'} onClick={() => handleLoginButton()}>
                     Login
                 </div>
             </div>
