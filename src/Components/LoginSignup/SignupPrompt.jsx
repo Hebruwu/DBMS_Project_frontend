@@ -258,12 +258,42 @@ function AdministratorSignup() {
     )
 }
 
-function SignupPrompt({isAdministrator, isStudent, ...props}) {
+function SignupPrompt({
+                          isAdministrator,
+                          isStudent,
+                          setSelectedMajor,
+                          setSelectedDepartment,
+                          setSelectedGender,
+                          setSelectedRace,
+                          setSelectedCitizenship,
+                          setSelectedYear,
+                          selectedGender,
+                          selectedDepartment,
+                          selectedMajor,
+                          selectedRace,
+                          selectedYear,
+                          selectedCitizenship,
+                      }) {
     return (
         (isAdministrator || isStudent) && (
             <div className="inputs">
                 {isAdministrator && <AdministratorSignup/>}
-                {isStudent && <StudentSignup props={props}/>}
+                {isStudent &&
+                    <StudentSignup
+                        setSelectedMajor={setSelectedMajor}
+                        setSelectedDepartment={setSelectedDepartment}
+                        setSelectedGender={setSelectedGender}
+                        setSelectedRace={setSelectedRace}
+                        setSelectedCitizenship={setSelectedCitizenship}
+                        setSelectedYear={setSelectedYear}
+
+                        selectedGender={selectedGender}
+                        selectedDepartment={selectedDepartment}
+                        selectedMajor={selectedMajor}
+                        selectedRace={selectedRace}
+                        selectedYear={selectedYear}
+                        selectedCitizenship={selectedCitizenship}/>
+                }
                 <div className="input">
                     <img src="" alt=""/>
                     <input type="text" style={{marginLeft: -15}}
