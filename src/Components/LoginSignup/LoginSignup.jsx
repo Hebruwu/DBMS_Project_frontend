@@ -63,18 +63,50 @@ function LoginSignup() {
     const [selectedYear, setSelectedYear] = useState('');
     const [selectedCitizenship, setSelectedCitizenship] = useState('');
     const [selectedDepartment, setSelectedDepartment] = useState('');
+    const [username, setUsername] = useState('test');
+    const [password, setPassword] = useState('test')
 
     function handleSignupButton() {
         if (action !== "Signup") setAction('Signup');
         else {
             // Make a POST request to the backend.
+
         }
     }
 
     function handleLoginButton() {
         if (action !== "Login") setAction('Login');
         else {
+            // By default, we will try to log in as a student.
+
+            let request_url = isAdministrator ?
+                "http://127.0.0.1:5000/eventhosting/admins/authenticate" :
+                "http://127.0.0.1:5000/eventhosting/students/authenticate";
+
             // Make a GET request to the backend.
+            fetch(request_url, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: {
+                    "username": username,
+                    "password": password,
+                },
+            })
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Failed to fetch data.")
+                    }
+                })
+                .then(
+                    // This is where we move to the next page, and store a JWT token (when that is added to the API).
+                )
+                .catch(error => {
+                    // This is where we display to the user, that we have failed to log - in
+                    // (Do we have functionality for that yet?)
+                    console.log(error)
+                })
         }
     }
 
