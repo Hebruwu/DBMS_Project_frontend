@@ -1,12 +1,12 @@
 import React from "react";
 import "./LoginPrompt.css"
 
-function LoginPrompt() {
+function LoginPrompt({username, setUsername}) {
     return (
         <div className="inputs">
             <div className="input">
                 <img src="" alt=""/>
-                <input type="text" placeholder="Username"/>
+                <input type="text" onChange={(event) => {setUsername(event.target.value); console.log(username)}} placeholder="Username"/>
             </div>
             <div className="input">
                 <img src="" alt=""/>

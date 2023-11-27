@@ -127,7 +127,10 @@ function LoginSignup() {
                 <div className="underline"></div>
             </div>
 
-            {action === 'Login' ? <LoginPrompt/> :
+            {action === 'Login' ? <LoginPrompt
+                username={username}
+                setUsername={setUsername}
+                /> :
                 <SignupPrompt
                     isAdministrator={isAdministrator}
                     isStudent={isStudent}
