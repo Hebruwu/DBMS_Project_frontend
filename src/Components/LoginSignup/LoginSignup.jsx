@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {useNavigate} from "react-router-dom";
 import './LoginSignup.css';
 import LoginPrompt from './LoginPrompt'
 import SignupPrompt from "./SignupPrompt";
@@ -65,6 +66,7 @@ function LoginSignup() {
     const [selectedDepartment, setSelectedDepartment] = useState('');
     const [username, setUsername] = useState('test');
     const [password, setPassword] = useState('test')
+    const navigate = useNavigate()
 
     function handleSignupButton() {
         if (action !== "Signup") setAction('Signup');
@@ -73,7 +75,6 @@ function LoginSignup() {
 
         }
     }
-
     function handleLoginButton() {
         if (action !== "Login") setAction('Login');
         else {
@@ -98,10 +99,12 @@ function LoginSignup() {
                     if (!response.ok) {
                         throw new Error("Failed to fetch data.")
                     }
+                    // This is where we move to the next page.
+                    sessionStorage.setItem("username", username)
+                    sessionStorage.setItem("password", password)
+
+                    navigate('/student-view/student-account')
                 })
-                .then(
-                    // This is where we move to the next page, and store a JWT token (when that is added to the API).
-                )
                 .catch(error => {
                     // This is where we display to the user, that we have failed to log - in
                     // (Do we have functionality for that yet?)
