@@ -14,22 +14,54 @@ function LoginSignup() {
     const [selectedYear, setSelectedYear] = useState('');
     const [selectedCitizenship, setSelectedCitizenship] = useState('');
     const [selectedDepartment, setSelectedDepartment] = useState('');
+    const [selectedStudentName, setSelectedStudentName] = useState('');
+    const [selectedEmail, setSelectedEmail] = useState('')
     const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('')
+    const [password, setPassword] = useState('');
     const navigate = useNavigate()
 
     function handleSignupButton() {
-        if (action !== "Signup") setAction('Signup');
-        else {
+        if (action !== "Signup") {
+            setAction('Signup');
+            setUsername('');
+            setPassword('');
+        } else {
             // Make a POST request to the backend.
-            let request_url = "http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/students/authenticate";
+            let request_url = "http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/students/create";
+            let request = {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    "name": selectedStudentName,
+                    "username": username,
+                    "password": password,
+                    "email": selectedEmail,
+                    "race": selectedRace,
+                    "department": selectedDepartment,
+                    "major": selectedMajor,
+                    "citizenship": selectedCitizenship,
+                    "year": selectedYear,
+                    "gender": selectedGender,
+                })
+            }
+            fetch(request_url, request).then((response) => {
+                if (!response.ok) {
+                    throw new Error("Failed to create new user.")
+                }
+                setAction("Login")
+            }).catch((error) => console.log(error))
 
         }
     }
 
     function handleLoginButton() {
-        if (action !== "Login") setAction('Login');
-        else {
+        if (action !== "Login") {
+            setAction('Login');
+            setUsername('');
+            setPassword('');
+        } else {
             // By default, we will try to log in as a student.
 
             let request_url = isAdministrator ?
@@ -37,7 +69,7 @@ function LoginSignup() {
                 "http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/students/authenticate";
 
             // Make a GET request to the backend.
-            let body = {
+            let request = {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -47,7 +79,7 @@ function LoginSignup() {
                     "password": password,
                 }),
             }
-            fetch(request_url, body).then((response) => {
+            fetch(request_url, request).then((response) => {
                 if (!response.ok) {
                     throw new Error("Failed to fetch data.")
                 }
@@ -97,6 +129,10 @@ function LoginSignup() {
                     setSelectedRace={setSelectedRace}
                     setSelectedCitizenship={setSelectedCitizenship}
                     setSelectedYear={setSelectedYear}
+                    setSelectedStudentName={setSelectedStudentName}
+                    setSelectedEmail={setSelectedEmail}
+                    setUsername={setUsername}
+                    setPassword={setPassword}
 
                     selectedGender={selectedGender}
                     selectedDepartment={selectedDepartment}
@@ -104,6 +140,7 @@ function LoginSignup() {
                     selectedRace={selectedRace}
                     selectedYear={selectedYear}
                     selectedCitizenship={selectedCitizenship}
+
                 />}
             <div className="submit-container" style={{marginLeft: -35}}>
                 <div className={action === 'Login' ? 'submit gray' : 'submit'} onClick={() => handleSignupButton()}>

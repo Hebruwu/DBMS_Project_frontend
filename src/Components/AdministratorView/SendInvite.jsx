@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Select from 'react-select';
 import './SendInvite.css';
-import { useEventContext } from '../../EventContext';
+import {useEventContext} from '../../EventContext';
+import {useNavigate} from "react-router-dom";
 
 const majorsList = [
     'Accounting',
@@ -130,12 +131,13 @@ const yearOptions = ['Freshman', 'Sophomore', 'Junior', 'Senior', "Master's", 'P
 const citizenshipOptions = ['Domestic', 'Int.'];
 
 const SendInvite = () => {
-    const { eventDetails } = useEventContext();
+    const {eventDetails} = useEventContext();
     const [selectedMajor, setSelectedMajor] = useState([]);
     const [selectedGender, setSelectedGender] = useState([]);
     const [selectedRace, setSelectedRace] = useState([]);
     const [selectedYear, setSelectedYear] = useState([]);
     const [selectedCitizenship, setSelectedCitizenship] = useState([]);
+    const navigate = useNavigate()
 
     const multiSelectStyles = {
         control: (provided) => ({
@@ -144,45 +146,52 @@ const SendInvite = () => {
         }),
     };
 
+    function handleLogoutButton() {
+        sessionStorage.removeItem("username")
+        sessionStorage.removeItem("password")
+        sessionStorage.removeItem("isAdmin")
+        navigate('/login-signup')
+    }
+
     return (
         <div className="inputs">
-            <div className="header" style={{ marginLeft: 0, marginTop: 500}}>
+            <div className="header" style={{marginLeft: 0, marginTop: 500}}>
                 <h2>Send Invites!</h2>
             </div>
-            <div className="input" style={{ marginBottom: 15 }}>
+            <div className="input" style={{marginBottom: 15}}>
                 <Select
                     isMulti
-                    options={majorsList.map((major) => ({ value: major, label: major }))}
+                    options={majorsList.map((major) => ({value: major, label: major}))}
                     value={selectedMajor}
                     onChange={(selectedOptions) => setSelectedMajor(selectedOptions)}
                     styles={multiSelectStyles}
                     placeholder="Select Major(s)"
                 />
             </div>
-            <div className="input" style={{ marginBottom: 15 }}>
+            <div className="input" style={{marginBottom: 15}}>
                 <Select
                     isMulti
-                    options={genderOptions.map((gender) => ({ value: gender, label: gender }))}
+                    options={genderOptions.map((gender) => ({value: gender, label: gender}))}
                     value={selectedGender}
                     onChange={(selectedOptions) => setSelectedGender(selectedOptions)}
                     styles={multiSelectStyles}
                     placeholder="Select Gender(s)"
                 />
             </div>
-            <div className="input" style={{ marginBottom: 15 }}>
+            <div className="input" style={{marginBottom: 15}}>
                 <Select
                     isMulti
-                    options={raceOptions.map((race) => ({ value: race, label: race }))}
+                    options={raceOptions.map((race) => ({value: race, label: race}))}
                     value={selectedRace}
                     onChange={(selectedOptions) => setSelectedRace(selectedOptions)}
                     styles={multiSelectStyles}
                     placeholder="Select Race(s)"
                 />
             </div>
-            <div className="input" style={{ marginBottom: 15 }}>
+            <div className="input" style={{marginBottom: 15}}>
                 <Select
                     isMulti
-                    options={yearOptions.map((year) => ({ value: year, label: year }))}
+                    options={yearOptions.map((year) => ({value: year, label: year}))}
                     value={selectedYear}
                     onChange={(selectedOptions) => setSelectedYear(selectedOptions)}
                     styles={multiSelectStyles}
@@ -192,7 +201,7 @@ const SendInvite = () => {
             <div className="input">
                 <Select
                     isMulti
-                    options={citizenshipOptions.map((citizenship) => ({ value: citizenship, label: citizenship }))}
+                    options={citizenshipOptions.map((citizenship) => ({value: citizenship, label: citizenship}))}
                     value={selectedCitizenship}
                     onChange={(selectedOptions) => setSelectedCitizenship(selectedOptions)}
                     styles={multiSelectStyles}
@@ -200,8 +209,8 @@ const SendInvite = () => {
                 />
             </div>
             <div className="sidebar2">
-                <button style={{ marginLeft: -20}} className="button" >Send!</button>
-                <button style={{ marginLeft: -20}} className="button" >Logout</button>
+                <button style={{marginLeft: -20}} className="button">Send!</button>
+                <button style={{marginLeft: -20}} onClick={handleLogoutButton} className="button">Logout</button>
             </div>
         </div>
     );

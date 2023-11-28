@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import './EventCreation.css'; // You can create a CSS file for styling
-import { useNavigate } from 'react-router-dom';
-import { useEventContext } from '../../EventContext';
+import {useNavigate} from 'react-router-dom';
+import {useEventContext} from '../../EventContext';
 
 const EventCreation = () => {
-    const { updateEventDetails } = useEventContext();
+    const {updateEventDetails} = useEventContext();
     const [eventName, setEventName] = useState('');
     const [eventDescription, setEventDescription] = useState('');
     const [location, setLocation] = useState('');
@@ -37,13 +37,20 @@ const EventCreation = () => {
         navigate('/admin-view/send-invite');
     };
 
+    function handleLogoutButton() {
+        sessionStorage.removeItem("username")
+        sessionStorage.removeItem("password")
+        sessionStorage.removeItem("isAdmin")
+        navigate('/login-signup')
+    }
+
     return (
         <div className="event-creation-container">
-            <div className="sidebar" style={{ marginLeft: -500, marginTop: 30}}>
+            <div className="sidebar" style={{marginLeft: -500, marginTop: 30}}>
                 <button className="button" onClick={handleButtonClick}>Homepage</button>
                 <button className="button-create">Create Event</button>
             </div>
-            <div className="sidebar2" style={{ marginLeft: 70, marginTop: 70}}>
+            <div className="sidebar2" style={{marginLeft: 70, marginTop: 70}}>
                 <div className="input">
                     <input
                         type="text"
@@ -96,12 +103,12 @@ const EventCreation = () => {
                     />
                 </div>
             </div>
-            <div className="text3" style={{ marginLeft: 10, marginTop: 20}}>
+            <div className="text3" style={{marginLeft: 10, marginTop: 20}}>
                 <h2>Create an Event</h2>
             </div>
-            <div className="sidebar2" style={{ marginLeft: 0, marginTop: 80}}>
+            <div className="sidebar2" style={{marginLeft: 0, marginTop: 80}}>
                 <button className="button" onClick={handleButtonClick2}>Send Invite</button>
-                <button className="button">Logout</button>
+                <button className="button" onClick={handleLogoutButton}>Logout</button>
             </div>
         </div>
     );

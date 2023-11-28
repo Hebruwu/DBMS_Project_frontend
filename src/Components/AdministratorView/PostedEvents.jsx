@@ -1,6 +1,6 @@
 import React from 'react';
 import './PostedEvents.css'; // You can create a CSS file for styling
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 const PostedEvents = () => {
     // Sample data (replace with your actual data)
@@ -23,17 +23,23 @@ const PostedEvents = () => {
         navigate('/admin-view/event-creation');
     };
 
+    function handleLogoutButton() {
+        sessionStorage.removeItem("username")
+        sessionStorage.removeItem("password")
+        sessionStorage.removeItem("isAdmin")
+        navigate('/login-signup')
+    }
 
     return (
-        <div className="student-account-container" style={{ marginLeft: -700, marginTop: -20}}>
+        <div className="student-account-container" style={{marginLeft: -700, marginTop: -20}}>
             <div className="sidebar">
                 <button className="button2">Homepage</button>
                 <button className="button" onClick={handleButtonClick}>Create Event</button>
             </div>
-            <div className="header" style={{ marginLeft: -10, marginTop: 30}}>
+            <div className="header" style={{marginLeft: -10, marginTop: 30}}>
                 <h2>Events (Already Posted)</h2>
             </div>
-            <button style={{ marginTop: 50}} className="button" >Logout</button>
+            <button style={{marginTop: 50}} onClick={handleLogoutButton} className="button">Logout</button>
         </div>
     );
 };

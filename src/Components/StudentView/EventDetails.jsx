@@ -1,8 +1,11 @@
 import React from 'react';
 import './EventDetails.css'
+import {useNavigate} from "react-router-dom";
 
 const EventDetails = () => {
     // Sample event data
+    let navigate = useNavigate()
+
     const eventData = {
         eventName: 'Sample Event',
         eventDescription: 'A description of the sample event.',
@@ -15,6 +18,13 @@ const EventDetails = () => {
         // Handle the "Accept" button click action
         console.log('Accepted');
     };
+
+    function handleLogoutButton() {
+        sessionStorage.removeItem("username")
+        sessionStorage.removeItem("password")
+        sessionStorage.removeItem("isAdmin")
+        navigate('/')
+    }
 
     return (
         <div className="event-container">
@@ -39,7 +49,7 @@ const EventDetails = () => {
 
             <div className="action-buttons">
                 <button onClick={handleAcceptClick}>Accept/Accepted</button>
-                <button>Logout</button>
+                <button onClick={handleLogoutButton}>Logout</button>
             </div>
         </div>
     );

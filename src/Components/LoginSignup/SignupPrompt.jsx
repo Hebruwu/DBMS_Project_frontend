@@ -1,7 +1,7 @@
 import React from "react";
 import "./SignupPrompt.css"
 
-const genderOptions = ['Male', 'Female', 'Other'];
+const genderOptions = ['M', 'F', 'O'];
 const raceOptions = ['White', 'Black', 'Hispanic', 'Native American', 'Asian', 'Pacific Islander', 'Mixed', 'Other'];
 const yearOptions = ['Freshman', 'Sophomore', 'Junior', 'Senior', "Master's", 'PhD'];
 const citizenshipOptions = ['Domestic', 'Int.'];
@@ -128,41 +128,31 @@ const majorsList = [
     'Wildlife Conservation'
 ];
 
-/**
- * Shows the student signup form.
- * @param selectedDepartment
- * @param setSelectedDepartment
- * @param selectedMajor
- * @param setSelectedMajor
- * @param selectedGender
- * @param setSelectedGender
- * @param selectedRace
- * @param selectedYear
- * @param setSelectedRace
- * @param setSelectedYear
- * @param selectedCitizenship
- * @param setSelectedCitizenship
- * @returns {Element}
- */
-function StudentSignup({
-                           selectedDepartment,
-                           setSelectedDepartment,
-                           selectedMajor,
-                           setSelectedMajor,
-                           selectedGender,
-                           setSelectedGender,
-                           selectedRace,
-                           selectedYear,
-                           setSelectedRace,
-                           setSelectedYear,
-                           selectedCitizenship,
-                           setSelectedCitizenship
-                       }) {
+function SignupPrompt({
+                          setSelectedMajor,
+                          setSelectedDepartment,
+                          setSelectedGender,
+                          setSelectedRace,
+                          setSelectedCitizenship,
+                          setSelectedYear,
+                          selectedGender,
+                          selectedDepartment,
+                          selectedMajor,
+                          selectedRace,
+                          selectedYear,
+                          selectedCitizenship,
+                          setSelectedStudentName,
+                          setSelectedEmail,
+                          setPassword,
+                          setUsername,
+                      }) {
     return (
-        <div>
+        <div className="inputs">
             <div className="input" style={{marginBottom: 15}}>
                 <img src="" alt=""/>
-                <input type="text" style={{marginLeft: -15}} placeholder="Student Name"/>
+                <input type="text" style={{marginLeft: -15}}
+                       onChange={(e) => setSelectedStudentName(e.target.value)}
+                       placeholder="Student Name"/>
             </div>
             <div className="input" style={{marginBottom: 15}}>
                 <input
@@ -237,54 +227,24 @@ function StudentSignup({
                     ))}
                 </label>
             </div>
-            {/* Add other student-specific fields */}
-        </div>
-    )
-}
-
-function SignupPrompt({
-                          setSelectedMajor,
-                          setSelectedDepartment,
-                          setSelectedGender,
-                          setSelectedRace,
-                          setSelectedCitizenship,
-                          setSelectedYear,
-                          selectedGender,
-                          selectedDepartment,
-                          selectedMajor,
-                          selectedRace,
-                          selectedYear,
-                          selectedCitizenship,
-                      }) {
-    return (
-        <div className="inputs">
-            <StudentSignup
-                setSelectedMajor={setSelectedMajor}
-                setSelectedDepartment={setSelectedDepartment}
-                setSelectedGender={setSelectedGender}
-                setSelectedRace={setSelectedRace}
-                setSelectedCitizenship={setSelectedCitizenship}
-                setSelectedYear={setSelectedYear}
-
-                selectedGender={selectedGender}
-                selectedDepartment={selectedDepartment}
-                selectedMajor={selectedMajor}
-                selectedRace={selectedRace}
-                selectedYear={selectedYear}
-                selectedCitizenship={selectedCitizenship}/>
-
             <div className="input">
                 <img src="" alt=""/>
                 <input type="text" style={{marginLeft: -15}}
+                       onChange={(e) => setUsername(e.target.value)}
                        placeholder={"Username"}/>
             </div>
             <div className="input">
                 <img src="" alt=""/>
-                <input type="email" style={{marginLeft: -15}} placeholder="Email ID"/>
+                <input type="email"
+                       onChange={(e) => setSelectedEmail(e.target.value)}
+                       style={{marginLeft: -15}}
+                       placeholder="Email ID"/>
             </div>
             <div className="input">
                 <img src="" alt=""/>
-                <input type="password" style={{marginLeft: -15}} placeholder="Password"/>
+                <input type="password"
+                       onChange={(e) => setPassword(e.target.value)}
+                       style={{marginLeft: -15}} placeholder="Password"/>
             </div>
         </div>)
 }
