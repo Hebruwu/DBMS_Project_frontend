@@ -21,7 +21,6 @@ const AcceptedEvents = () => {
             <div className="sidebar">
                 <button className="button2">Homepage</button>
                 <button className="button">Invitations</button>
-                <button className="button">Account</button>
             </div>
             <div className="header" style={{ marginLeft: -10, marginTop: 30}}>
                 <h2>Events (Already Accepted)</h2>

@@ -104,7 +104,7 @@ function LoginSignup() {
                 sessionStorage.setItem("username", username)
                 sessionStorage.setItem("password", password)
                 // This needs to be modified to also include admin
-                navigate('/student-view/student-account')
+                navigate('/student-view/accepted-events')
             })
                 .catch(error => {
                     // This is where we display to the user, that we have failed to log - in

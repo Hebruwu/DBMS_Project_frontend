@@ -20,7 +20,6 @@ const EventCreation = () => {
             <div className="sidebar" style={{ marginLeft: -500, marginTop: 30}}>
                 <button className="button">Homepage</button>
                 <button className="button-create">Create Event</button>
-                <button className="button">Account</button>
             </div>
             <div className="sidebar2" style={{ marginLeft: 70, marginTop: 70}}>
                 <div className="input">
