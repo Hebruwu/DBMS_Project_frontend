@@ -4,56 +4,6 @@ import './LoginSignup.css';
 import LoginPrompt from './LoginPrompt'
 import SignupPrompt from "./SignupPrompt";
 
-/**
- * @param props.isStudent - a boolean responsible for determining if user is a student
- * @param props.isAdministrator - a boolean responsible for determining if user is administrator
- *
- * @param props.setIsAdministrator - a function responsible for modifying the state of props.isAdministrator
- * @param props.setStudent - a function responsible for modifying the state of props.isStudent
- *
- * @returns {Element}
- */
-function AdminStudentCheckBoxes(props) {
-    // Parents states
-    let isStudent = props.isStudent
-    let isAdministrator = props.isAdministrator
-
-    // Parent state functions
-    const setIsAdministrator = props.setIsAdministrator
-    const setIsStudent = props.setIsStudent
-
-    function handleCheckboxChange(type) {
-        if (type === 'administrator') {
-            setIsAdministrator(!isAdministrator);
-            setIsStudent(false);
-        } else if (type === 'student') {
-            setIsStudent(!isStudent);
-            setIsAdministrator(false);
-        }
-    }
-
-    return (
-        <div className="checkboxes">
-            <label>
-                <input
-                    type="checkbox"
-                    checked={isAdministrator}
-                    onChange={() => handleCheckboxChange('administrator')}
-                />
-                Administrator
-            </label>
-            <label>
-                <input
-                    type="checkbox"
-                    checked={isStudent}
-                    onChange={() => handleCheckboxChange('student')}
-                />
-                Student
-            </label>
-        </div>
-    )
-}
-
 function LoginSignup() {
     const [action, setAction] = useState('Login');
     const [isAdministrator, setIsAdministrator] = useState(false);
@@ -72,6 +22,7 @@ function LoginSignup() {
         if (action !== "Signup") setAction('Signup');
         else {
             // Make a POST request to the backend.
+            let request_url = "http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/students/authenticate";
 
         }
     }
@@ -123,13 +74,6 @@ function LoginSignup() {
 
     return (
         <div className='container'>
-            <AdminStudentCheckBoxes
-                setIsAdministrator={setIsAdministrator}
-                isAdministrator={isAdministrator}
-                setIsStudent={setIsStudent}
-                isStudent={isStudent}
-            />
-
             <div className="header">
                 <div className="text2">{action}</div>
                 <div className="underline"></div>
@@ -138,6 +82,10 @@ function LoginSignup() {
             {action === 'Login' ? <LoginPrompt
                     setPassword={setPassword}
                     setUsername={setUsername}
+                    setIsAdministrator={setIsAdministrator}
+                    isAdministrator={isAdministrator}
+                    setIsStudent={setIsStudent}
+                    isStudent={isStudent}
                 /> :
                 <SignupPrompt
                     isAdministrator={isAdministrator}

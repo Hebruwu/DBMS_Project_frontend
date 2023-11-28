@@ -242,25 +242,7 @@ function StudentSignup({
     )
 }
 
-/**
- * Shows the admin signup form.
- * @returns {Element}
- * @constructor
- */
-function AdministratorSignup() {
-    return (
-        <div>
-            <div className="input" style={{marginBottom: 5}}>
-                <img src="" alt=""/>
-                <input type="text" style={{marginLeft: -15}} placeholder="Admin Name"/>
-            </div>
-        </div>
-    )
-}
-
 function SignupPrompt({
-                          isAdministrator,
-                          isStudent,
                           setSelectedMajor,
                           setSelectedDepartment,
                           setSelectedGender,
@@ -275,40 +257,36 @@ function SignupPrompt({
                           selectedCitizenship,
                       }) {
     return (
-        (isAdministrator || isStudent) && (
-            <div className="inputs">
-                {isAdministrator && <AdministratorSignup/>}
-                {isStudent &&
-                    <StudentSignup
-                        setSelectedMajor={setSelectedMajor}
-                        setSelectedDepartment={setSelectedDepartment}
-                        setSelectedGender={setSelectedGender}
-                        setSelectedRace={setSelectedRace}
-                        setSelectedCitizenship={setSelectedCitizenship}
-                        setSelectedYear={setSelectedYear}
+        <div className="inputs">
+            <StudentSignup
+                setSelectedMajor={setSelectedMajor}
+                setSelectedDepartment={setSelectedDepartment}
+                setSelectedGender={setSelectedGender}
+                setSelectedRace={setSelectedRace}
+                setSelectedCitizenship={setSelectedCitizenship}
+                setSelectedYear={setSelectedYear}
 
-                        selectedGender={selectedGender}
-                        selectedDepartment={selectedDepartment}
-                        selectedMajor={selectedMajor}
-                        selectedRace={selectedRace}
-                        selectedYear={selectedYear}
-                        selectedCitizenship={selectedCitizenship}/>
-                }
-                <div className="input">
-                    <img src="" alt=""/>
-                    <input type="text" style={{marginLeft: -15}}
-                           placeholder={`${isAdministrator ? 'Admin' : 'Student'} Username`}/>
-                </div>
-                <div className="input">
-                    <img src="" alt=""/>
-                    <input type="email" style={{marginLeft: -15}} placeholder="Email ID"/>
-                </div>
-                <div className="input">
-                    <img src="" alt=""/>
-                    <input type="password" style={{marginLeft: -15}} placeholder="Password"/>
-                </div>
+                selectedGender={selectedGender}
+                selectedDepartment={selectedDepartment}
+                selectedMajor={selectedMajor}
+                selectedRace={selectedRace}
+                selectedYear={selectedYear}
+                selectedCitizenship={selectedCitizenship}/>
+
+            <div className="input">
+                <img src="" alt=""/>
+                <input type="text" style={{marginLeft: -15}}
+                       placeholder={"Username"}/>
             </div>
-        ))
+            <div className="input">
+                <img src="" alt=""/>
+                <input type="email" style={{marginLeft: -15}} placeholder="Email ID"/>
+            </div>
+            <div className="input">
+                <img src="" alt=""/>
+                <input type="password" style={{marginLeft: -15}} placeholder="Password"/>
+            </div>
+        </div>)
 }
 
 export default SignupPrompt
