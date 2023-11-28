@@ -75,36 +75,37 @@ function LoginSignup() {
 
         }
     }
+
     function handleLoginButton() {
         if (action !== "Login") setAction('Login');
         else {
             // By default, we will try to log in as a student.
 
             let request_url = isAdministrator ?
-                "http://127.0.0.1:5000/eventhosting/admins/authenticate" :
-                "http://127.0.0.1:5000/eventhosting/students/authenticate";
+                "http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/admins/authenticate" :
+                "http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/students/authenticate";
 
             // Make a GET request to the backend.
-            fetch(request_url, {
+            let body = {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: {
+                body: JSON.stringify({
                     "username": username,
                     "password": password,
-                },
+                }),
+            }
+            fetch(request_url, body).then((response) => {
+                if (!response.ok) {
+                    throw new Error("Failed to fetch data.")
+                }
+                // This is where we move to the next page.
+                sessionStorage.setItem("username", username)
+                sessionStorage.setItem("password", password)
+                // This needs to be modified to also include admin
+                navigate('/student-view/student-account')
             })
-                .then((response) => {
-                    if (!response.ok) {
-                        throw new Error("Failed to fetch data.")
-                    }
-                    // This is where we move to the next page.
-                    sessionStorage.setItem("username", username)
-                    sessionStorage.setItem("password", password)
-
-                    navigate('/student-view/student-account')
-                })
                 .catch(error => {
                     // This is where we display to the user, that we have failed to log - in
                     // (Do we have functionality for that yet?)
@@ -128,7 +129,7 @@ function LoginSignup() {
             </div>
 
             {action === 'Login' ? <LoginPrompt
-                username={username}
+                setPassword={setPassword}
                 setUsername={setUsername}
                 /> :
                 <SignupPrompt
