@@ -79,11 +79,6 @@
     font-size: 13.9899px; /* Adjusted font size to 0.87 times */
 }
 
-.forgot-password span {
-    color: blueviolet;
-    cursor: pointer;
-}
-
 .submit-container {
     display: flex;
     gap: 14.9919px; /* Adjusted gap between submit buttons */

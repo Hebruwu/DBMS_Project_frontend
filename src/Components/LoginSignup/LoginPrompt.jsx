@@ -64,9 +64,6 @@ function LoginPrompt({setPassword, setUsername, setIsAdministrator, isAdministra
                     setPassword(event.target.value)
                 }} placeholder="Password"/>
             </div>
-            <div className="forgot-password">
-                Lost Password? <span>Click Here!</span>
-            </div>
         </div>
     )
 }
