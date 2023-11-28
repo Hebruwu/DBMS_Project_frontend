@@ -1,5 +1,6 @@
 import React from 'react';
 import './AcceptedEvents.css'; // You can create a CSS file for styling
+import { useNavigate } from 'react-router-dom';
 
 const AcceptedEvents = () => {
     // Sample data (replace with your actual data)
@@ -16,11 +17,17 @@ const AcceptedEvents = () => {
         domesticInternational: 'International',
     };
 
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        navigate('/student-view/event-details');
+    };
+
     return (
         <div className="student-account-container" style={{ marginLeft: -700, marginTop: -20}}>
             <div className="sidebar">
                 <button className="button2">Homepage</button>
-                <button className="button">Invitations</button>
+                <button className="button" onClick={handleButtonClick}>Invitations</button>
             </div>
             <div className="header" style={{ marginLeft: -10, marginTop: 30}}>
                 <h2>Events (Already Accepted)</h2>
