@@ -3,6 +3,7 @@ import Select from 'react-select';
 import './SendInvite.css';
 import {useEventContext} from '../../EventContext';
 import {useNavigate} from "react-router-dom";
+import EventDetailsTable from './EventDetailsTable';
 
 const majorsList = [
     'Accounting',
@@ -131,12 +132,14 @@ const yearOptions = ['Freshman', 'Sophomore', 'Junior', 'Senior', "Master's", 'P
 const citizenshipOptions = ['Domestic', 'Int.'];
 
 const SendInvite = () => {
-    const {eventDetails} = useEventContext();
+    const { eventDetails, setEventDetails } = useEventContext();
     const [selectedMajor, setSelectedMajor] = useState([]);
     const [selectedGender, setSelectedGender] = useState([]);
     const [selectedRace, setSelectedRace] = useState([]);
     const [selectedYear, setSelectedYear] = useState([]);
     const [selectedCitizenship, setSelectedCitizenship] = useState([]);
+    const [createdEvent, setCreatedEvent] = useState(null);
+    const [isEventDetailsVisible, setIsEventDetailsVisible] = useState(false);
     const navigate = useNavigate()
 
     const multiSelectStyles = {
@@ -152,6 +155,49 @@ const SendInvite = () => {
         sessionStorage.removeItem("isAdmin")
         navigate('/login-signup')
     }
+
+    const handleSendButtonClick = async () => {
+        // Prepare invite criteria
+        const inviteCriteria = {
+            majors: selectedMajor.map(option => option.value),
+            gender: selectedGender.map(option => option.value),
+            race: selectedRace.map(option => option.value),
+            year: selectedYear.map(option => option.value),
+            citizenship: selectedCitizenship.map(option => option.value),
+        };
+
+        try {
+            // Make API call to send invites based on criteria
+            const response = await fetch('YOUR_INVITE_API_ENDPOINT', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(inviteCriteria),
+            });
+
+            if (response.ok) {
+                // Handle success and retrieve the created event details
+                const createdEventDetails = await response.json();
+                setCreatedEvent(createdEventDetails);
+
+                // Set the event details in the context
+                setEventDetails(createdEventDetails);
+
+                // Show the event details
+                setIsEventDetailsVisible(true);
+
+                // Log for verification (you can remove this in the final version)
+                console.log('Invites sent successfully!', createdEventDetails);
+            } else {
+                // Handle failure
+                console.error('Failed to send invites.');
+            }
+        } catch (error) {
+            console.error('Error sending invites:', error);
+        }
+    };
+
 
     return (
         <div className="inputs">
@@ -208,8 +254,9 @@ const SendInvite = () => {
                     placeholder="Select Citizenship(s)"
                 />
             </div>
+            <EventDetailsTable eventDetails={eventDetails} />
             <div className="sidebar2">
-                <button style={{marginLeft: -20}} className="button">Send!</button>
+                <button style={{marginLeft: -20}} onClick={handleSendButtonClick} className="button">Send!</button>
                 <button style={{marginLeft: -20}} onClick={handleLogoutButton} className="button">Logout</button>
             </div>
         </div>

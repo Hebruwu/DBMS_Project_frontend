@@ -1,3 +1,5 @@
+// EventContext.jsx
+
 import React, { createContext, useContext, useState } from 'react';
 
 const EventContext = createContext();
@@ -17,5 +19,9 @@ export const EventProvider = ({ children }) => {
 };
 
 export const useEventContext = () => {
-    return useContext(EventContext);
+    const context = useContext(EventContext);
+    if (!context) {
+        throw new Error('useEventContext must be used within an EventProvider');
+    }
+    return context;
 };
