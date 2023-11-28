@@ -180,7 +180,7 @@ def generate_admin_table(num_admins: int = 100) -> List[List[str]]:
     """
 
     admins: List[List[str]] = [
-        ["AID", "Name", "Email", "Username", "Password"]
+        ["AID", "Name", "Username", "Password", "Email"]
     ]
     generator = Faker('en_US')
     for i in range(num_admins):
@@ -190,7 +190,7 @@ def generate_admin_table(num_admins: int = 100) -> List[List[str]]:
         Username = Email.split(sep='@')[0]
         Password = generator.password()
 
-        admin = [AID, Name, Email, Username, Password]
+        admin = [AID, Name, Username, Password, Email]
 
         admins.append(admin)
 
