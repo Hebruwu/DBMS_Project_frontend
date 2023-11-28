@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import './SendInvite.css';
+import { useEventContext } from '../../EventContext';
 
 const majorsList = [
     'Accounting',
@@ -129,6 +130,7 @@ const yearOptions = ['Freshman', 'Sophomore', 'Junior', 'Senior', "Master's", 'P
 const citizenshipOptions = ['Domestic', 'Int.'];
 
 const SendInvite = () => {
+    const { eventDetails } = useEventContext();
     const [selectedMajor, setSelectedMajor] = useState([]);
     const [selectedGender, setSelectedGender] = useState([]);
     const [selectedRace, setSelectedRace] = useState([]);

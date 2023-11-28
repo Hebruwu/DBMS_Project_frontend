@@ -3,8 +3,10 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import './EventCreation.css'; // You can create a CSS file for styling
 import { useNavigate } from 'react-router-dom';
+import { useEventContext } from '../../EventContext';
 
 const EventCreation = () => {
+    const { updateEventDetails } = useEventContext();
     const [eventName, setEventName] = useState('');
     const [eventDescription, setEventDescription] = useState('');
     const [location, setLocation] = useState('');
@@ -23,6 +25,15 @@ const EventCreation = () => {
     };
 
     const handleButtonClick2 = () => {
+        const eventDetails = {
+            eventName,
+            eventDescription,
+            location,
+            selectedDate,
+            eventType,
+            eventModality,
+        };
+        updateEventDetails(eventDetails);
         navigate('/admin-view/send-invite');
     };
 
