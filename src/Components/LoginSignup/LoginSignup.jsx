@@ -64,8 +64,8 @@ function LoginSignup() {
     const [selectedYear, setSelectedYear] = useState('');
     const [selectedCitizenship, setSelectedCitizenship] = useState('');
     const [selectedDepartment, setSelectedDepartment] = useState('');
-    const [username, setUsername] = useState('test');
-    const [password, setPassword] = useState('test')
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('')
     const navigate = useNavigate()
 
     function handleSignupButton() {
@@ -100,11 +100,18 @@ function LoginSignup() {
                 if (!response.ok) {
                     throw new Error("Failed to fetch data.")
                 }
+
                 // This is where we move to the next page.
                 sessionStorage.setItem("username", username)
                 sessionStorage.setItem("password", password)
-                // This needs to be modified to also include admin
-                navigate('/student-view/accepted-events')
+                sessionStorage.setItem("isAdmin", isAdministrator ? "T" : "F")
+
+
+                if (isAdministrator) {
+                    navigate("/admin-view/posted-events")
+                } else {
+                    navigate('/student-view/accepted-events')
+                }
             })
                 .catch(error => {
                     // This is where we display to the user, that we have failed to log - in
@@ -129,8 +136,8 @@ function LoginSignup() {
             </div>
 
             {action === 'Login' ? <LoginPrompt
-                setPassword={setPassword}
-                setUsername={setUsername}
+                    setPassword={setPassword}
+                    setUsername={setUsername}
                 /> :
                 <SignupPrompt
                     isAdministrator={isAdministrator}
