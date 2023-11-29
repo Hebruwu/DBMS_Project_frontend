@@ -32,10 +32,11 @@ function EventList() {
     useEffect(() => {
         async function fetchEvents() {
             try {
-                let eventRes = await fetch("http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/events_details",
-                    {
-                        headers: {"Content-Type": "application/json",}
-                    })
+                let eventRes =
+                    await fetch(`http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/invites/${sessionStorage.getItem("username")}`,
+                        {
+                            headers: {"Content-Type": "application/json",}
+                        })
                 let eventJson = await eventRes.json();
                 setEvents(eventJson)
 
@@ -52,12 +53,12 @@ function EventList() {
             {events.map((item, idx) => (
                 <Event
                     key={idx} // Add a key prop for each item in the list
-                    date={item.DATE_FROM}
-                    description={item.DESCRIPTION}
-                    event_type={item.EVENT_TYPE}
-                    location={item.LOCATION}
-                    modality={item.MODALITY}
-                    name={item.NAME}
+                    date={item.event.DATE_FROM}
+                    description={item.event.DESCRIPTION}
+                    event_type={item.event.EVENT_TYPE}
+                    location={item.event.LOCATION}
+                    modality={item.event.MODALITY}
+                    name={item.event.NAME}
                 />
             ))}
         </>

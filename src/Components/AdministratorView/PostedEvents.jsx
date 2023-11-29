@@ -1,21 +1,54 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './PostedEvents.css'; // You can create a CSS file for styling
 import {useNavigate} from 'react-router-dom';
 
+function Event({date, description, event_type, location, modality, name}) {
+    return (
+        <div>
+            Date: {date}
+        </div>
+    )
+}
+
+function EventList() {
+    const [events, setEvents] = useState([])
+    useEffect(() => {
+        async function fetchEvents() {
+            try {
+                let eventRes = await fetch("http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/events_details",
+                    {
+                        headers: {"Content-Type": "application/json",}
+                    })
+                let eventJson = await eventRes.json();
+                setEvents(eventJson)
+
+            } catch (e) {
+                console.log(e)
+            }
+        }
+
+        fetchEvents()
+    }, []);
+    console.log(events)
+    return (
+        <>
+            {events.map((item, idx) => (
+                <Event
+                    key={idx} // Add a key prop for each item in the list
+                    date={item.DATE_FROM}
+                    description={item.DESCRIPTION}
+                    event_type={item.EVENT_TYPE}
+                    location={item.LOCATION}
+                    modality={item.MODALITY}
+                    name={item.NAME}
+                />
+            ))}
+        </>
+    )
+}
+
 const PostedEvents = () => {
     // Sample data (replace with your actual data)
-    const studentDetails = {
-        studentName: 'John Doe',
-        studentID: 'A123',
-        username: 'john_student',
-        email: 'john.doe@example.com',
-        password: '********',
-        major: 'Computer Science',
-        year: 'Junior',
-        gender: 'Male',
-        race: 'Asian',
-        domesticInternational: 'International',
-    };
 
     const navigate = useNavigate();
 
@@ -38,6 +71,7 @@ const PostedEvents = () => {
             </div>
             <div className="header" style={{marginLeft: -10, marginTop: 30}}>
                 <h2>Events (Already Posted)</h2>
+                <EventList/>
             </div>
             <button style={{marginTop: 50}} onClick={handleLogoutButton} className="button">Logout</button>
         </div>
