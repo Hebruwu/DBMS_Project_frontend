@@ -7,7 +7,6 @@ import EventCreation from "./Components/AdministratorView/EventCreation";
 import AcceptedEvents from "./Components/StudentView/AcceptedEvents";
 import PostedEvents from "./Components/AdministratorView/PostedEvents";
 import SendInvite from "./Components/AdministratorView/SendInvite";
-import EventDetails from "./Components/StudentView/EventDetails";
 
 function App() {
     return (
@@ -20,7 +19,6 @@ function App() {
                 <Route path='/admin-view/posted-events' element={<PostedEvents/>}/>
                 <Route path='/admin-view/send-invite' element={<SendInvite/>}/>
                 <Route path='/student-view/accepted-events' element={<AcceptedEvents/>}/>
-                <Route path='/student-view/event-details' element={<EventDetails/>}/>
             </Routes>
         </Router>
     );
