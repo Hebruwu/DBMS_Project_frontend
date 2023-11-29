@@ -141,10 +141,7 @@ def generate_student_table(num_students: int = 1000) -> List[List[str]]:
     :return: A list of student rows.
     """
     generator = Faker('en_US')
-    students: List[List[str]] = [
-        ["SID", "Gender", "Name", "Username", "Password", "Email", "Race", "Department",
-         "Major", "Citizenship", "Year"]
-    ]
+    students: List[List[str]] = []
 
     for i in range(num_students):
         SID = i + 1
@@ -153,15 +150,17 @@ def generate_student_table(num_students: int = 1000) -> List[List[str]]:
         Email: str = generator.email(safe=True, domain="vt.edu")
         Username = Email.split(sep='@')[0]
         Password = generator.password()
-        Race = random.choice(["American Indian or Alaska Native",
+        Race = random.choice(["White",
+                              "Black",
+                              "Hispanic",
+                              "Native American",
                               "Asian",
-                              "Black or African American",
-                              "Hispanic or Latino",
-                              "Native Hawaiian or Other Pacific Islander",
-                              "White"])
+                              "Pacific Islander",
+                              "Mixed",
+                              "Other"])
         Department = None  # Left as None until we decide how to utilize it.
         Major = random.choice(MAJORS_LIST)
-        Citizenship = generator.country()
+        Citizenship = random.choice(["Int.", "Domestic"])
         Year = random.choice(["Freshman", "Sophomore", "Junior", "Senior"])
 
         student = [SID, Race, Gender, Department, Major, Name, Username, Password, Email, Citizenship, Year]
