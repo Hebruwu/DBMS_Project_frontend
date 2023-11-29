@@ -2,6 +2,60 @@
     display: flex;
 }
 
+.event-box {
+    border: 1px solid #ddd; /* Add a border around the event box */
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    position: relative;
+}
+.popup {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 4px;
+    display: none; /* Initially hide the popup */
+    flex-direction: column;
+    z-index: 1;
+}
+
+.popup div {
+    font-size: 12px; /* Adjust the font size as needed */
+    color: black;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 4px; /* Adjust the margin as needed */
+}
+
+/* Adjust hover styles */
+.event-box:hover {
+    border-color: #888;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-box:hover .popup {
+    display: flex;
+}
+
+.event-info {
+    /* You can add additional styling for the event information if needed */
+}
+.event-detail {
+    font-size: 14px; /* Adjust the font size as needed */
+    font-family: "Arial", sans-serif; /* Change the font family */
+    margin-bottom: 8px; /* Add some spacing between details */
+}
+/* Add hover effect for better interactivity */
+.event-box:hover {
+    border-color: #888;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .sidebar {
     width: 200px;
     height: 100vh;
