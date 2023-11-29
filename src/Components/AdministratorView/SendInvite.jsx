@@ -132,7 +132,7 @@ const yearOptions = ['Freshman', 'Sophomore', 'Junior', 'Senior', "Master's", 'P
 const citizenshipOptions = ['Domestic', 'Int.'];
 
 const SendInvite = () => {
-    const { eventDetails, setEventDetails } = useEventContext();
+    const {eventDetails, setEventDetails} = useEventContext();
     const [selectedMajor, setSelectedMajor] = useState([]);
     const [selectedGender, setSelectedGender] = useState([]);
     const [selectedRace, setSelectedRace] = useState([]);
@@ -165,31 +165,27 @@ const SendInvite = () => {
             year: selectedYear.map(option => option.value),
             citizenship: selectedCitizenship.map(option => option.value),
         };
-
-        const eventDetails = {
-            name: eventDetails.name
-
-        }
-
-
-
-        fetch('http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(inviteCriteria),
-        }).then((response)=>{
-            if (!response.ok)
-            {
-                throw new Error("failed to create event")
+        let aid = await fetch(`http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/admins/admin_details/${sessionStorage.getItem("username")}`).then((admin_reponse) => {
+            if (!admin_reponse.ok) {
+                throw new Error("Failed to fetch aid")
             }
-            fetch('http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create/invite',
-                body:
-            )
+            return admin_reponse.json()
+        }).then((admin_details) => admin_details.AID).catch((e) => console.log(e))
+        console.log(eventDetails)
+        //
+        // fetch("http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create", {
+        //     method: "POST",
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //     },
+        //     body: JSON.stringify({
+        //         name: eventDetails.name
+        //     }),
+        // })
 
+        console.log(aid)
 
-    };
+    }
 
 
     return (
@@ -247,7 +243,7 @@ const SendInvite = () => {
                     placeholder="Select Citizenship(s)"
                 />
             </div>
-            <EventDetailsTable eventDetails={eventDetails} />
+            <EventDetailsTable eventDetails={eventDetails}/>
             <div className="sidebar2">
                 <button style={{marginLeft: -20}} onClick={handleSendButtonClick} className="button">Send!</button>
                 <button style={{marginLeft: -20}} onClick={handleLogoutButton} className="button">Logout</button>
