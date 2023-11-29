@@ -2,12 +2,29 @@ import React, {useEffect, useState} from 'react';
 import './AcceptedEvents.css'; // You can create a CSS file for styling
 import {useNavigate} from 'react-router-dom';
 
-function Event({date, description, event_type, location, modality, name}) {
+function Event({ date, description, event_type, location, modality, name }) {
+    const [showPopup, setShowPopup] = useState(false);
+
     return (
-        <div>
-            Date: {date}
+        <div
+            className="event-box"
+            onMouseEnter={() => setShowPopup(true)}
+            onMouseLeave={() => setShowPopup(false)}
+        >
+            <div className="event-info">
+                <div className="event-detail">Name: {name}</div>
+            </div>
+            {showPopup && (
+                <div className="popup">
+                    <div>Date: {date}</div>
+                    <div>Description: {description}</div>
+                    <div>Event Type: {event_type}</div>
+                    <div>Location: {location}</div>
+                    <div>Modality: {modality}</div>
+                </div>
+            )}
         </div>
-    )
+    );
 }
 
 function EventList() {
