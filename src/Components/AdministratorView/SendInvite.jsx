@@ -171,20 +171,38 @@ const SendInvite = () => {
             }
             return admin_reponse.json()
         }).then((admin_details) => admin_details.AID).catch((e) => console.log(e))
-        console.log(eventDetails)
-        //
-        // fetch("http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create", {
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        //     body: JSON.stringify({
-        //         name: eventDetails.name
-        //     }),
-        // })
 
-        console.log(aid)
-
+        fetch("http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                name: eventDetails.eventName,
+                type: eventDetails.eventType,
+                date_from: eventDetails.selectedDate,
+                date_to: eventDetails.selectedDate,
+                modality: eventDetails.eventModality,
+                location: eventDetails.location,
+                aid: aid,
+                description: eventDetails.eventDescription
+            }),
+        }).then((response) => response.json()).then((body) => {
+            let eid = body.eid
+            fetch("http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create/invite", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    majors: inviteCriteria.majors,
+                    citizenshipOptions: inviteCriteria.citizenship,
+                    races: inviteCriteria.race,
+                    genders: inviteCriteria.gender,
+                    eid: eid
+                })
+            }).then((response) => console.log(response))
+        })
     }
 
 
