@@ -166,36 +166,29 @@ const SendInvite = () => {
             citizenship: selectedCitizenship.map(option => option.value),
         };
 
-        try {
-            // Make API call to send invites based on criteria
-            const response = await fetch('http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(inviteCriteria),
-            });
+        const eventDetails = {
+            name: eventDetails.name
 
-            if (response.ok) {
-                // Handle success and retrieve the created event details
-                const createdEventDetails = await response.json();
-                setCreatedEvent(createdEventDetails);
-
-                // Set the event details in the context
-                setEventDetails(createdEventDetails);
-
-                // Show the event details
-                setIsEventDetailsVisible(true);
-
-                // Log for verification (you can remove this in the final version)
-                console.log('Invites sent successfully!', createdEventDetails);
-            } else {
-                // Handle failure
-                console.error('Failed to send invites.');
-            }
-        } catch (error) {
-            console.error('Error sending invites:', error);
         }
+
+
+
+        fetch('http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(inviteCriteria),
+        }).then((response)=>{
+            if (!response.ok)
+            {
+                throw new Error("failed to create event")
+            }
+            fetch('http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create/invite',
+                body:
+            )
+
+
     };
 
 
