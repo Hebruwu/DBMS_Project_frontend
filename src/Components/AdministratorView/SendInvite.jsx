@@ -168,7 +168,7 @@ const SendInvite = () => {
 
         try {
             // Make API call to send invites based on criteria
-            const response = await fetch('YOUR_INVITE_API_ENDPOINT', {
+            const response = await fetch('http://ec2-18-118-164-236.us-east-2.compute.amazonaws.com/eventhosting/events/create', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
