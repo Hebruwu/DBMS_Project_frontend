@@ -126,7 +126,7 @@ const majorsList = [
     'University Studies',
     'Wildlife Conservation'
 ];
-const genderOptions = ['Male', 'Female', 'Other'];
+const genderOptions = ['M', 'F', 'O'];
 const raceOptions = ['White', 'Black', 'Hispanic', 'Native American', 'Asian', 'Pacific Islander', 'Mixed', 'Other'];
 const yearOptions = ['Freshman', 'Sophomore', 'Junior', 'Senior', "Master's", 'PhD'];
 const citizenshipOptions = ['Domestic', 'Int.'];
